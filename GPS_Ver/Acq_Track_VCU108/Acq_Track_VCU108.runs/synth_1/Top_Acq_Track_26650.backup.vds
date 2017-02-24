@@ -1,0 +1,535 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Feb 20 05:00:58 2017
+# Process ID: 26650
+# Current directory: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1
+# Command line: vivado -log Top_Acq_Track.vds -mode batch -messageDb vivado.pb -notrace -source Top_Acq_Track.tcl
+# Log file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/Top_Acq_Track.vds
+# Journal file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Top_Acq_Track.tcl -notrace
+Command: synth_design -top Top_Acq_Track -part xcvu095-ffva2104-2-e -directive RuntimeOptimized -fsm_extraction off
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -112 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_0/ila_0.dcp]
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 26675 
+WARNING: [Synth 8-2507] parameter declaration becomes local in CORDIC_LIN_VECT with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:66]
+WARNING: [Synth 8-2507] parameter declaration becomes local in CORDIC_LIN_VECT with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:67]
+WARNING: [Synth 8-2507] parameter declaration becomes local in CORDIC_LIN_VECT with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:68]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:90]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:91]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:92]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:93]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:94]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:95]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:96]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:97]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:98]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:99]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:100]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:101]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1086.836 ; gain = 200.117 ; free physical = 9391 ; free virtual = 41473
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top_Acq_Track' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'Acquire' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:41]
+	Parameter crltn_sum_width bound to: 23 - type: integer 
+	Parameter adds_per_clk bound to: 4 - type: integer 
+	Parameter input_width bound to: 12 - type: integer 
+	Parameter shifts_per_iter bound to: 250 - type: integer 
+	Parameter no_iter_per_freq bound to: 7 - type: integer 
+	Parameter no_of_chunks_per_freq bound to: 2 - type: integer 
+	Parameter samples_per_ms bound to: 2000 - type: integer 
+	Parameter doppler_range bound to: 201 - type: integer 
+	Parameter flag_2 bound to: 1 - type: integer 
+	Parameter clks_per_iter bound to: 500 - type: integer 
+	Parameter samples_per_ms_log2 bound to: 11 - type: integer 
+	Parameter clks_per_iter_log2 bound to: 9 - type: integer 
+	Parameter adds_per_clk_log2 bound to: 2 - type: integer 
+	Parameter no_iter_per_freq_log2 bound to: 3 - type: integer 
+	Parameter shifts_per_iter_log2 bound to: 8 - type: integer 
+	Parameter crltn_sum_width_log2 bound to: 5 - type: integer 
+	Parameter doppler_range_log2 bound to: 8 - type: integer 
+	Parameter Number_Of_Satellites bound to: 32 - type: integer 
+	Parameter Code_Mem_Depth bound to: 16000 - type: integer 
+	Parameter prn_offset_log2 bound to: 14 - type: integer 
+	Parameter Num_Sat_log2 bound to: 5 - type: integer 
+INFO: [Synth 8-3876] $readmem data file 'Angles.hex' is read successfully [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:129]
+INFO: [Synth 8-3876] $readmem data file 'GA.hex' is read successfully [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:131]
+INFO: [Synth 8-3876] $readmem data file 'GB.hex' is read successfully [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:132]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:133]
+WARNING: [Synth 8-639] system function call 'fopen' not supported [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:134]
+INFO: [Synth 8-638] synthesizing module 'CORDIC' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:41]
+	Parameter width bound to: 12 - type: integer 
+	Parameter frac_guard bound to: 4 - type: integer 
+	Parameter overflow_guard bound to: 4 - type: integer 
+	Parameter scaling bound to: 0.062500 - type: float 
+	Parameter intrmdte_wdth bound to: 20 - type: integer 
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+WARNING: [Synth 8-605] same-named implicit nets 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-556] previous implicit net 'wr_strobe' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:166]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC' (2#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:41]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_VECT' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:46]
+	Parameter width bound to: 23 - type: integer 
+	Parameter frac_guard bound to: 5 - type: integer 
+	Parameter overflow_guard bound to: 4 - type: integer 
+	Parameter samples_per_ms_log2 bound to: 11 - type: integer 
+	Parameter scaling bound to: 0.031250 - type: float 
+	Parameter intrmdte_wdth bound to: 32 - type: integer 
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+WARNING: [Synth 8-605] same-named implicit nets 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-556] previous implicit net 'y_sign' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:146]
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_VECT' (3#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:46]
+INFO: [Synth 8-638] synthesizing module 'sorter' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter.v:30]
+	Parameter width bound to: 23 - type: integer 
+	Parameter addr_width bound to: 11 - type: integer 
+	Parameter number bound to: 4 - type: integer 
+	Parameter flag_2 bound to: 1 - type: integer 
+	Parameter samples_per_ms bound to: 2000 - type: integer 
+	Parameter number_log2 bound to: 2 - type: integer 
+INFO: [Synth 8-4471] merging register 'addr_reg[4][22:0]' into 'top_reg[4][22:0]' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter.v:48]
+INFO: [Synth 8-256] done synthesizing module 'sorter' (4#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter.v:30]
+INFO: [Synth 8-638] synthesizing module 'CORDIC_LIN_VECT' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:56]
+	Parameter width bound to: 23 - type: integer 
+	Parameter iter_num bound to: 32 - type: integer 
+	Parameter output_width bound to: 32 - type: integer 
+	Parameter No_of_cycles bound to: 8 - type: integer 
+	Parameter frac_guard bound to: 5 - type: integer 
+	Parameter Piggyback_Cntrl_wdth bound to: 2 - type: integer 
+	Parameter iters_per_stage bound to: 4 - type: integer 
+	Parameter intrmdte_wdth bound to: 37 - type: integer 
+	Parameter iters_per_stage_log2 bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CORDIC_LIN_VECT' (5#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:56]
+INFO: [Synth 8-638] synthesizing module 'sorter2' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:30]
+	Parameter width bound to: 31 - type: integer 
+	Parameter number bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'sorter2' (6#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:30]
+WARNING: [Synth 8-689] width (32) of port connection 'in' does not match port width (31) of module 'sorter2' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:809]
+INFO: [Synth 8-155] case statement is not full and has no default [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:818]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:864]
+INFO: [Synth 8-638] synthesizing module 'ila_1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_1' (7#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/ila_1_stub.v:6]
+WARNING: [Synth 8-689] width (6) of port connection 'probe6' does not match port width (5) of module 'ila_1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:874]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:887]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (8#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'Acquire' (9#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:41]
+INFO: [Synth 8-638] synthesizing module 'Memory_Module' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:23]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_I_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_I' (10#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_I_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:47]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:52]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:60]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:65]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_I1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_I1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_I1' (11#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_I1_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:74]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_Q' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_Q_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q' (12#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_Q_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:82]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_Q' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:87]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:94]
+WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_Q' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:99]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_Q1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_Q1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q1' (13#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/realtime/blk_mem_Q1_stub.v:6]
+WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:109]
+INFO: [Synth 8-256] done synthesizing module 'Memory_Module' (14#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:23]
+WARNING: [Synth 8-689] width (16) of port connection 'read_pointerT' does not match port width (15) of module 'Memory_Module' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:152]
+WARNING: [Synth 8-3848] Net read_pointerT in module/entity Top_Acq_Track does not have driver. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:84]
+INFO: [Synth 8-256] done synthesizing module 'Top_Acq_Track' (15#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1815.086 ; gain = 928.367 ; free physical = 8641 ; free virtual = 40733
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[14] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[13] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[12] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[11] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[10] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[9] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[8] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[7] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[6] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[5] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[4] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[3] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[2] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[1] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[0] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 1815.086 ; gain = 928.367 ; free physical = 8641 ; free virtual = 40733
+---------------------------------------------------------------------------------
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_0/ila_0.dcp]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'blk_mem_I' instantiated as 'MEM/MEM_I1'. 2 instances of this cell are unresolved black boxes. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:44]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_I1' instantiated as 'MEM/MEM_I3' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:71]
+WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'blk_mem_Q' instantiated as 'MEM/MEM_Q1'. 2 instances of this cell are unresolved black boxes. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:79]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_Q1' instantiated as 'MEM/MEM_Q3' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:106]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'CLOCK_NETWORK' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:32]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_0' instantiated as 'Acq_MOD/ILA_Acq2' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:887]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_1' instantiated as 'Acq_MOD/ILA_Acq1' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:864]
+INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_3/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_3/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_5/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_5/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_6/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_6/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_7/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp_7/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Acq_Track_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Acq_Track_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2409.074 ; gain = 0.004 ; free physical = 8110 ; free virtual = 40202
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I1' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I2' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I3' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q1' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q2' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q3' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/ila_0/ila_0.dcp]
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:54 ; elapsed = 00:00:51 . Memory (MB): peak = 2409.074 ; gain = 1522.355 ; free physical = 8108 ; free virtual = 40200
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvu095-ffva2104-2-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:54 ; elapsed = 00:00:51 . Memory (MB): peak = 2409.074 ; gain = 1522.355 ; free physical = 8108 ; free virtual = 40199
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-26650-abhogi/dcp/clk_wiz_0_in_context.xdc, line 6).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:54 ; elapsed = 00:00:51 . Memory (MB): peak = 2409.074 ; gain = 1522.355 ; free physical = 8002 ; free virtual = 40094
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
+WARNING: [Synth 8-3936] Found unconnected internal register 'xyz[21].x_reg[22]' and it is trimmed from '32' to '28' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:141]
+WARNING: [Synth 8-3936] Found unconnected internal register 'xyz[20].x_reg[21]' and it is trimmed from '32' to '28' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:141]
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:166]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:165]
+INFO: [Common 17-14] Message 'Synth 8-5818' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "top" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "id" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "id" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "id" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "id" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+WARNING: [Synth 8-3936] Found unconnected internal register 'xyz[10].y_reg[11]' and it is trimmed from '20' to '16' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:165]
+WARNING: [Synth 8-3936] Found unconnected internal register 'xyz[10].x_reg[11]' and it is trimmed from '20' to '16' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v:162]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:781]
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:781]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[249].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[249].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[249].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[248].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[248].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[248].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[247].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[247].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[247].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[246].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[246].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[246].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[245].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[245].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[245].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[244].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[244].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[244].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[243].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[243].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[243].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[242].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[242].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[242].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[241].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[241].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[241].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[240].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[240].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[240].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[239].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[239].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[239].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[238].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[238].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[238].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[237].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[237].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[237].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[236].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[236].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[236].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[235].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[235].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[235].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[234].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[234].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[234].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[233].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[233].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[233].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[232].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[232].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[232].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[231].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[231].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[231].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[230].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[230].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[230].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[229].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[229].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[229].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[228].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[228].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[228].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[227].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[227].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[227].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[226].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[226].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[226].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[225].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[225].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[225].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[224].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[224].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[224].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[223].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[223].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[223].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[222].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[222].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[222].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[221].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[221].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[221].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[220].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[220].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[220].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[219].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[219].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[219].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[218].G1_1_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:537]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[218].G1_2_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:538]
+WARNING: [Synth 8-3936] Found unconnected internal register 'Adders[218].G1_3_reg' and it is trimmed from '10' to '1' bits. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:539]
+INFO: [Common 17-14] Message 'Synth 8-3936' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-41] '+' operator could not be merged with '+' operator due to loss of accuracy [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:781]
+INFO: [Synth 8-5544] ROM "angincr" won't be mapped to Block RAM because address size (1) smaller than threshold (5)

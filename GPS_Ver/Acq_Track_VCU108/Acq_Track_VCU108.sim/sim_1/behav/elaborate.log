@@ -1,0 +1,52 @@
+Vivado Simulator 2016.1
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: /Scratch/Softwares/Vivado/Vivado/2016.1/bin/unwrapped/lnx64.o/xelab -wto b8a45dd39aa9479f817f644ca107760e --debug typical --relax --mt 8 -L xil_defaultlib -L xpm -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Acq_Track_behav xil_defaultlib.Top_Acq_Track xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 16 differs from formal bit length 15 for port read_pointerT [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:156]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 5 for port Acquired_PRN [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:165]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v" Line 41. Module Acquire(doppler_range=41) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v" Line 46. Module CORDIC_VECT(width=23,frac_guard=5,samples_per_ms_log2=11) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter.v" Line 30. Module sorter(width=23,addr_width=11,number=4,flag_2=1,samples_per_ms=2000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Track.v" Line 49. Module Track_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/cacodeNCO.v" Line 31. Module cacodeNCO(phase_per_sample_width=32,code_length_log2=10,code_length=1023) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Circ_Rot.v" Line 57. Module CORDIC_CIRC_ROT(width=12,iter_num=18,output_width=19,No_of_cycles=6,frac_guard=5,overflow_guard=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Circ_Vect.v" Line 58. Module CORDIC_CIRC_VECT(width=30,iter_num=30,output_width=32,No_of_cycles=10,frac_guard=5,overflow_guard=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v" Line 56. Module CORDIC_LIN_VECT(width=32,iter_num=32,output_width=32,No_of_cycles=8,frac_guard=5,Piggyback_Cntrl_wdth=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Rot.v" Line 59. Module CORDIC_LIN_ROT(width=32,iter_num=32,output_width=32,No_of_cycles=8,frac_guard=5) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v" Line 41. Module Acquire(doppler_range=41) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic.v" Line 41. Module CORDIC(width=12) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v" Line 46. Module CORDIC_VECT(width=23,frac_guard=5,samples_per_ms_log2=11) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter.v" Line 30. Module sorter(width=23,addr_width=11,number=4,flag_2=1,samples_per_ms=2000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Track.v" Line 49. Module Track_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/cacodeNCO.v" Line 31. Module cacodeNCO(phase_per_sample_width=32,code_length_log2=10,code_length=1023) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Circ_Rot.v" Line 57. Module CORDIC_CIRC_ROT(width=12,iter_num=18,output_width=19,No_of_cycles=6,frac_guard=5,overflow_guard=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Circ_Vect.v" Line 58. Module CORDIC_CIRC_VECT(width=30,iter_num=30,output_width=32,No_of_cycles=10,frac_guard=5,overflow_guard=2) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v" Line 56. Module CORDIC_LIN_VECT(width=32,iter_num=32,output_width=32,No_of_cycles=8,frac_guard=5,Piggyback_Cntrl_wdth=1) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Rot.v" Line 59. Module CORDIC_LIN_ROT(width=32,iter_num=32,output_width=32,No_of_cycles=8,frac_guard=5) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CORDIC(width=12)
+Compiling module xil_defaultlib.CORDIC_VECT(width=23,frac_guard=...
+Compiling module xil_defaultlib.sorter(width=23,addr_width=11,nu...
+Compiling module xil_defaultlib.ila_1
+Compiling module xil_defaultlib.Acquire(doppler_range=41)
+Compiling module xil_defaultlib.Memory_Module
+Compiling module xil_defaultlib.cacodeNCO(phase_per_sample_width...
+Compiling module xil_defaultlib.CORDIC_CIRC_ROT(width=12,iter_nu...
+Compiling module xil_defaultlib.CORDIC_CIRC_VECT(width=30,iter_n...
+Compiling module xil_defaultlib.CORDIC_LIN_VECT(width=32,iter_nu...
+Compiling module xil_defaultlib.CORDIC_LIN_ROT(width=32,iter_num...
+Compiling module xil_defaultlib.Track_default
+Compiling module xil_defaultlib.Top_Acq_Track
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Top_Acq_Track_behav

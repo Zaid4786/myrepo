@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Thu Feb 16 05:07:11 2017
+# Process ID: 7460
+# Current directory: D:/gps/GPS_Ver/Acq_Track_AC701/Acq_Track_AC701.runs/synth_1
+# Command line: vivado.exe -log Top_Acq_Track.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top_Acq_Track.tcl
+# Log file: D:/gps/GPS_Ver/Acq_Track_AC701/Acq_Track_AC701.runs/synth_1/Top_Acq_Track.vds
+# Journal file: D:/gps/GPS_Ver/Acq_Track_AC701/Acq_Track_AC701.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top_Acq_Track.tcl -notrace

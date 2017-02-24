@@ -1,0 +1,23 @@
+MULTIPLICATION
+ips - x,z op - y
+for (i=1:30)
+if (z < 0)
+y = y - x*2^(-i)
+z = z + 2^(-i)
+else
+y = y + x*2^(-i)
+z = z - 2^(-i)
+end 
+end
+
+DIVISION -x,y op-z
+ips
+for (i=1:30)
+if (y > 0)
+y = y - x*2^(-i)
+z = z + 2^(-i)
+else
+y = y + x*2^(-i)
+z = z - 2^(-i)
+end
+end

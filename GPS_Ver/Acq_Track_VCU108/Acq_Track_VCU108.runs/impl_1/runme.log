@@ -1,0 +1,737 @@
+
+*** Running vivado
+    with args -log Top_Acq_Track.vdi -applog -m64 -messageDb vivado.pb -mode batch -source Top_Acq_Track.tcl -notrace
+
+
+****** Vivado v2016.1 (64-bit)
+  **** SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+  **** IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Top_Acq_Track.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_0_1/ila_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_1_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_2/ila_2.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_3/ila_3.dcp]
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/clk_wiz_0/clk_wiz_0.dcp' for cell 'CLOCK_NETWORK'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_1_1/ila_1.dcp' for cell 'Acq_MOD/ILA_Acq1'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_0_1/ila_0.dcp' for cell 'Acq_MOD/ILA_Acq2'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_2/ila_2.dcp' for cell 'Acq_MOD/ILA_Acq3'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_3/ila_3.dcp' for cell 'Acq_MOD/pk_metric_sorter/ila_sort'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I_1/blk_mem_I.dcp' for cell 'MEM/MEM_I1'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I1/blk_mem_I1.dcp' for cell 'MEM/MEM_I3'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q/blk_mem_Q.dcp' for cell 'MEM/MEM_Q1'
+INFO: [Project 1-454] Reading design checkpoint '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q1/blk_mem_Q1.dcp' for cell 'MEM/MEM_Q3'
+INFO: [Netlist 29-17] Analyzing 730 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Top_Acq_Track' is not ideal for floorplanning, since the cellview 'Acquire' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2016.1
+INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'CLOCK_NETWORK/inst'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc] for cell 'CLOCK_NETWORK/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'CLOCK_NETWORK/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:33 ; elapsed = 00:00:12 . Memory (MB): peak = 2560.543 ; gain = 593.258 ; free physical = 6879 ; free virtual = 40897
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc] for cell 'CLOCK_NETWORK/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq2/inst'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq2/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq1/inst'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq1/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq3/inst'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/ILA_Acq3/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort/inst'
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort/inst'
+Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
+Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/clk_wiz_0/clk_wiz_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I_1/blk_mem_I.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I_1/blk_mem_I.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_I1/blk_mem_I1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q/blk_mem_Q.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q/blk_mem_Q.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/blk_mem_Q1/blk_mem_Q1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_0_1/ila_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_1_1/ila_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_2/ila_2.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/.Xil/Vivado-23610-abhogi/ila_3/ila_3.dcp'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 730 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 728 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 1 instances
+  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instances
+
+link_design: Time (s): cpu = 00:02:05 ; elapsed = 00:01:33 . Memory (MB): peak = 2573.082 ; gain = 1607.855 ; free physical = 7127 ; free virtual = 40881
+INFO: [Vivado_Tcl 4-424] Cannot write hardware definition file as there are no IPI block design hardware handoff files present
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -116 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2645.117 ; gain = 64.031 ; free physical = 7126 ; free virtual = 40880
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+INFO: [Mig 66-107] No memory instances. Ignoring
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/Scratch/Softwares/Vivado/Vivado/2016.1/data/ip'.
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:1.1 for cell dbg_hub_CV.
+INFO: [Chipscope 16-220] Re-using generated and synthesized IP, "xilinx.com:ip:xsdbm:1.1", from Vivado IP cache entry "c7c5e9377a6ebf28".
+get_clocks: Time (s): cpu = 00:00:25 ; elapsed = 00:00:06 . Memory (MB): peak = 2685.359 ; gain = 9.996 ; free physical = 7051 ; free virtual = 40807
+Netlist sorting complete. Time (s): cpu = 00:00:00.19 ; elapsed = 00:00:00.20 . Memory (MB): peak = 2686.359 ; gain = 1.000 ; free physical = 7050 ; free virtual = 40806
+Phase 1 Generate And Synthesize Debug Cores | Checksum: 1a73feebd
+
+Time (s): cpu = 00:00:50 ; elapsed = 00:00:32 . Memory (MB): peak = 2686.359 ; gain = 41.242 ; free physical = 7050 ; free virtual = 40806
+Implement Debug Cores | Checksum: 1f26d9c50
+
+Phase 2 Retarget
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/addra[14] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/addra[14] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/addra[13] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/addra[14] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/addra[13] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/addra[14] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM18.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[14] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[13] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[12] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[14] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[13] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/addra[12] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_init.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram_i_1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__0
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__1
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__3
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__4
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__5
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I2 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__6
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__7
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+WARNING: [Opt 31-155] Driverless net MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_I3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[2] is driving LUT input pin I0 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[1] is driving LUT input pin I1 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+WARNING: [Opt 31-155] Driverless net MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/addra[0] is driving LUT input pin I3 which is used by the LUT equation. If the LUT is not removed or a driver added, this warning will become an error. LUT cell name: MEM/MEM_Q3/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT_inferred__8
+INFO: [Opt 31-138] Pushed 7 inverter(s) to 101 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 2 Retarget | Checksum: ef6f0a96
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:14 . Memory (MB): peak = 2695.289 ; gain = 50.172 ; free physical = 7041 ; free virtual = 40797
+
+Phase 3 Constant Propagation
+INFO: [Opt 31-138] Pushed 72 inverter(s) to 72 load pin(s).
+INFO: [Opt 31-10] Eliminated 849 cells.
+Phase 3 Constant Propagation | Checksum: 14efa9872
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:02:01 . Memory (MB): peak = 2695.289 ; gain = 50.172 ; free physical = 7040 ; free virtual = 40796
+
+Phase 4 Sweep
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_init.ram/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dina[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_init.ram/dinb[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dina[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/dinb[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dina[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_init.ram/dinb[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dina[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/dinb[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dina[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[5].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[6].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[7].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_init.ram/dinb[8].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[0].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[1].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[2].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[3].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[4].
+WARNING: [Opt 31-6] Deleting driverless net: MEM/MEM_I1/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/dina[5].
+INFO: [Common 17-14] Message 'Opt 31-6' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Opt 31-12] Eliminated 63536 unconnected nets.
+INFO: [Opt 31-11] Eliminated 740 unconnected cells.
+Phase 4 Sweep | Checksum: 114692040
+
+Time (s): cpu = 00:02:54 ; elapsed = 00:02:36 . Memory (MB): peak = 2695.289 ; gain = 50.172 ; free physical = 7040 ; free virtual = 40796
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.50 ; elapsed = 00:00:00.50 . Memory (MB): peak = 2695.289 ; gain = 0.000 ; free physical = 7040 ; free virtual = 40796
+Ending Logic Optimization Task | Checksum: 114692040
+
+Time (s): cpu = 00:02:56 ; elapsed = 00:02:37 . Memory (MB): peak = 2695.289 ; gain = 50.172 ; free physical = 7040 ; free virtual = 40796
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 332 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 5 newly gated: 0 Total Ports: 664
+Ending PowerOpt Patch Enables Task | Checksum: 19dd7141c
+
+Time (s): cpu = 00:00:00.51 ; elapsed = 00:00:00.49 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6255 ; free virtual = 40011
+Ending Power Optimization Task | Checksum: 19dd7141c
+
+Time (s): cpu = 00:01:36 ; elapsed = 00:00:29 . Memory (MB): peak = 3611.109 ; gain = 915.820 ; free physical = 6255 ; free virtual = 40011
+INFO: [Common 17-83] Releasing license: Implementation
+58 Infos, 176 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:05:00 ; elapsed = 00:03:15 . Memory (MB): peak = 3611.109 ; gain = 1038.027 ; free physical = 6255 ; free virtual = 40011
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.04 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6252 ; free virtual = 40011
+write_checkpoint: Time (s): cpu = 00:00:26 ; elapsed = 00:00:16 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6227 ; free virtual = 40009
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/Top_Acq_Track_drc_opted.rpt.
+report_drc: Time (s): cpu = 00:00:19 ; elapsed = 00:00:07 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6225 ; free virtual = 40008
+INFO: [Chipscope 16-240] Debug cores have already been implemented
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -116 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:00.18 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6225 ; free virtual = 40007
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.12 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6224 ; free virtual = 40007
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 1.1.1 Pre-Place Cells
+Phase 1.1.1 Pre-Place Cells | Checksum: 6a4febd1
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:12 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6224 ; free virtual = 40007
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 1.1.2 IO and Clk Clean Up
+Phase 1.1.2 IO and Clk Clean Up | Checksum: 6a4febd1
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:48 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6207 ; free virtual = 39989
+
+Phase 1.1.3 Implementation Feasibility check On IDelay
+Phase 1.1.3 Implementation Feasibility check On IDelay | Checksum: 6a4febd1
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:49 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6207 ; free virtual = 39989
+
+Phase 1.1.4 Commit IO Placement
+Phase 1.1.4 Commit IO Placement | Checksum: 44036c7a
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:49 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6207 ; free virtual = 39989
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: aab1f886
+
+Time (s): cpu = 00:01:38 ; elapsed = 00:00:49 . Memory (MB): peak = 3611.109 ; gain = 0.000 ; free physical = 6207 ; free virtual = 39989
+
+Phase 1.2 Build Placer Netlist Model
+
+Phase 1.2.1 Place Init Design
+
+Phase 1.2.1.1 Init Lut Pin Assignment
+Phase 1.2.1.1 Init Lut Pin Assignment | Checksum: c53ce1ba
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:56 . Memory (MB): peak = 3614.066 ; gain = 2.957 ; free physical = 6100 ; free virtual = 39883
+Phase 1.2.1 Place Init Design | Checksum: 12103c424
+
+Time (s): cpu = 00:03:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3820.746 ; gain = 209.637 ; free physical = 5918 ; free virtual = 39700
+Phase 1.2 Build Placer Netlist Model | Checksum: 12103c424
+
+Time (s): cpu = 00:03:20 ; elapsed = 00:01:27 . Memory (MB): peak = 3820.746 ; gain = 209.637 ; free physical = 5918 ; free virtual = 39700
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: 12103c424
+
+Time (s): cpu = 00:03:20 ; elapsed = 00:01:28 . Memory (MB): peak = 3820.746 ; gain = 209.637 ; free physical = 5918 ; free virtual = 39700
+Phase 1 Placer Initialization | Checksum: 12103c424
+
+Time (s): cpu = 00:03:21 ; elapsed = 00:01:28 . Memory (MB): peak = 3820.746 ; gain = 209.637 ; free physical = 5918 ; free virtual = 39700
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: fe4882ed
+
+Time (s): cpu = 00:06:45 ; elapsed = 00:02:53 . Memory (MB): peak = 3947.266 ; gain = 336.156 ; free physical = 5904 ; free virtual = 39687
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: fe4882ed
+
+Time (s): cpu = 00:06:50 ; elapsed = 00:02:54 . Memory (MB): peak = 3947.266 ; gain = 336.156 ; free physical = 5904 ; free virtual = 39687
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 11f945ab7
+
+Time (s): cpu = 00:09:15 ; elapsed = 00:03:35 . Memory (MB): peak = 4205.914 ; gain = 594.805 ; free physical = 5568 ; free virtual = 39351
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1891bb546
+
+Time (s): cpu = 00:09:21 ; elapsed = 00:03:37 . Memory (MB): peak = 4205.914 ; gain = 594.805 ; free physical = 5568 ; free virtual = 39351
+
+Phase 3.4 updateClock Trees: DP
+Phase 3.4 updateClock Trees: DP | Checksum: 1891bb546
+
+Time (s): cpu = 00:09:23 ; elapsed = 00:03:39 . Memory (MB): peak = 4205.914 ; gain = 594.805 ; free physical = 5536 ; free virtual = 39319
+
+Phase 3.5 IO Cut Optimizer
+Phase 3.5 IO Cut Optimizer | Checksum: 12f2b4f91
+
+Time (s): cpu = 00:09:32 ; elapsed = 00:03:42 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5536 ; free virtual = 39319
+
+Phase 3.6 Timing Path Optimizer
+Phase 3.6 Timing Path Optimizer | Checksum: 12f2b4f91
+
+Time (s): cpu = 00:09:33 ; elapsed = 00:03:43 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5536 ; free virtual = 39319
+
+Phase 3.7 Fast Optimization
+Phase 3.7 Fast Optimization | Checksum: 12f2b4f91
+
+Time (s): cpu = 00:09:36 ; elapsed = 00:03:45 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5535 ; free virtual = 39318
+
+Phase 3.8 Small Shape Detail Placement
+Phase 3.8 Small Shape Detail Placement | Checksum: 1c8a418f9
+
+Time (s): cpu = 00:10:27 ; elapsed = 00:04:08 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5533 ; free virtual = 39316
+
+Phase 3.9 Re-assign LUT pins
+Phase 3.9 Re-assign LUT pins | Checksum: 1df74cf33
+
+Time (s): cpu = 00:10:35 ; elapsed = 00:04:16 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5534 ; free virtual = 39316
+
+Phase 3.10 Pipeline Register Optimization
+Phase 3.10 Pipeline Register Optimization | Checksum: 1df74cf33
+
+Time (s): cpu = 00:10:36 ; elapsed = 00:04:17 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5533 ; free virtual = 39316
+
+Phase 3.11 Fast Optimization
+Phase 3.11 Fast Optimization | Checksum: 1df74cf33
+
+Time (s): cpu = 00:11:27 ; elapsed = 00:04:28 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5533 ; free virtual = 39316
+Phase 3 Detail Placement | Checksum: 1df74cf33
+
+Time (s): cpu = 00:11:28 ; elapsed = 00:04:29 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5533 ; free virtual = 39315
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 updateClock Trees: PCOPT
+Phase 4.1.1 updateClock Trees: PCOPT | Checksum: 10eafe2ab
+
+Time (s): cpu = 00:14:02 ; elapsed = 00:05:04 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5532 ; free virtual = 39314
+
+Phase 4.1.2 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=3.082. For the most accurate timing information please run report_timing.
+Phase 4.1.2 Post Placement Optimization | Checksum: 1d5be8680
+
+Time (s): cpu = 00:14:27 ; elapsed = 00:05:12 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5531 ; free virtual = 39314
+Phase 4.1 Post Commit Optimization | Checksum: 1d5be8680
+
+Time (s): cpu = 00:14:28 ; elapsed = 00:05:13 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5531 ; free virtual = 39314
+
+Phase 4.2 Sweep Clock Roots: Post-Placement
+Phase 4.2 Sweep Clock Roots: Post-Placement | Checksum: 1d5be8680
+
+Time (s): cpu = 00:14:29 ; elapsed = 00:05:14 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5531 ; free virtual = 39314
+
+Phase 4.3 Post Placement Cleanup
+Phase 4.3 Post Placement Cleanup | Checksum: 1d5be8680
+
+Time (s): cpu = 00:14:32 ; elapsed = 00:05:15 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5531 ; free virtual = 39314
+
+Phase 4.4 Placer Reporting
+Phase 4.4 Placer Reporting | Checksum: 2aef627f9
+
+Time (s): cpu = 00:14:36 ; elapsed = 00:05:19 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5532 ; free virtual = 39314
+
+Phase 4.5 Final Placement Cleanup
+Phase 4.5 Final Placement Cleanup | Checksum: 2bff4360c
+
+Time (s): cpu = 00:14:37 ; elapsed = 00:05:20 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5532 ; free virtual = 39314
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 2bff4360c
+
+Time (s): cpu = 00:14:38 ; elapsed = 00:05:21 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5531 ; free virtual = 39314
+Ending Placer Task | Checksum: 22a7c4c3b
+
+Time (s): cpu = 00:14:38 ; elapsed = 00:05:22 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5532 ; free virtual = 39315
+INFO: [Common 17-83] Releasing license: Implementation
+76 Infos, 176 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:14:54 ; elapsed = 00:05:30 . Memory (MB): peak = 4220.379 ; gain = 609.270 ; free physical = 5532 ; free virtual = 39314
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:26 ; elapsed = 00:00:09 . Memory (MB): peak = 4237.391 ; gain = 0.000 ; free physical = 5356 ; free virtual = 39315
+write_checkpoint: Time (s): cpu = 00:00:37 ; elapsed = 00:00:18 . Memory (MB): peak = 4237.395 ; gain = 17.016 ; free physical = 5490 ; free virtual = 39318
+report_io: Time (s): cpu = 00:00:00.54 ; elapsed = 00:00:00.61 . Memory (MB): peak = 4237.395 ; gain = 0.000 ; free physical = 5489 ; free virtual = 39317
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 4237.395 ; gain = 0.000 ; free physical = 5488 ; free virtual = 39316
+report_control_sets: Time (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.47 . Memory (MB): peak = 4237.395 ; gain = 0.000 ; free physical = 5488 ; free virtual = 39316
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -116 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 594aeadc ConstDB: 0 ShapeSum: f7f9bfe6 RouteDB: d937a179
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 53476ad4
+
+Time (s): cpu = 00:04:51 ; elapsed = 00:00:45 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5485 ; free virtual = 39314
+
+Phase 2 Router Initialization
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: 1e99df2ea
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:00:48 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5485 ; free virtual = 39314
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: 1e99df2ea
+
+Time (s): cpu = 00:04:55 ; elapsed = 00:00:48 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5485 ; free virtual = 39314
+
+Phase 2.3 Global Clock Net Routing
+ Number of Nodes with overlaps = 0
+Phase 2.3 Global Clock Net Routing | Checksum: 1e6008712
+
+Time (s): cpu = 00:05:03 ; elapsed = 00:00:56 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5462 ; free virtual = 39290
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 25008f25f
+
+Time (s): cpu = 00:06:28 ; elapsed = 00:01:34 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5461 ; free virtual = 39290
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=3.556  | TNS=0.000  | WHS=-0.185 | THS=-19.633|
+
+Phase 2 Router Initialization | Checksum: 23e256e2e
+
+Time (s): cpu = 00:08:06 ; elapsed = 00:01:54 . Memory (MB): peak = 4269.406 ; gain = 0.000 ; free physical = 5452 ; free virtual = 39281
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 2aecbe9d4
+
+Time (s): cpu = 00:10:01 ; elapsed = 00:02:29 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5273 ; free virtual = 39102
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 43517
+ Number of Nodes with overlaps = 3918
+ Number of Nodes with overlaps = 577
+ Number of Nodes with overlaps = 113
+ Number of Nodes with overlaps = 17
+ Number of Nodes with overlaps = 5
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 30165b587
+
+Time (s): cpu = 00:19:22 ; elapsed = 00:04:53 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5404 ; free virtual = 39233
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.893  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+Phase 4.1 Global Iteration 0 | Checksum: 3381a9933
+
+Time (s): cpu = 00:19:22 ; elapsed = 00:04:54 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5404 ; free virtual = 39233
+Phase 4 Rip-up And Reroute | Checksum: 3381a9933
+
+Time (s): cpu = 00:19:23 ; elapsed = 00:04:54 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5404 ; free virtual = 39233
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 31685a132
+
+Time (s): cpu = 00:20:28 ; elapsed = 00:05:20 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5401 ; free virtual = 39230
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.893  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+Phase 5.1 Delay CleanUp | Checksum: 31685a132
+
+Time (s): cpu = 00:20:29 ; elapsed = 00:05:21 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5401 ; free virtual = 39230
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 31685a132
+
+Time (s): cpu = 00:20:29 ; elapsed = 00:05:21 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5401 ; free virtual = 39230
+Phase 5 Delay and Skew Optimization | Checksum: 31685a132
+
+Time (s): cpu = 00:20:29 ; elapsed = 00:05:21 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5401 ; free virtual = 39230
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 3263a5ecd
+
+Time (s): cpu = 00:21:35 ; elapsed = 00:05:47 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5391 ; free virtual = 39220
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.893  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 26675b2ba
+
+Time (s): cpu = 00:21:35 ; elapsed = 00:05:48 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5391 ; free virtual = 39220
+Phase 6 Post Hold Fix | Checksum: 2be30f8bb
+
+Time (s): cpu = 00:21:36 ; elapsed = 00:05:49 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5391 ; free virtual = 39220
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 5.35429 %
+  Global Horizontal Routing Utilization  = 5.48527 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: 22bba951f
+
+Time (s): cpu = 00:21:51 ; elapsed = 00:05:56 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5363 ; free virtual = 39192
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: 22bba951f
+
+Time (s): cpu = 00:21:52 ; elapsed = 00:05:56 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5363 ; free virtual = 39192
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: 22bba951f
+
+Time (s): cpu = 00:22:04 ; elapsed = 00:06:08 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5360 ; free virtual = 39189
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 1beee4f11
+
+Time (s): cpu = 00:23:09 ; elapsed = 00:06:34 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5348 ; free virtual = 39177
+INFO: [Route 35-57] Estimated Timing Summary | WNS=0.893  | TNS=0.000  | WHS=0.004  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 1beee4f11
+
+Time (s): cpu = 00:23:09 ; elapsed = 00:06:35 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5348 ; free virtual = 39177
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:23:11 ; elapsed = 00:06:35 . Memory (MB): peak = 4411.031 ; gain = 141.625 ; free physical = 5340 ; free virtual = 39170
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+90 Infos, 176 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:23:28 ; elapsed = 00:06:45 . Memory (MB): peak = 4411.031 ; gain = 173.637 ; free physical = 5340 ; free virtual = 39170
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:33 ; elapsed = 00:00:11 . Memory (MB): peak = 4443.047 ; gain = 0.000 ; free physical = 5100 ; free virtual = 39171
+write_checkpoint: Time (s): cpu = 00:00:44 ; elapsed = 00:00:21 . Memory (MB): peak = 4443.051 ; gain = 32.020 ; free physical = 5278 ; free virtual = 39172
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/impl_1/Top_Acq_Track_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:43 ; elapsed = 00:00:17 . Memory (MB): peak = 4475.062 ; gain = 32.012 ; free physical = 5217 ; free virtual = 39111
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+report_timing_summary: Time (s): cpu = 00:02:36 ; elapsed = 00:00:30 . Memory (MB): peak = 4475.062 ; gain = 0.000 ; free physical = 5202 ; free virtual = 39097
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+report_power: Time (s): cpu = 00:01:16 ; elapsed = 00:00:20 . Memory (MB): peak = 4532.996 ; gain = 57.934 ; free physical = 5106 ; free virtual = 39008
+report_clock_utilization: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 4532.996 ; gain = 0.000 ; free physical = 5103 ; free virtual = 39006
+Attempting to get a license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xcvu095'
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -116 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (CFGBVS-1) Missing CFGBVS and CONFIG_VOLTAGE Design Properties - Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_design.  Configuration bank voltage select (CFGBVS) must be set to VCCO or GND, and CONFIG_VOLTAGE must be set to the correct configuration voltage, in order to determine the I/O voltage support for the pins in bank 0.  It is suggested to specify these either using the 'Edit Device Properties' function in the GUI or directly in the XDC file using the following syntax:
+
+ set_property CFGBVS value1 [current_design]
+ #where value1 is either VCCO or GND
+
+ set_property CONFIG_VOLTAGE value2 [current_design]
+ #where value2 is the voltage provided to configuration bank 0
+
+Refer to the device configuration user guide for more information.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+INFO: [Designutils 20-2272] Running write_bitstream with 8 threads.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./Top_Acq_Track.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:02:29 ; elapsed = 00:01:04 . Memory (MB): peak = 5272.766 ; gain = 739.770 ; free physical = 4265 ; free virtual = 38202
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file Top_Acq_Track.hwdef
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 24 20:51:47 2017...

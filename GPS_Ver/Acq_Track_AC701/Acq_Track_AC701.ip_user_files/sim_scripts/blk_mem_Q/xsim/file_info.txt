@@ -1,0 +1,2 @@
+blk_mem_Q.v,verilog,xil_defaultlib,../../../../Acq_Track_AC701.srcs/sources_1/ip/blk_mem_Q/sim/blk_mem_Q.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

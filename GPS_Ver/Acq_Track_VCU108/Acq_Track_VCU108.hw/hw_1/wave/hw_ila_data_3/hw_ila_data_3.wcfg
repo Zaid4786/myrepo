@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.hw/hw_1/wave/hw_ila_data_3/hw_ila_data_3.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1024001fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="14" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject type="array" fp_name="Acq_MOD/CLKID_2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/CLKID_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CLKID_2[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_Freq1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_Freq1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Freq1[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_Freq2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_Freq2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Freq2[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_Freq3">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_Freq3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Freq3[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_Freq4">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_Freq4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_Freq4[31:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_CodePhase1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_CodePhase1[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_CodePhase1[10:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_CodePhase2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_CodePhase2[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_CodePhase2[10:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_CodePhase3">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_CodePhase3[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_CodePhase3[10:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_CodePhase4">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_CodePhase4[10:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_CodePhase4[10:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_PRNID1">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_PRNID1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_PRNID1[4:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_PRNID2">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_PRNID2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_PRNID2[4:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_PRNID3">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_PRNID3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_PRNID3[4:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="Acq_MOD/Op_PRNID4">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Op_PRNID4[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Op_PRNID4[4:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="Acq_MOD/Acquisition_Completed">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="ElementShortName">Acq_MOD/Acquisition_Completed</obj_property>
+      <obj_property name="ObjectShortName">Acquisition_Completed</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

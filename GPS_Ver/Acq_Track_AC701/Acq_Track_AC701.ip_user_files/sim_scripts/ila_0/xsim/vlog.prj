@@ -1,0 +1,5 @@
+verilog xil_defaultlib "../../../../Acq_Track_AC701.srcs/sources_1/ip/ila_0/sim/ila_0.v" --include "../../../../Acq_Track_AC701.srcs/sources_1/ip/ila_0/hdl/verilog"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
