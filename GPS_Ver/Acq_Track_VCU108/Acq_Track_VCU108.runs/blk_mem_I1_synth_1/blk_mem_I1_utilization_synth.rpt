@@ -1,8 +1,8 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
-| Date         : Fri Feb 17 14:47:39 2017
-| Host         : abhogi running 64-bit Ubuntu 14.04.5 LTS
+| Date         : Sun Mar  5 02:09:12 2017
+| Host         : zaid-LIFEBOOK-A555 running 64-bit Ubuntu 16.04.2 LTS
 | Command      : report_utilization -file blk_mem_I1_utilization_synth.rpt -pb blk_mem_I1_utilization_synth.pb
 | Design       : blk_mem_I1
 | Device       : xcvu095ffva2104-2

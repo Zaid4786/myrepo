@@ -1,0 +1,122 @@
+/*
+Copyright (c) 2013, IIT Madras
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+*  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+*  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+*  Neither the name of IIT Madras  nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ ////////////////////////////////////////////////////////////////////////////////////////
+ // gedit:set shiftwidth=2 
+ // -----------------------------------------------------------------------------
+ // FILE NAME      : Acquire.v
+ // DEPARTMENT     : RISE LAB
+ // AUTHOR         : SYED M MD ZAID
+ // AUTHOR’S EMAIL : ee15m039@ee.iitm.ac.in
+ // -----------------------------------------------------------------------------
+ //************************************************************************************/
+ // Change history: Tuesday 24 January 2017 06:16:46 AM IST  - Version 1
+ // Description : 'in' port gets streaming inputs at every posedge of clock
+ // This module updates Top 2*N+1 values in the incoming stream and also
+ // keeps track of count(no of samples compared) of these top samples
+ // This module outputs Top two values in incoming stream which arrived at least
+ // (+/-) N clock cycles apart
+ ///////////////////////////////////////////////////////////////////////////////
+module sorter2#
+(parameter width=23,
+ parameter number=4 //2n+2
+)
+(input clk,
+input reset,
+input strobe,
+input [width-1:0] in,
+output reg [number-1:0] id,
+output Valid);
+ila_3 ila_sort (
+	.clk(clk), // input wire clk
+
+
+	.probe0(strobe), // input wire [0:0]  probe0  
+	.probe1(in), // input wire [31:0]  probe1 
+	.probe2(id), // input wire [3:0]  probe2 
+	.probe3(status_reg), // input wire [4:0]  probe3 
+	.probe4(top[0]), // input wire [31:0]  probe4 
+	.probe5(top[1]), // input wire [31:0]  probe5 
+	.probe6(top[2]), // input wire [31:0]  probe6 
+	.probe7(top[3]), // input wire [31:0]  probe7 
+	.probe8(Valid) // input wire [0:0]  probe8
+);
+reg [width-1:0] top [number:0];
+
+
+
+//2N+1 comparators
+wire [number:0] status_reg;
+	genvar ii;
+	generate
+		for (ii=0; ii < number; ii=ii+1)
+		begin:Comparator
+		assign status_reg[ii]= (in< top[ii]) ;
+		end
+	endgenerate
+
+	assign status_reg[number] = 1'b0;
+
+	always @(posedge clk)
+	begin
+		top[number]<=0;
+	end
+
+	
+//2N+1 registers storing top values in incoming stream
+	genvar i;
+	generate
+		for (i = 0; i < number ; i = i + 1)
+		begin:Top_regs
+			wire [1:0] status;
+			assign status = {status_reg[i+1],status_reg[i]};
+			always@(posedge clk)
+			begin
+				if(reset)
+				begin
+					top[i]<={(width){1'b1}};
+				end else if (strobe)
+				begin
+					case(status)
+						2'b00,2'b10:
+						begin
+						top[i]<=top[i];
+						id[i]<=0;
+						end
+						2'b01:
+						begin
+						top[i]<=in;
+						id[i]<=1;
+						end
+						2'b11:
+						begin
+						top[i]<=top[i+1];
+						id[i]<=0;
+						end
+					endcase
+				end
+			end
+		end
+	endgenerate
+reg complete;
+	always@(posedge clk)
+	complete<=strobe;
+
+assign Valid=complete && (|id);
+
+
+
+
+endmodule
+
+

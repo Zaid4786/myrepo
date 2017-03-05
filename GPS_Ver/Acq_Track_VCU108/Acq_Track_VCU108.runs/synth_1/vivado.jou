@@ -2,11 +2,11 @@
 # Vivado v2016.1 (64-bit)
 # SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
 # IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-# Start of session at: Fri Feb 24 20:23:47 2017
-# Process ID: 23263
-# Current directory: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1
+# Start of session at: Sun Mar  5 02:13:42 2017
+# Process ID: 8653
+# Current directory: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1
 # Command line: vivado -log Top_Acq_Track.vds -mode batch -messageDb vivado.pb -notrace -source Top_Acq_Track.tcl
-# Log file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/Top_Acq_Track.vds
-# Journal file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/vivado.jou
+# Log file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/Top_Acq_Track.vds
+# Journal file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source Top_Acq_Track.tcl -notrace

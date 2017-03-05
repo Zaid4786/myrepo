@@ -48,66 +48,65 @@ set_msg_config -id {HDL 9-1654} -limit 100000
 start_step init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
   create_project -in_memory -part xcvu095-ffva2104-2-e
   set_property board_part xilinx.com:vcu108:part0:1.1 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/wt [current_project]
-  set_property parent.project_path /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.xpr [current_project]
-  set_property ip_repo_paths /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/ip [current_project]
-  set_property ip_output_repo /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/ip [current_project]
+  set_property webtalk.parent_dir /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/wt [current_project]
+  set_property parent.project_path /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.xpr [current_project]
+  set_property ip_repo_paths /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/ip [current_project]
+  set_property ip_output_repo /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.cache/ip [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/Top_Acq_Track.dcp
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2.dcp]
-  add_files -quiet /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3.dcp
-  set_property netlist_only true [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3.dcp]
-  read_xdc -mode out_of_context -ref clk_wiz_0 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
-  read_xdc -prop_thru_buffers -ref clk_wiz_0 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
-  read_xdc -ref clk_wiz_0 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
-  read_xdc -mode out_of_context -ref blk_mem_I -cells U0 /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc]
-  read_xdc -mode out_of_context -ref blk_mem_I1 -cells U0 /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc]
-  read_xdc -mode out_of_context -ref blk_mem_Q -cells U0 /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q_ooc.xdc]
-  read_xdc -mode out_of_context -ref blk_mem_Q1 -cells U0 /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1_ooc.xdc]
-  read_xdc -mode out_of_context -ref ila_0 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc]
-  read_xdc -ref ila_0 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc]
-  read_xdc -mode out_of_context -ref ila_1 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1_ooc.xdc]
-  read_xdc -ref ila_1 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc]
-  read_xdc -mode out_of_context -ref ila_2 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc]
-  read_xdc -ref ila_2 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc]
-  read_xdc -mode out_of_context -ref ila_3 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc]
-  read_xdc -ref ila_3 -cells inst /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc
-  set_property processing_order EARLY [get_files /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc]
-  read_xdc /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/Top_Acq_Track.dcp
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2.dcp]
+  add_files -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3.dcp
+  set_property netlist_only true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3.dcp]
+  read_xdc -mode out_of_context -ref clk_wiz_0 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+  read_xdc -prop_thru_buffers -ref clk_wiz_0 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
+  read_xdc -ref clk_wiz_0 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
+  read_xdc -mode out_of_context -ref blk_mem_I -cells U0 /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc]
+  read_xdc -mode out_of_context -ref blk_mem_I1 -cells U0 /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc]
+  read_xdc -mode out_of_context -ref blk_mem_Q -cells U0 /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q/blk_mem_Q_ooc.xdc]
+  read_xdc -mode out_of_context -ref blk_mem_Q1 -cells U0 /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_Q1/blk_mem_Q1_ooc.xdc]
+  read_xdc -mode out_of_context -ref ila_0 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc]
+  read_xdc -ref ila_0 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc]
+  read_xdc -mode out_of_context -ref ila_1 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_1_ooc.xdc]
+  read_xdc -ref ila_1 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_1_1/ila_v6_1/constraints/ila.xdc]
+  read_xdc -mode out_of_context -ref ila_2 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_2_ooc.xdc]
+  read_xdc -ref ila_2 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_2/ila_v6_1/constraints/ila.xdc]
+  read_xdc -mode out_of_context -ref ila_3 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_3_ooc.xdc]
+  read_xdc -ref ila_3 -cells inst /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc
+  set_property processing_order EARLY [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_3/ila_v6_1/constraints/ila.xdc]
+  read_xdc /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc
   link_design -top Top_Acq_Track -part xcvu095-ffva2104-2-e
   write_hwdef -file Top_Acq_Track.hwdef
   close_msg_db -file init_design.pb

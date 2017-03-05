@@ -1,0 +1,225 @@
+xilinx rtfpga
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][22]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][21]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][20]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][19]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][18]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][17]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][16]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][15]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][14]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][13]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][12]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MAX/\Top_regs[3].addr_reg[3][11] )
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][11]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][12]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][12]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][13]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][13]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][14]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][14]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][15]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][15]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][16]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][16]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][17]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][17]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][18]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][18]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][19]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][19]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][20]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][20]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][21]'
+INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][21]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][22]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (MAX/\Top_regs[1].addr_reg[1][22] )
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][22]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][21]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][20]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][19]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][18]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][17]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][16]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][15]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][14]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][13]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][12]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][11]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][10]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][9]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][8]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][7]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][6]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][5]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][4]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][3]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][2]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][1]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (top_reg[4][0]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][22]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][21]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][20]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][19]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][18]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][17]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][16]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][15]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][14]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][13]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][12]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][11]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][22]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][21]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][20]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][19]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][18]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][17]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][16]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][15]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][14]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][13]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][12]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][11]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][22]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][21]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][20]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][19]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][18]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][17]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][16]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][15]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][14]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][13]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][12]) is unused and will be removed from module sorter.
+WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][11]) is unused and will be removed from module sorter.
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][27]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][2]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][3]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][4]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][5]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][6]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][7]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][8]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][9]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][10]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][11]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][12]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][13]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][14]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][15]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][16]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][17]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][18]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][19]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][20]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][21]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][22]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][23]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][24]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][25]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][26]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][28]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][29]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][30]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[0].z_reg[1][32] )
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][4]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][3]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][2]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][1]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][0]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][1]' (FD) to 'DIV/STAGES[0].y_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][5]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][2]' (FD) to 'DIV/STAGES[0].y_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][6]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][3]' (FD) to 'DIV/STAGES[0].y_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][7]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][4]' (FD) to 'DIV/STAGES[0].y_reg[1][5]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][8]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][5]' (FD) to 'DIV/STAGES[0].y_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][9]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][6]' (FD) to 'DIV/STAGES[0].y_reg[1][7]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][10]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][7]' (FD) to 'DIV/STAGES[0].y_reg[1][8]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][11]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][8]' (FD) to 'DIV/STAGES[0].y_reg[1][9]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][12]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].x_reg[1][36] )
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][2]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][3]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][4]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][5]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][6]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][7]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][2]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][3]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][4]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][5]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][6]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][7]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][8]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][9]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][10]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][11]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][12]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][13]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][14]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][15]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][16]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][17]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[2].z_reg[3][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[3].z_reg[4][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[4].z_reg[5][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[5].z_reg[6][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[6].z_reg[7][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[7].z_reg[8][4] )
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][30]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][29]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][28]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][27]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][26]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][25]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][24]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][23]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][22]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][21]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][20]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][19]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][18]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][17]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][16]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][15]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][14]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][13]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][12]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][11]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][10]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][9]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][8]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][7]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][6]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][5]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][4]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][3]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][2]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][1]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][0]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][8]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][7]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][6]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][5]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][4]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][3]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][2]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][1]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].x_reg[1][36]) is unused and will be removed from module CORDIC_LIN_VECT.
+WARNING: [Synth 8-3332] Sequential element (STAGES[0].x_reg[1][12]) is unused and will be removed from module CORDIC_LIN_VECT.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[1].z_reg[2][27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[1].z_reg[2][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[1].y_reg[2][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[2].y_reg[3][0] )

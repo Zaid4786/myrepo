@@ -2,25 +2,25 @@
 # Vivado v2016.1 (64-bit)
 # SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
 # IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-# Start of session at: Fri Feb 17 14:45:58 2017
-# Process ID: 30844
-# Current directory: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1
+# Start of session at: Sun Mar  5 02:05:44 2017
+# Process ID: 8070
+# Current directory: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1
 # Command line: vivado -log blk_mem_I.vds -mode batch -messageDb vivado.pb -notrace -source blk_mem_I.tcl
-# Log file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/blk_mem_I.vds
-# Journal file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/vivado.jou
+# Log file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/blk_mem_I.vds
+# Journal file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/vivado.jou
 #-----------------------------------------------------------
 source blk_mem_I.tcl -notrace
 Command: synth_design -top blk_mem_I -part xcvu095-ffva2104-2-e -mode out_of_context
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -109 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -125 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 30878 
+INFO: Helper process launched with PID 8088 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:26 . Memory (MB): peak = 1171.820 ; gain = 285.109 ; free physical = 5497 ; free virtual = 39246
+Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1184.969 ; gain = 298.109 ; free physical = 150 ; free virtual = 9326
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:71]
 	Parameter C_FAMILY bound to: virtexu - type: string 
 	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
@@ -94,7 +94,7 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/Scratch/vish/Zaid/gps/GPS_
 	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
 	Parameter C_COUNT_18K_BRAM bound to: 8 - type: string 
 	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     21.072504 mW - type: string 
-INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:237]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:237]
 	Parameter C_FAMILY bound to: virtexu - type: string 
 	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
@@ -4674,7 +4674,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/Scratch/vish/Zaid
 	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_USE_ECC bound to: 0 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_I' (11#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_I' (11#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/synth/blk_mem_I.vhd:71]
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_RST[0]
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_LAT_RST
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REG_RST
@@ -4777,7 +4777,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected p
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[114]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:22 ; elapsed = 00:02:18 . Memory (MB): peak = 1358.609 ; gain = 471.898 ; free physical = 6194 ; free virtual = 39947
+Finished RTL Elaboration : Time (s): cpu = 00:01:45 ; elapsed = 00:01:49 . Memory (MB): peak = 1371.758 ; gain = 484.898 ; free physical = 181 ; free virtual = 8948
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -4787,42 +4787,42 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:22 ; elapsed = 00:02:18 . Memory (MB): peak = 1358.609 ; gain = 471.898 ; free physical = 6194 ; free virtual = 39947
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:45 ; elapsed = 00:01:49 . Memory (MB): peak = 1371.758 ; gain = 484.898 ; free physical = 180 ; free virtual = 8948
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/blk_mem_I_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1734.676 ; gain = 1.000 ; free physical = 5910 ; free virtual = 39663
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.37 . Memory (MB): peak = 1771.297 ; gain = 0.000 ; free physical = 167 ; free virtual = 8401
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:38 ; elapsed = 00:02:37 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5909 ; free virtual = 39662
+Finished Constraint Validation : Time (s): cpu = 00:02:05 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 160 ; free virtual = 8398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xcvu095-ffva2104-2-e
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:38 ; elapsed = 00:02:37 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5909 ; free virtual = 39662
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:05 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 160 ; free virtual = 8398
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:38 ; elapsed = 00:02:37 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5909 ; free virtual = 39661
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 160 ; free virtual = 8399
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:39 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5899 ; free virtual = 39652
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:06 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 138 ; free virtual = 8377
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4869,7 +4869,7 @@ BRAMs: 3456 (col length: RAMB18 192 RAMB36 96)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:39 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5898 ; free virtual = 39651
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:06 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 137 ; free virtual = 8377
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -4906,9 +4906,9 @@ INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/
 INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/ENOUT" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_b.bindec_inst_b/ENOUT" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:01:39 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5898 ; free virtual = 39651
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:06 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 136 ; free virtual = 8377
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:01:39 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.680 ; gain = 847.969 ; free physical = 5898 ; free virtual = 39651
+Finished Parallel Reinference  : Time (s): cpu = 00:02:06 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 136 ; free virtual = 8377
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -4919,9 +4919,9 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:01:40 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.684 ; gain = 847.973 ; free physical = 5883 ; free virtual = 39636
+Finished Area Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:25 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 124 ; free virtual = 8349
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:01:40 ; elapsed = 00:02:38 . Memory (MB): peak = 1734.684 ; gain = 847.973 ; free physical = 5883 ; free virtual = 39636
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:07 ; elapsed = 00:02:25 . Memory (MB): peak = 1771.297 ; gain = 884.438 ; free physical = 124 ; free virtual = 8349
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -4935,10 +4935,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:51 ; elapsed = 00:02:52 . Memory (MB): peak = 1972.801 ; gain = 1086.090 ; free physical = 5582 ; free virtual = 39335
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:20 ; elapsed = 00:02:45 . Memory (MB): peak = 2009.422 ; gain = 1122.562 ; free physical = 175 ; free virtual = 7786
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:51 ; elapsed = 00:02:52 . Memory (MB): peak = 1974.801 ; gain = 1088.090 ; free physical = 5581 ; free virtual = 39333
+Finished Timing Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:45 . Memory (MB): peak = 2011.422 ; gain = 1124.562 ; free physical = 170 ; free virtual = 7783
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4950,16 +4950,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:52 ; elapsed = 00:02:52 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5571 ; free virtual = 39323
+Finished Technology Mapping : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 147 ; free virtual = 7765
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:52 ; elapsed = 00:02:52 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5571 ; free virtual = 39323
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 147 ; free virtual = 7765
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:52 ; elapsed = 00:02:52 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5571 ; free virtual = 39323
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 147 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -4976,7 +4976,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39323
+Finished IO Insertion : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 143 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -4989,7 +4989,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39323
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 143 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -5001,25 +5001,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39323
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 143 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39323
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 142 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39322
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 141 ; free virtual = 7764
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39322
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 141 ; free virtual = 7764
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -5104,17 +5104,17 @@ Report Instance Areas:
 |39    |            \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized8  |     1|
 +------+---------------------------------------------+-----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.832 ; gain = 1099.121 ; free physical = 5570 ; free virtual = 39322
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2021.438 ; gain = 1134.578 ; free physical = 141 ; free virtual = 7765
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 132 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:02:27 . Memory (MB): peak = 1985.832 ; gain = 520.094 ; free physical = 5569 ; free virtual = 39322
-Synthesis Optimization Complete : Time (s): cpu = 00:01:52 ; elapsed = 00:02:53 . Memory (MB): peak = 1985.840 ; gain = 1099.129 ; free physical = 5571 ; free virtual = 39323
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:01 ; elapsed = 00:02:13 . Memory (MB): peak = 2021.438 ; gain = 519.078 ; free physical = 137 ; free virtual = 7762
+Synthesis Optimization Complete : Time (s): cpu = 00:02:21 ; elapsed = 00:02:49 . Memory (MB): peak = 2021.445 ; gain = 1134.586 ; free physical = 135 ; free virtual = 7763
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
-INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clka. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc:54]
-INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clkb. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc:57]
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clka. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc:54]
+INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clkb. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc:57]
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I_1/blk_mem_I_ooc.xdc] for cell 'U0'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
@@ -5122,7 +5122,7 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 48 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:51 ; elapsed = 00:02:45 . Memory (MB): peak = 2034.754 ; gain = 991.520 ; free physical = 5521 ; free virtual = 39273
+synth_design: Time (s): cpu = 00:02:21 ; elapsed = 00:03:09 . Memory (MB): peak = 2072.359 ; gain = 1027.969 ; free physical = 157 ; free virtual = 7517
 INFO: [Coretcl 2-1174] Renamed 38 cell refs.
-report_utilization: Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.39 . Memory (MB): peak = 2034.758 ; gain = 0.000 ; free physical = 5520 ; free virtual = 39272
-INFO: [Common 17-206] Exiting Vivado at Fri Feb 17 14:49:18 2017...
+report_utilization: Time (s): cpu = 00:00:00.17 ; elapsed = 00:00:05 . Memory (MB): peak = 2104.375 ; gain = 0.000 ; free physical = 166 ; free virtual = 7546
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  5 02:09:23 2017...
