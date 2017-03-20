@@ -2,27 +2,26 @@
 # Vivado v2016.1 (64-bit)
 # SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
 # IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
-# Start of session at: Thu Feb 23 16:52:03 2017
-# Process ID: 4403
-# Current directory: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1
+# Start of session at: Thu Mar 16 17:00:15 2017
+# Process ID: 9400
+# Current directory: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1
 # Command line: vivado -log ila_0.vds -mode batch -messageDb vivado.pb -notrace -source ila_0.tcl
-# Log file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/ila_0.vds
-# Journal file: /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/vivado.jou
+# Log file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/ila_0.vds
+# Journal file: /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/vivado.jou
 #-----------------------------------------------------------
 source ila_0.tcl -notrace
-Command: synth_design -top ila_0 -part xcvu095-ffva2104-2-e -mode out_of_context
+Command: synth_design -top ila_0 -part xc7a200tfbg676-2 -mode out_of_context
 Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -115 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 4426 
+INFO: Helper process launched with PID 9495 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1221.824 ; gain = 335.109 ; free physical = 11631 ; free virtual = 43786
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1121.102 ; gain = 234.238 ; free physical = 1735 ; free virtual = 12416
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:84]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:84]
 	Parameter C_XLNX_HW_PROBE_INFO bound to: DEFAULT - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_CORE_TYPE bound to: 1 - type: integer 
 	Parameter C_CORE_INFO1 bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter C_CORE_INFO2 bound to: 128'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -6227,7 +6226,7 @@ INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/
 	Parameter LC_TRIG_WIDTH bound to: 165 - type: integer 
 	Parameter LC_DATA_WIDTH bound to: 165 - type: integer 
 	Parameter LC_COMPUTED_DATA_WIDTH bound to: 165 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ADV_TRIGGER bound to: 0 - type: integer 
 	Parameter C_EN_DDR_ILA bound to: 0 - type: integer 
 	Parameter C_DATA_WIDTH bound to: 165 - type: integer 
@@ -6287,7 +6286,7 @@ INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/
 	Parameter TC_TYPE_SS_P bound to: 0 - type: integer 
 	Parameter C_MATCH_WIDTH_VEC bound to: 272'b00000000000000000000000000000000000000000000000000000000000000100000000000001000000000000001111100000000000000000000000000011111000000000001011000000000000101100000000000000101000000000000000000000000000000000000000000000111000000000000001100000000000001110000000000001010 
 	Parameter C_MATCH_TPID_VEC bound to: 272'b00000000000100000000000000001111000000000000111000000000000011010000000000001100000000000000101100000000000010100000000000001001000000000000100000000000000001110000000000000110000000000000010100000000000001000000000000000011000000000000001000000000000000010000000000000000 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_MAJOR_VERSION bound to: 2016 - type: integer 
 	Parameter C_MINOR_VERSION bound to: 1 - type: integer 
 	Parameter C_BUILD_REVISION bound to: 0 - type: integer 
@@ -6679,7 +6678,7 @@ INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/
 	Parameter REG bound to: 4'b0010 
 	Parameter P2S bound to: 4'b0100 
 	Parameter S2P bound to: 4'b1000 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_MAJOR_VERSION bound to: 2016 - type: integer 
 	Parameter C_MINOR_VERSION bound to: 1 - type: integer 
 	Parameter C_BUILD_REVISION bound to: 0 - type: integer 
@@ -6999,12 +6998,12 @@ INFO: [Synth 8-638] synthesizing module 'ila_0' [/Scratch/vish/Zaid/gps/GPS_Ver/
 	Parameter LC_REMAINDER_SLICE_SIGNALS bound to: 0 - type: integer 
 	Parameter C_USE_OUTPUT_REG bound to: 1 - type: integer 
 	Parameter C_IS_TERMINATION_SLICE bound to: 0 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'CFGLUT5' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-638] synthesizing module 'CFGLUT5' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:998]
 	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'CFGLUT5' (8#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:998]
-INFO: [Synth 8-638] synthesizing module 'CARRY4' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:961]
-INFO: [Synth 8-256] done synthesizing module 'CARRY4' (9#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-256] done synthesizing module 'CFGLUT5' (8#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:998]
+INFO: [Synth 8-638] synthesizing module 'CARRY4' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:961]
+INFO: [Synth 8-256] done synthesizing module 'CARRY4' (9#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:961]
 	Parameter C_USE_OUTPUT_REG bound to: 1 - type: integer 
 	Parameter C_IS_TERMINATION_SLICE bound to: 1 - type: integer 
 	Parameter C_NUM_MATCH_UNITS bound to: 17 - type: integer 
@@ -7327,40 +7326,40 @@ INFO: [Synth 8-256] done synthesizing module 'CARRY4' (9#1) [/Scratch/Softwares/
 	Parameter C_SAME_CLK bound to: 1'b0 
 	Parameter C_PULSE_LENGTH bound to: 2 - type: integer 
 	Parameter C_CORE_TYPE bound to: 2 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_TSEQ_TYPE bound to: 0 - type: integer 
 	Parameter C_DATA_DEPTH bound to: 1024 - type: integer 
 	Parameter C_MATCH_UNIT_TYPE bound to: 0 - type: integer 
 	Parameter log2_C_DATA_DEPTH bound to: 10 - type: integer 
 	Parameter C_SRL16_TYPE bound to: 2 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_USE_OUTPUT_REG bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'SRLC32E' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43460]
+INFO: [Synth 8-638] synthesizing module 'SRLC32E' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43460]
 	Parameter INIT bound to: 32'b00000000000000000000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (19#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43460]
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+INFO: [Synth 8-256] done synthesizing module 'SRLC32E' (19#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43460]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_CORE_TYPE bound to: 2 - type: integer 
 	Parameter C_DATA_DEPTH bound to: 1024 - type: integer 
 	Parameter C_MATCH_UNIT_TYPE bound to: 0 - type: integer 
 	Parameter log2_C_DATA_DEPTH bound to: 10 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'SRL16E' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43310]
+INFO: [Synth 8-638] synthesizing module 'SRL16E' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43310]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'SRL16E' (21#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43310]
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+INFO: [Synth 8-256] done synthesizing module 'SRL16E' (21#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43310]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_SRL16_TYPE bound to: 2 - type: integer 
 	Parameter C_USE_OUTPUT_REG bound to: 0 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_DATA_WIDTH bound to: 10 - type: integer 
 	Parameter C_MATCH_UNIT_TYPE bound to: 0 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_SRL16_TYPE bound to: 2 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'SRLC16E' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43399]
+INFO: [Synth 8-638] synthesizing module 'SRLC16E' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43399]
 	Parameter INIT bound to: 16'b0000000000000000 
 	Parameter IS_CLK_INVERTED bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'SRLC16E' (23#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43399]
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+INFO: [Synth 8-256] done synthesizing module 'SRLC16E' (23#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:43399]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_SRL16_TYPE bound to: 2 - type: integer 
 	Parameter C_USE_OUTPUT_REG bound to: 0 - type: integer 
 	Parameter C_MATCH_UNIT_TYPE bound to: 0 - type: integer 
@@ -7384,28 +7383,28 @@ INFO: [Synth 8-256] done synthesizing module 'SRLC16E' (23#1) [/Scratch/Software
 	Parameter C_IS_TERMINATION_SLICE bound to: 0 - type: integer 
 	Parameter C_USE_OUTPUT_REG bound to: 0 - type: integer 
 	Parameter C_IS_TERMINATION_SLICE bound to: 1 - type: integer 
-INFO: [Synth 8-638] synthesizing module 'FDRE' [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:3965]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:3965]
 	Parameter INIT bound to: 1'b0 
 	Parameter IS_C_INVERTED bound to: 1'b0 
 	Parameter IS_D_INVERTED bound to: 1'b0 
 	Parameter IS_R_INVERTED bound to: 1'b0 
-INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/Vivado/Vivado/2016.1/scripts/rt/data/unisim_comp.v:3965]
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/opt/Xilinx/Vivado/2016.1/scripts/rt/data/unisim_comp.v:3965]
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_DATA_WIDTH bound to: 10 - type: integer 
 	Parameter C_MATCH_UNIT_TYPE bound to: 0 - type: integer 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_SRL16_TYPE bound to: 2 - type: integer 
 	Parameter C_USE_OUTPUT_REG bound to: 1 - type: integer 
 	Parameter C_RAM_WIDTH bound to: 166 - type: integer 
 	Parameter C_RAM_DEPTH bound to: 1024 - type: integer 
 	Parameter C_RAM_STYLE bound to: SUBCORE - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter log2_C_RAM_DEPTH bound to: 10 - type: integer 
 	Parameter LC_BLK_MAX_WIDTH bound to: 512 - type: integer 
 	Parameter LC_BLK_MEM_CNT bound to: 1 - type: integer 
 	Parameter LC_GND bound to: 166'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
-	Parameter C_FAMILY bound to: virtexu - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 1 - type: integer 
@@ -7477,8 +7476,8 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_COUNT_36K_BRAM bound to: (null) - type: string 
 	Parameter C_COUNT_18K_BRAM bound to: (null) - type: string 
 	Parameter C_EST_POWER_SUMMARY bound to: (null) - type: string 
-	Parameter C_FAMILY bound to: virtexu - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 1 - type: integer 
@@ -7548,9 +7547,9 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_USE_URAM bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -7655,8 +7654,8 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -7727,9 +7726,9 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -7784,7 +7783,7 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -7840,16 +7839,10 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 10 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: COMMON - type: string 
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -8005,23 +7998,25 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 	Parameter READ_WIDTH_A bound to: 36 - type: integer 
 	Parameter READ_WIDTH_B bound to: 36 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: READ_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: READ_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8076,7 +8071,7 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8132,16 +8127,10 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 10 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: COMMON - type: string 
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -8297,23 +8286,25 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 	Parameter READ_WIDTH_A bound to: 36 - type: integer 
 	Parameter READ_WIDTH_B bound to: 36 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: READ_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: READ_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8368,7 +8359,7 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8424,16 +8415,10 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 10 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: COMMON - type: string 
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -8589,23 +8574,25 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 	Parameter READ_WIDTH_A bound to: 36 - type: integer 
 	Parameter READ_WIDTH_B bound to: 36 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: READ_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: READ_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8660,7 +8647,7 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8716,16 +8703,10 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 10 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: COMMON - type: string 
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -8881,23 +8862,25 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 	Parameter READ_WIDTH_A bound to: 36 - type: integer 
 	Parameter READ_WIDTH_B bound to: 36 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: READ_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: READ_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 36 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 36 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -8952,7 +8935,7 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: (null) - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -9008,16 +8991,10 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 10 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 10 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: COMMON - type: string 
 	Parameter DOA_REG bound to: 1 - type: integer 
 	Parameter DOB_REG bound to: 1 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -9173,14 +9150,16 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
 	Parameter READ_WIDTH_A bound to: 36 - type: integer 
 	Parameter READ_WIDTH_B bound to: 36 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: READ_FIRST - type: string 
@@ -9213,9 +9192,9 @@ INFO: [Synth 8-256] done synthesizing module 'FDRE' (28#1) [/Scratch/Softwares/V
 	Parameter INCREMENT_ADDRESS bound to: 7'b1000000 
 	Parameter C_WIDTH bound to: 16 - type: integer 
 	Parameter C_NUM_BUSES bound to: 11 - type: integer 
-WARNING: [Synth 8-350] instance 'inst' of module 'ila_v6_1_0_ila' requires 1033 connections, but only 1027 given [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ila_0 does not have driver. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:130]
-INFO: [Synth 8-256] done synthesizing module 'ila_0' (46#1) [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:84]
+WARNING: [Synth 8-350] instance 'inst' of module 'ila_v6_1_0_ila' requires 1033 connections, but only 1027 given [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+WARNING: [Synth 8-3848] Net sl_iport0 in module/entity ila_0 does not have driver. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:130]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (46#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:84]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port SSRA
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port REGCEA
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port SSRB
@@ -9256,6 +9235,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unco
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port DINB[2]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port DINB[1]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port SLEEP
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port INJECTSBITERR
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port INJECTDBITERR
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized3 has unconnected port ECCPIPECE
@@ -9299,6 +9279,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unco
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port DINB[2]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port DINB[1]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port DINB[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port SLEEP
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port INJECTSBITERR
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port INJECTDBITERR
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized2 has unconnected port ECCPIPECE
@@ -9314,11 +9295,9 @@ WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unco
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unconnected port DINB[30]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unconnected port DINB[29]
 WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unconnected port DINB[28]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unconnected port DINB[27]
-WARNING: [Synth 8-3331] design blk_mem_gen_prim_wrapper__parameterized1 has unconnected port DINB[26]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:05 ; elapsed = 00:01:06 . Memory (MB): peak = 1518.590 ; gain = 631.875 ; free physical = 10115 ; free virtual = 42297
+Finished RTL Elaboration : Time (s): cpu = 00:01:46 ; elapsed = 00:01:47 . Memory (MB): peak = 1416.867 ; gain = 530.004 ; free physical = 1267 ; free virtual = 11971
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -9327,61 +9306,61 @@ Report Check Netlist:
 +------+------------------+-------+---------+-------+------------------+
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
-INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0 [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[36] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[35] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[34] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[33] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[32] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[31] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[30] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[29] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[28] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[27] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[26] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[25] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[24] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[23] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[22] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[21] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[20] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[19] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[18] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[17] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[16] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[15] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[14] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[13] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[12] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[11] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[10] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[9] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[8] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[7] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[6] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[5] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[4] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[3] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:trig_in to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
+INFO: [Synth 8-3295] tying undriven pin inst:trig_out_ack to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/synth/ila_0.v:3238]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:05 ; elapsed = 00:01:07 . Memory (MB): peak = 1518.590 ; gain = 631.875 ; free physical = 10115 ; free virtual = 42297
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:47 ; elapsed = 00:01:47 . Memory (MB): peak = 1416.867 ; gain = 530.004 ; free physical = 1260 ; free virtual = 11963
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 232 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 237 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
-INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/dont_touch.xdc]
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/dont_touch.xdc]
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_0_synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
@@ -9389,23 +9368,23 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 152 instances
   CFGLUT5 => SRLC32E: 21 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.10 . Memory (MB): peak = 1871.883 ; gain = 0.004 ; free physical = 9419 ; free virtual = 41963
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1568.727 ; gain = 1.000 ; free physical = 1191 ; free virtual = 11893
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:21 ; elapsed = 00:01:24 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9353 ; free virtual = 41898
+Finished Constraint Validation : Time (s): cpu = 00:02:08 ; elapsed = 00:02:08 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1155 ; free virtual = 11858
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
-Loading part: xcvu095-ffva2104-2-e
+Loading part: xc7a200tfbg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:21 ; elapsed = 00:01:24 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9351 ; free virtual = 41895
+Finished Loading Part and Timing Information : Time (s): cpu = 00:02:08 ; elapsed = 00:02:08 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1155 ; free virtual = 11858
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for inst. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:21 ; elapsed = 00:01:25 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9322 ; free virtual = 41867
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:09 ; elapsed = 00:02:10 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1142 ; free virtual = 11844
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-3898] No Re-encoding of one hot register 'current_state_reg' in module 'xsdbs_v1_0_2_reg_p2s__parameterized17'
 INFO: [Synth 8-5544] ROM "shift_en" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
@@ -9470,7 +9449,7 @@ INFO: [Synth 8-5546] ROM "read_addr" won't be mapped to RAM because it is too sp
 INFO: [Synth 8-5546] ROM "curr_read_block" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "read_en" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9268 ; free virtual = 41813
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:13 ; elapsed = 00:02:14 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1185 ; free virtual = 11886
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -10307,12 +10286,12 @@ Finished RTL Hierarchical Component Statistics
 Start Part Resource Summary
 ---------------------------------------------------------------------------------
 Part Resources:
-DSPs: 768 (col length:192)
-BRAMs: 3456 (col length: RAMB18 192 RAMB36 96)
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:24 ; elapsed = 00:01:28 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9267 ; free virtual = 41812
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:14 ; elapsed = 00:02:15 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1185 ; free virtual = 11888
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -10320,9 +10299,9 @@ INFO: [Synth 8-5546] ROM "ila_core_inst/xsdb_memory_read_inst/curr_read_block" w
 INFO: [Synth 8-5546] ROM "ila_core_inst/xsdb_memory_read_inst/read_en" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "ila_core_inst/xsdb_memory_read_inst/read_addr" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9191 ; free virtual = 41738
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:17 ; elapsed = 00:02:18 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1189 ; free virtual = 11888
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9191 ; free virtual = 41738
+Finished Parallel Reinference  : Time (s): cpu = 00:02:17 ; elapsed = 00:02:18 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1189 ; free virtual = 11888
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -10597,9 +10576,9 @@ INFO: [Synth 8-3332] Sequential element (shift_reg0_reg[947]) is unused and will
 INFO: [Synth 8-3332] Sequential element (shift_reg0_reg[946]) is unused and will be removed from module ila_v6_1_0_ila_register.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:01:33 ; elapsed = 00:01:37 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9029 ; free virtual = 41578
+Finished Area Optimization : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1133 ; free virtual = 11843
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:01:33 ; elapsed = 00:01:37 . Memory (MB): peak = 1871.883 ; gain = 985.168 ; free physical = 9029 ; free virtual = 41578
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1133 ; free virtual = 11843
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -10612,15 +10591,15 @@ Start Timing Optimization
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 35 of /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:35]
-WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 56 of /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:56]
-WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 62 of /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:62]
-WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 63 of /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:63]
+WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 35 of /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:35]
+WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 56 of /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:56]
+WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 62 of /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:62]
+WARNING: [Synth 8-3321] set_false_path : Empty from list for constraint at line 63 of /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc:63]
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:44 ; elapsed = 00:01:48 . Memory (MB): peak = 2055.988 ; gain = 1169.273 ; free physical = 8636 ; free virtual = 41209
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:43 ; elapsed = 00:02:44 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1090 ; free virtual = 11838
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:44 ; elapsed = 00:01:49 . Memory (MB): peak = 2069.004 ; gain = 1182.289 ; free physical = 8623 ; free virtual = 41196
+Finished Timing Optimization : Time (s): cpu = 00:02:44 ; elapsed = 00:02:46 . Memory (MB): peak = 1568.727 ; gain = 681.863 ; free physical = 1068 ; free virtual = 11819
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -10632,16 +10611,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Technology Mapping : Time (s): cpu = 00:02:46 ; elapsed = 00:02:48 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1037 ; free virtual = 11787
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:46 ; elapsed = 00:02:48 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1037 ; free virtual = 11787
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:46 ; elapsed = 00:02:48 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1037 ; free virtual = 11787
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -10696,7 +10675,7 @@ INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[2] to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[1] to constant 0
 INFO: [Synth 8-3295] tying undriven pin inst:sl_iport0[0] to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41150
+Finished IO Insertion : Time (s): cpu = 00:02:47 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -10709,7 +10688,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41150
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:47 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -10721,25 +10700,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41150
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:46 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41150
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -10777,26 +10756,26 @@ Report Cell Usage:
 |2     |CFGLUT5  |   173|
 |3     |LUT1     |    28|
 |4     |LUT2     |    59|
-|5     |LUT3     |   118|
-|6     |LUT4     |   210|
+|5     |LUT3     |   120|
+|6     |LUT4     |   212|
 |7     |LUT5     |   112|
 |8     |LUT6     |   670|
 |9     |MUXF7    |    48|
-|10    |RAMB36E2 |     5|
+|10    |RAMB36E1 |     5|
 |11    |SRL16E   |   170|
 |12    |SRLC16E  |     2|
 |13    |SRLC32E  |    17|
-|14    |FDRE     |  2183|
-|15    |FDSE     |    11|
+|14    |FDRE     |  2187|
+|15    |FDSE     |     7|
 +------+---------+------+
 
 Report Instance Areas: 
 +------+------------------------------------------------------------------------+-------------------------------------------------+------+
 |      |Instance                                                                |Module                                           |Cells |
 +------+------------------------------------------------------------------------+-------------------------------------------------+------+
-|1     |top                                                                     |                                                 |  3865|
-|2     |  inst                                                                  |ila_v6_1_0_ila                                   |  3865|
-|3     |    ila_core_inst                                                       |ila_v6_1_0_ila_core                              |  3864|
+|1     |top                                                                     |                                                 |  3869|
+|2     |  inst                                                                  |ila_v6_1_0_ila                                   |  3869|
+|3     |    ila_core_inst                                                       |ila_v6_1_0_ila_core                              |  3868|
 |4     |      ila_trace_memory_inst                                             |ila_v6_1_0_ila_trace_memory                      |     5|
 |5     |        \SUBCORE_RAM_BLK_MEM_1.trace_block_memory                       |blk_mem_gen_v8_3_2                               |     5|
 |6     |          inst_blk_mem_gen                                              |blk_mem_gen_v8_3_2_synth                         |     5|
@@ -10841,7 +10820,7 @@ Report Instance Areas:
 |45    |                DUT                                                     |ltlib_v1_0_0_all_typeA__parameterized15          |    12|
 |46    |                  \I_WHOLE_SLICE.G_SLICE_IDX[0].U_ALL_SRL_SLICE         |ltlib_v1_0_0_all_typeA_slice__parameterized16    |     5|
 |47    |                  \I_WHOLE_SLICE.G_SLICE_IDX[1].U_ALL_SRL_SLICE         |ltlib_v1_0_0_all_typeA_slice__parameterized17    |     5|
-|48    |      u_ila_regs                                                        |ila_v6_1_0_ila_register                          |  2364|
+|48    |      u_ila_regs                                                        |ila_v6_1_0_ila_register                          |  2368|
 |49    |        U_XSDB_SLAVE                                                    |xsdbs_v1_0_2_xsdbs                               |   119|
 |50    |        reg_890                                                         |xsdbs_v1_0_2_reg__parameterized76                |    16|
 |51    |          \I_EN_STAT_EQ1.U_STAT                                         |xsdbs_v1_0_2_reg_stat_35                         |    16|
@@ -11002,30 +10981,29 @@ Report Instance Areas:
 |206   |      xsdb_memory_read_inst                                             |ltlib_v1_0_0_generic_memrd                       |   299|
 +------+------------------------------------------------------------------------+-------------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.793 ; gain = 1207.078 ; free physical = 8578 ; free virtual = 41151
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.148 ; gain = 692.285 ; free physical = 1038 ; free virtual = 11786
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1162 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:30 ; elapsed = 00:01:33 . Memory (MB): peak = 2093.793 ; gain = 604.828 ; free physical = 8578 ; free virtual = 41151
-Synthesis Optimization Complete : Time (s): cpu = 00:01:47 ; elapsed = 00:01:51 . Memory (MB): peak = 2093.801 ; gain = 1207.086 ; free physical = 8579 ; free virtual = 41152
+Synthesis Optimization Runtime : Time (s): cpu = 00:02:27 ; elapsed = 00:02:28 . Memory (MB): peak = 1579.148 ; gain = 393.332 ; free physical = 1038 ; free virtual = 11786
+Synthesis Optimization Complete : Time (s): cpu = 00:02:48 ; elapsed = 00:02:50 . Memory (MB): peak = 1579.156 ; gain = 692.293 ; free physical = 1040 ; free virtual = 11788
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 232 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 237 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
-Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
-Finished Parsing XDC File [/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_0_ooc.xdc] for cell 'inst'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/ila_0_1/ila_v6_1/constraints/ila.xdc] for cell 'inst'
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 206 instances were transformed.
-  (CARRY4) => CARRY8: 33 instances
+  A total of 173 instances were transformed.
   CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 152 instances
   CFGLUT5 => SRLC32E: 21 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-435 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
+434 Infos, 106 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:48 ; elapsed = 00:01:52 . Memory (MB): peak = 2155.441 ; gain = 1066.203 ; free physical = 8509 ; free virtual = 41084
+synth_design: Time (s): cpu = 00:02:48 ; elapsed = 00:02:49 . Memory (MB): peak = 1579.156 ; gain = 557.785 ; free physical = 1049 ; free virtual = 11780
 INFO: [Coretcl 2-1174] Renamed 205 cell refs.
-report_utilization: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.30 . Memory (MB): peak = 2187.461 ; gain = 0.000 ; free physical = 8484 ; free virtual = 41064
-INFO: [Common 17-206] Exiting Vivado at Thu Feb 23 16:54:06 2017...
+report_utilization: Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.19 . Memory (MB): peak = 1611.164 ; gain = 0.000 ; free physical = 1055 ; free virtual = 11779
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 17:03:24 2017...

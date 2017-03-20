@@ -56,12 +56,12 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1____75.000______0.000______50.0______225.433____236.795
+// clk_out1___100.000______0.000______50.0______112.316_____89.971
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
 //----------------------------------------------------------------------------
-// __primary_________125.000____________0.010
+// __primary_________200.000____________0.010
 
 `timescale 1ps/1ps
 
@@ -71,13 +71,16 @@ module clk_wiz_0_clk_wiz
   input         clk_in1_p,
   input         clk_in1_n,
   // Clock out ports
-  output        clk_out1
+  output        clk_out1,
+  // Status and control signals
+  input         reset,
+  output        locked
  );
   // Input buffering
   //------------------------------------
 wire clk_in1_clk_wiz_0;
 wire clk_in2_clk_wiz_0;
-  IBUFDS clkin1_ibufds
+  IBUFDS clkin1_ibufgds
    (.O  (clk_in1_clk_wiz_0),
     .I  (clk_in1_p),
     .IB (clk_in1_n));
@@ -117,25 +120,23 @@ wire clk_in2_clk_wiz_0;
   wire        clkout6_unused;
   wire        clkfbstopped_unused;
   wire        clkinstopped_unused;
+  wire        reset_high;
 
-
-  
-    MMCME3_ADV
-
+  MMCME2_ADV
   #(.BANDWIDTH            ("OPTIMIZED"),
     .CLKOUT4_CASCADE      ("FALSE"),
-    .COMPENSATION         ("AUTO"),
+    .COMPENSATION         ("ZHOLD"),
     .STARTUP_WAIT         ("FALSE"),
-    .DIVCLK_DIVIDE        (5),
-    .CLKFBOUT_MULT_F      (40.125),
+    .DIVCLK_DIVIDE        (1),
+    .CLKFBOUT_MULT_F      (5.000),
     .CLKFBOUT_PHASE       (0.000),
     .CLKFBOUT_USE_FINE_PS ("FALSE"),
-    .CLKOUT0_DIVIDE_F     (13.375),
+    .CLKOUT0_DIVIDE_F     (10.000),
     .CLKOUT0_PHASE        (0.000),
     .CLKOUT0_DUTY_CYCLE   (0.500),
     .CLKOUT0_USE_FINE_PS  ("FALSE"),
-    .CLKIN1_PERIOD        (8.0))
-  mmcme3_adv_inst
+    .CLKIN1_PERIOD        (5.0))
+  mmcm_adv_inst
     // Output clocks
    (
     .CLKFBOUT            (clkfbout_clk_wiz_0),
@@ -165,8 +166,6 @@ wire clk_in2_clk_wiz_0;
     .DO                  (do_unused),
     .DRDY                (drdy_unused),
     .DWE                 (1'b0),
-    .CDDCDONE            (),
-    .CDDCREQ             (1'b0),
     // Ports for dynamic phase shift
     .PSCLK               (1'b0),
     .PSEN                (1'b0),
@@ -177,9 +176,11 @@ wire clk_in2_clk_wiz_0;
     .CLKINSTOPPED        (clkinstopped_unused),
     .CLKFBSTOPPED        (clkfbstopped_unused),
     .PWRDWN              (1'b0),
-    .RST                 (1'b0));
+    .RST                 (reset_high));
 
+  assign reset_high = reset; 
 
+  assign locked = locked_int;
 // Clock Monitor clock assigning
 //--------------------------------------
  // Output buffering

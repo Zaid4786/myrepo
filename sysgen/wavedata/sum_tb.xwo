@@ -1,0 +1,25 @@
+{
+	'objects' => [
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out18'
+		},
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out17'
+		},
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out10'
+		},
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out12'
+		},
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out7'
+		},
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out3'
+		},
+		{
+			'name' => '/sum_tb/Clock'
+		},
+	],
+}

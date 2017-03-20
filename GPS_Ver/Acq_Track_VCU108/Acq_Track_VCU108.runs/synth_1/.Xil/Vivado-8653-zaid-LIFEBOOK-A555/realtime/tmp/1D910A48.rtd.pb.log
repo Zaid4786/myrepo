@@ -1,2 +1,0 @@
-xilinx rtfpga
-INFO: [Synth 8-4480] The timing for the instance Adders[0].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.

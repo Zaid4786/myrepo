@@ -9,22 +9,21 @@
     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 
 source Top_Acq_Track.tcl -notrace
-Command: synth_design -top Top_Acq_Track -part xcvu095-ffva2104-2-e -directive RuntimeOptimized -fsm_extraction off
+Command: synth_design -top Top_Acq_Track -part xc7a200tfbg676-2 -directive RuntimeOptimized -fsm_extraction off
 Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -125 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8669 
+INFO: Helper process launched with PID 10676 
 WARNING: [Synth 8-992] status_reg is already implicitly declared earlier [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:59]
 WARNING: [Synth 8-2507] parameter declaration becomes local in CORDIC_LIN_VECT with formal parameter declaration list [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:66]
 WARNING: [Synth 8-2507] parameter declaration becomes local in CORDIC_LIN_VECT with formal parameter declaration list [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Tracking/Cordic_Lin_Vect.v:67]
@@ -46,11 +45,12 @@ WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with form
 WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:100]
 WARNING: [Synth 8-2507] parameter declaration becomes local in Acquire with formal parameter declaration list [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:101]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1099.984 ; gain = 213.125 ; free physical = 2095 ; free virtual = 9725
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1053.137 ; gain = 166.277 ; free physical = 1772 ; free virtual = 12642
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Top_Acq_Track' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:23]
-INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/clk_wiz_0_stub.v:5]
+WARNING: [Synth 8-350] instance 'CLOCK_NETWORK' of module 'clk_wiz_0' requires 5 connections, but only 3 given [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:32]
 INFO: [Synth 8-638] synthesizing module 'Acquire' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:41]
 	Parameter crltn_sum_width bound to: 23 - type: integer 
 	Parameter adds_per_clk bound to: 4 - type: integer 
@@ -333,8 +333,8 @@ INFO: [Synth 8-638] synthesizing module 'sorter2' [/home/zaid/MTP/myrepo/GPS_Ver
 	Parameter width bound to: 31 - type: integer 
 	Parameter number bound to: 4 - type: integer 
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:40]
-INFO: [Synth 8-638] synthesizing module 'ila_3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_3_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'ila_3' (6#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_3_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ila_3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_3_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_3' (6#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_3_stub.v:6]
 WARNING: [Synth 8-689] width (31) of port connection 'probe1' does not match port width (32) of module 'ila_3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:45]
 WARNING: [Synth 8-689] width (31) of port connection 'probe4' does not match port width (32) of module 'ila_3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:48]
 WARNING: [Synth 8-689] width (31) of port connection 'probe5' does not match port width (32) of module 'ila_3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:49]
@@ -344,41 +344,41 @@ INFO: [Synth 8-256] done synthesizing module 'sorter2' (7#1) [/home/zaid/MTP/myr
 WARNING: [Synth 8-689] width (32) of port connection 'in' does not match port width (31) of module 'sorter2' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:870]
 INFO: [Synth 8-155] case statement is not full and has no default [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:879]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:980]
-INFO: [Synth 8-638] synthesizing module 'ila_1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'ila_1' (8#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ila_1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_1' (8#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_1_stub.v:6]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:1017]
-INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_0_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'ila_0' (9#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ila_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_0' (9#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_0_stub.v:6]
 WARNING: [Synth 8-689] width (9) of port connection 'probe3' does not match port width (8) of module 'ila_0' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:1024]
 WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:1042]
-INFO: [Synth 8-638] synthesizing module 'ila_2' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_2_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'ila_2' (10#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/ila_2_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'ila_2' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_2_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'ila_2' (10#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/ila_2_stub.v:6]
 INFO: [Synth 8-256] done synthesizing module 'Acquire' (11#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:41]
 INFO: [Synth 8-638] synthesizing module 'Memory_Module' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:23]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_I_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_I' (12#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_I_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_I_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_I' (12#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_I_stub.v:6]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:47]
 WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:52]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:60]
 WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_I' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:65]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_I1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_I1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_I1' (13#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_I1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_I1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_I1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_I1' (13#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_I1_stub.v:6]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_I1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:74]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_Q_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q' (14#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_Q_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_Q_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q' (14#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_Q_stub.v:6]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:82]
 WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:87]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:94]
 WARNING: [Synth 8-689] width (15) of port connection 'addrb' does not match port width (16) of module 'blk_mem_Q' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:99]
-INFO: [Synth 8-638] synthesizing module 'blk_mem_Q1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_Q1_stub.v:6]
-INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q1' (15#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/realtime/blk_mem_Q1_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'blk_mem_Q1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_Q1_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'blk_mem_Q1' (15#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/realtime/blk_mem_Q1_stub.v:6]
 WARNING: [Synth 8-689] width (15) of port connection 'addra' does not match port width (16) of module 'blk_mem_Q1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:109]
 INFO: [Synth 8-256] done synthesizing module 'Memory_Module' (16#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:23]
 WARNING: [Synth 8-689] width (16) of port connection 'read_pointerT' does not match port width (15) of module 'Memory_Module' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:152]
 WARNING: [Synth 8-3848] Net read_pointerT in module/entity Top_Acq_Track does not have driver. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:84]
 INFO: [Synth 8-256] done synthesizing module 'Top_Acq_Track' (17#1) [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:07 ; elapsed = 00:01:17 . Memory (MB): peak = 1818.500 ; gain = 931.641 ; free physical = 1353 ; free virtual = 8999
+Finished RTL Elaboration : Time (s): cpu = 00:01:11 ; elapsed = 00:01:12 . Memory (MB): peak = 1772.652 ; gain = 885.793 ; free physical = 1033 ; free virtual = 11912
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -403,17 +403,17 @@ WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[2] to constant 0 [/
 WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[1] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
 WARNING: [Synth 8-3295] tying undriven pin MEM:read_pointerT[0] to constant 0 [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Top_Acq_Track.v:135]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:12 ; elapsed = 00:01:23 . Memory (MB): peak = 1818.500 ; gain = 931.641 ; free physical = 1353 ; free virtual = 8999
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:17 ; elapsed = 00:01:18 . Memory (MB): peak = 1772.652 ; gain = 885.793 ; free physical = 1034 ; free virtual = 11913
 ---------------------------------------------------------------------------------
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
 WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'blk_mem_I' instantiated as 'MEM/MEM_I1'. 2 instances of this cell are unresolved black boxes. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:44]
 WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'blk_mem_I1' instantiated as 'MEM/MEM_I3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:71]
 WARNING: [Project 1-560] Could not resolve non-primitive black box cell 'blk_mem_Q' instantiated as 'MEM/MEM_Q1'. 2 instances of this cell are unresolved black boxes. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/new/Memory_Module.v:79]
@@ -423,34 +423,36 @@ WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_0' 
 WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_1' instantiated as 'Acq_MOD/ILA_Acq1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:980]
 WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_2' instantiated as 'Acq_MOD/ILA_Acq3' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/Acquire.v:1042]
 WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'ila_3' instantiated as 'Acq_MOD/pk_metric_sorter/ila_sort' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/sorter2.v:40]
-INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_3/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_3/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_5/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_5/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_6/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_6/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_7/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_7/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_8/ila_2_in_context.xdc] for cell 'Acq_MOD/ILA_Acq3'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_8/ila_2_in_context.xdc] for cell 'Acq_MOD/ILA_Acq3'
-Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_9/ila_3_in_context.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort'
-Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp_9/ila_3_in_context.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I1'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp/blk_mem_I_in_context.xdc] for cell 'MEM/MEM_I2'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_2/blk_mem_I1_in_context.xdc] for cell 'MEM/MEM_I3'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_3/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_3/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q1'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_3/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_3/blk_mem_Q_in_context.xdc] for cell 'MEM/MEM_Q2'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_4/blk_mem_Q1_in_context.xdc] for cell 'MEM/MEM_Q3'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc] for cell 'CLOCK_NETWORK'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_6/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_6/ila_0_in_context.xdc] for cell 'Acq_MOD/ILA_Acq2'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_7/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_7/ila_1_in_context.xdc] for cell 'Acq_MOD/ILA_Acq1'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_8/ila_2_in_context.xdc] for cell 'Acq_MOD/ILA_Acq3'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_8/ila_2_in_context.xdc] for cell 'Acq_MOD/ILA_Acq3'
+Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_9/ila_3_in_context.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort'
+Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_9/ila_3_in_context.xdc] for cell 'Acq_MOD/pk_metric_sorter/ila_sort'
 Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVDS' is not supported on 'xc7a200tfbg676-2' part. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc:2]
+CRITICAL WARNING: [Vivado 12-4470] I/O Standard 'LVDS' is not supported on 'xc7a200tfbg676-2' part. [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc:4]
 Finished Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/constrs_1/imports/new/constr.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_Acq_Track_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Top_Acq_Track_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
@@ -459,38 +461,35 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2457.438 ; gain = 0.000 ; free physical = 410 ; free virtual = 8401
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I1' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I2' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I3' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q1' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q2' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q3' at clock pin 'clka' is different from the actual clock period '13.333', this can result in different synthesis results.
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
-WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2249.746 ; gain = 0.000 ; free physical = 585 ; free virtual = 11490
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I1' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I2' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_I3' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q1' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q2' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'MEM/MEM_Q3' at clock pin 'clka' is different from the actual clock period '10.000', this can result in different synthesis results.
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I_1/blk_mem_I.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_I1/blk_mem_I1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q/blk_mem_Q.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/blk_mem_Q1/blk_mem_Q1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/clk_wiz_0/clk_wiz_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_0_1/ila_0.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_1_1/ila_1.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_2/ila_2.dcp]
+WARNING: [filemgmt 56-147] Overwrite of existing file isn't enabled.  Please specify -force to overwrite file  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/ila_3/ila_3.dcp]
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 2457.438 ; gain = 1570.578 ; free physical = 406 ; free virtual = 8397
+Finished Constraint Validation : Time (s): cpu = 00:02:04 ; elapsed = 00:02:01 . Memory (MB): peak = 2249.746 ; gain = 1362.887 ; free physical = 583 ; free virtual = 11479
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 4 processes.
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:01:59 ; elapsed = 00:02:10 . Memory (MB): peak = 2477.074 ; gain = 1590.215 ; free physical = 402 ; free virtual = 8393
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc, line 3).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc, line 4).
-Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc, line 5).
-Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-8653-zaid-LIFEBOOK-A555/dcp/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_n. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk_p. (constraint file  /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/synth_1/.Xil/Vivado-10671-zaid-LIFEBOOK-A555/dcp_5/clk_wiz_0_in_context.xdc, line 6).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:00 ; elapsed = 00:02:10 . Memory (MB): peak = 2477.074 ; gain = 1590.215 ; free physical = 296 ; free virtual = 8288
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:05 ; elapsed = 00:02:02 . Memory (MB): peak = 2269.383 ; gain = 1382.523 ; free physical = 464 ; free virtual = 11361
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:153]
 INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/imports/Verilog/cordic_vector.v:154]
@@ -615,60 +614,58 @@ INFO: [Synth 8-5545] ROM "shift_offset0" won't be mapped to RAM because address 
 INFO: [Synth 8-5546] ROM "rg_G1_nextiter" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "angincr" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:26 ; elapsed = 00:04:01 . Memory (MB): peak = 2477.074 ; gain = 1590.215 ; free physical = 130 ; free virtual = 6242
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:38 ; elapsed = 00:03:55 . Memory (MB): peak = 2269.383 ; gain = 1382.523 ; free physical = 192 ; free virtual = 9876
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
 |      |RTL Partition      |Replication |Instances |
 +------+-------------------+------------+----------+
-|1     |Acquire__GB0       |           1|     24276|
-|2     |Acquire__GB1       |           1|     15540|
-|3     |Acquire__GB2       |           1|     11060|
-|4     |Acquire__GB3       |           1|     14041|
-|5     |Acquire__GB4       |           1|     24332|
-|6     |Acquire__GB5       |           1|     14242|
-|7     |Acquire__GB6       |           1|     17930|
-|8     |Acquire__GB7       |           1|     14985|
-|9     |Acquire__GB8       |           1|      9181|
-|10    |Acquire__GB9       |           1|     21300|
-|11    |Acquire__GB10      |           1|     17679|
-|12    |Acquire__GB11      |           1|      7751|
-|13    |Acquire__GB12      |           1|     11738|
-|14    |Acquire__GB13      |           1|      8062|
-|15    |Acquire__GB14      |           1|     18598|
-|16    |Acquire__GB15      |           1|     41146|
-|17    |Acquire__GB16      |           1|      7562|
-|18    |Acquire__GB17      |           1|      9768|
-|19    |Acquire__GB18      |           1|      8370|
-|20    |Acquire__GB19      |           1|      5968|
-|21    |Acquire__GB20      |           1|     19897|
-|22    |Acquire__GB21      |           1|      5782|
-|23    |Acquire__GB22      |           1|     22858|
-|24    |Acquire__GB23      |           1|     14099|
-|25    |Acquire__GB24      |           1|     22844|
-|26    |Acquire__GB25      |           1|     17407|
-|27    |Acquire__GB26      |           1|     20699|
-|28    |Acquire__GB27      |           1|      8954|
-|29    |Acquire__GB28      |           1|     14472|
-|30    |Acquire__GB29      |           1|     14424|
-|31    |Acquire__GB30      |           1|     25046|
-|32    |Acquire__GB31      |           1|     24091|
-|33    |Acquire__GB32      |           1|      9129|
-|34    |Acquire__GB33      |           1|     23617|
-|35    |Acquire__GB34      |           1|     24443|
-|36    |Acquire__GB35      |           1|     20604|
-|37    |Acquire__GB36      |           1|     11292|
-|38    |Acquire__GB37      |           1|     23606|
-|39    |Acquire__GB38      |           1|      6512|
-|40    |Acquire__GB39      |           1|      8140|
-|41    |Acquire__GB40      |           1|     10582|
-|42    |Acquire__GB41      |           1|     13024|
-|43    |Acquire__GB42      |           1|     16280|
-|44    |Acquire__GB43      |           1|     20350|
-|45    |Acquire__GB44      |           1|     21978|
-|46    |Acquire__GB45      |           1|     12750|
-|47    |Top_Acq_Track__GC0 |           1|       121|
+|1     |CORDIC             |           4|      5062|
+|2     |Acquire__GCB0      |           1|     15162|
+|3     |Acquire__GCB1      |           1|     13875|
+|4     |Acquire__GCB2      |           1|      8917|
+|5     |Acquire__GCB3      |           1|     11106|
+|6     |Acquire__GCB4      |           1|     24707|
+|7     |Acquire__GCB5      |           1|      5550|
+|8     |Acquire__GCB6      |           1|     13605|
+|9     |Acquire__GCB7      |           1|     13316|
+|10    |Acquire__GCB8      |           1|      7760|
+|11    |Acquire__GCB9      |           1|      9954|
+|12    |Acquire__GCB10     |           1|     30791|
+|13    |Acquire__GCB11     |           1|     20242|
+|14    |Acquire__GCB12     |           1|     13354|
+|15    |Acquire__GCB13     |           1|     25630|
+|16    |Acquire__GCB14     |           1|     13824|
+|17    |Acquire__GCB15     |           1|     13876|
+|18    |Acquire__GCB16     |           1|     12986|
+|19    |Acquire__GCB17     |           1|     27490|
+|20    |Acquire__GCB18     |           1|     14488|
+|21    |Acquire__GCB19     |           1|     13925|
+|22    |Acquire__GCB20     |           1|     33210|
+|23    |Acquire__GCB21     |           1|     15725|
+|24    |Acquire__GCB22     |           1|     45232|
+|25    |Acquire__GCB23     |           1|     14314|
+|26    |Acquire__GCB24     |           1|     20350|
+|27    |Acquire__GCB25     |           1|      6772|
+|28    |Acquire__GCB26     |           1|     23079|
+|29    |Acquire__GCB27     |           1|     15262|
+|30    |Acquire__GCB28     |           1|     15057|
+|31    |Acquire__GCB29     |           1|     14653|
+|32    |Acquire__GCB30     |           1|     22380|
+|33    |Acquire__GCB31     |           1|     21978|
+|34    |Acquire__GCB32     |           1|     22933|
+|35    |Acquire__GCB33     |           1|     18731|
+|36    |Acquire__GCB34     |           1|      6739|
+|37    |Acquire__GCB35     |           1|     19540|
+|38    |Acquire__GCB36     |           1|      5716|
+|39    |Acquire__GCB37     |           1|     30272|
+|40    |Acquire__GCB38     |           1|     11443|
+|41    |Acquire__GCB39     |           1|     21196|
+|42    |Acquire__GCB40     |           1|      5698|
+|43    |Acquire__GCB41     |           1|      6736|
+|44    |Acquire__GCB42     |           1|      8954|
+|45    |Top_Acq_Track__GC0 |           1|       122|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -682,15 +679,15 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit       Adders := 799   
 	   3 Input     32 Bit       Adders := 41    
 	   3 Input     28 Bit       Adders := 2     
-	   2 Input     24 Bit       Adders := 1     
 	   3 Input     24 Bit       Adders := 1     
+	   2 Input     24 Bit       Adders := 1     
 	   9 Input     23 Bit       Adders := 500   
-	   2 Input     23 Bit       Adders := 2     
 	   5 Input     23 Bit       Adders := 1     
+	   2 Input     23 Bit       Adders := 2     
 	   2 Input     20 Bit       Adders := 12    
 	   3 Input     20 Bit       Adders := 80    
 	   3 Input     16 Bit       Adders := 8     
-	   2 Input     15 Bit       Adders := 4     
+	   2 Input     15 Bit       Adders := 3     
 	   2 Input     11 Bit       Adders := 6     
 	   2 Input      9 Bit       Adders := 4     
 	   2 Input      8 Bit       Adders := 1     
@@ -698,8 +695,8 @@ Detailed RTL Component Info :
 	   2 Input      5 Bit       Adders := 1     
 	   3 Input      3 Bit       Adders := 250   
 	   2 Input      3 Bit       Adders := 1     
-	   3 Input      2 Bit       Adders := 250   
 	   2 Input      2 Bit       Adders := 250   
+	   3 Input      2 Bit       Adders := 250   
 +---XORs : 
 	   3 Input      1 Bit         XORs := 1000  
 	   2 Input      1 Bit         XORs := 1001  
@@ -712,7 +709,6 @@ Detailed RTL Component Info :
 	               23 Bit    Registers := 1010  
 	               20 Bit    Registers := 88    
 	               16 Bit    Registers := 8     
-	               15 Bit    Registers := 1     
 	               11 Bit    Registers := 8     
 	               10 Bit    Registers := 1000  
 	                9 Bit    Registers := 504   
@@ -730,8 +726,8 @@ Detailed RTL Component Info :
 	   3 Input     32 Bit        Muxes := 7     
 	   2 Input     32 Bit        Muxes := 53    
 	   5 Input     32 Bit        Muxes := 1     
-	   3 Input     31 Bit        Muxes := 4     
 	   2 Input     31 Bit        Muxes := 8     
+	   3 Input     31 Bit        Muxes := 4     
 	   2 Input     30 Bit        Muxes := 4     
 	   2 Input     29 Bit        Muxes := 4     
 	   2 Input     28 Bit        Muxes := 6     
@@ -747,14 +743,14 @@ Detailed RTL Component Info :
 	   2 Input     16 Bit        Muxes := 8     
 	   3 Input     13 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 5     
-	   3 Input     11 Bit        Muxes := 1     
 	   5 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 1000  
 	   8 Input     10 Bit        Muxes := 250   
 	   2 Input      9 Bit        Muxes := 3     
 	   5 Input      5 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1264  
 	   4 Input      1 Bit        Muxes := 250   
+	   2 Input      1 Bit        Muxes := 1264  
 	   3 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -763,139 +759,6 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module CORDIC_VECT 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 3     
-	   3 Input     32 Bit       Adders := 41    
-	   3 Input     28 Bit       Adders := 2     
-+---Registers : 
-	               32 Bit    Registers := 43    
-	               28 Bit    Registers := 2     
-	                1 Bit    Registers := 46    
-+---Muxes : 
-	   3 Input     32 Bit        Muxes := 2     
-	   2 Input     32 Bit        Muxes := 41    
-	   2 Input     28 Bit        Muxes := 2     
-Module sorter 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     24 Bit       Adders := 1     
-	   2 Input     11 Bit       Adders := 4     
-+---Registers : 
-	               23 Bit    Registers := 8     
-	               11 Bit    Registers := 1     
-+---Muxes : 
-	   3 Input     23 Bit        Muxes := 5     
-	   2 Input     23 Bit        Muxes := 2     
-	   2 Input     11 Bit        Muxes := 1     
-Module CORDIC_LIN_VECT 
-Detailed RTL Component Info : 
-+---Adders : 
-	   3 Input     37 Bit       Adders := 31    
-	   4 Input     37 Bit       Adders := 1     
-	   5 Input     37 Bit       Adders := 7     
-	   2 Input     37 Bit       Adders := 1     
-	   2 Input     23 Bit       Adders := 2     
-+---XORs : 
-	   2 Input      1 Bit         XORs := 1     
-+---Registers : 
-	               37 Bit    Registers := 22    
-	                2 Bit    Registers := 8     
-	                1 Bit    Registers := 8     
-+---Muxes : 
-	   2 Input     37 Bit        Muxes := 32    
-	   2 Input     23 Bit        Muxes := 2     
-Module sorter2 
-Detailed RTL Component Info : 
-+---Registers : 
-	               31 Bit    Registers := 5     
-	                1 Bit    Registers := 5     
-+---Muxes : 
-	   3 Input     31 Bit        Muxes := 4     
-	   2 Input     31 Bit        Muxes := 4     
-	   3 Input      1 Bit        Muxes := 3     
-Module CORDIC__1 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 10    
-	   2 Input     20 Bit       Adders := 3     
-	   3 Input     20 Bit       Adders := 20    
-	   3 Input     16 Bit       Adders := 2     
-+---Registers : 
-	               32 Bit    Registers := 11    
-	               20 Bit    Registers := 22    
-	               16 Bit    Registers := 2     
-	                4 Bit    Registers := 12    
-+---Muxes : 
-	   3 Input     32 Bit        Muxes := 1     
-	   2 Input     31 Bit        Muxes := 1     
-	   2 Input     30 Bit        Muxes := 1     
-	   2 Input     29 Bit        Muxes := 1     
-	   2 Input     28 Bit        Muxes := 1     
-	   2 Input     27 Bit        Muxes := 1     
-	   2 Input     26 Bit        Muxes := 1     
-	   2 Input     25 Bit        Muxes := 1     
-	   2 Input     24 Bit        Muxes := 1     
-	   2 Input     23 Bit        Muxes := 1     
-	   2 Input     22 Bit        Muxes := 1     
-	   3 Input     20 Bit        Muxes := 2     
-	   2 Input     20 Bit        Muxes := 20    
-	   2 Input     16 Bit        Muxes := 2     
-Module CORDIC__2 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 10    
-	   2 Input     20 Bit       Adders := 3     
-	   3 Input     20 Bit       Adders := 20    
-	   3 Input     16 Bit       Adders := 2     
-+---Registers : 
-	               32 Bit    Registers := 11    
-	               20 Bit    Registers := 22    
-	               16 Bit    Registers := 2     
-	                4 Bit    Registers := 12    
-+---Muxes : 
-	   3 Input     32 Bit        Muxes := 1     
-	   2 Input     31 Bit        Muxes := 1     
-	   2 Input     30 Bit        Muxes := 1     
-	   2 Input     29 Bit        Muxes := 1     
-	   2 Input     28 Bit        Muxes := 1     
-	   2 Input     27 Bit        Muxes := 1     
-	   2 Input     26 Bit        Muxes := 1     
-	   2 Input     25 Bit        Muxes := 1     
-	   2 Input     24 Bit        Muxes := 1     
-	   2 Input     23 Bit        Muxes := 1     
-	   2 Input     22 Bit        Muxes := 1     
-	   3 Input     20 Bit        Muxes := 2     
-	   2 Input     20 Bit        Muxes := 20    
-	   2 Input     16 Bit        Muxes := 2     
-Module CORDIC__3 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 10    
-	   2 Input     20 Bit       Adders := 3     
-	   3 Input     20 Bit       Adders := 20    
-	   3 Input     16 Bit       Adders := 2     
-+---Registers : 
-	               32 Bit    Registers := 11    
-	               20 Bit    Registers := 22    
-	               16 Bit    Registers := 2     
-	                4 Bit    Registers := 12    
-+---Muxes : 
-	   3 Input     32 Bit        Muxes := 1     
-	   2 Input     31 Bit        Muxes := 1     
-	   2 Input     30 Bit        Muxes := 1     
-	   2 Input     29 Bit        Muxes := 1     
-	   2 Input     28 Bit        Muxes := 1     
-	   2 Input     27 Bit        Muxes := 1     
-	   2 Input     26 Bit        Muxes := 1     
-	   2 Input     25 Bit        Muxes := 1     
-	   2 Input     24 Bit        Muxes := 1     
-	   2 Input     23 Bit        Muxes := 1     
-	   2 Input     22 Bit        Muxes := 1     
-	   3 Input     20 Bit        Muxes := 2     
-	   2 Input     20 Bit        Muxes := 20    
-	   2 Input     16 Bit        Muxes := 2     
 Module CORDIC 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -923,6 +786,58 @@ Detailed RTL Component Info :
 	   3 Input     20 Bit        Muxes := 2     
 	   2 Input     20 Bit        Muxes := 20    
 	   2 Input     16 Bit        Muxes := 2     
+Module CORDIC_VECT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 3     
+	   3 Input     32 Bit       Adders := 41    
+	   3 Input     28 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 43    
+	               28 Bit    Registers := 2     
+	                1 Bit    Registers := 46    
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 41    
+	   2 Input     28 Bit        Muxes := 2     
+Module sorter2 
+Detailed RTL Component Info : 
++---Registers : 
+	               31 Bit    Registers := 5     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   3 Input     31 Bit        Muxes := 4     
+	   2 Input     31 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 3     
+Module CORDIC_LIN_VECT 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     37 Bit       Adders := 31    
+	   4 Input     37 Bit       Adders := 1     
+	   5 Input     37 Bit       Adders := 7     
+	   2 Input     37 Bit       Adders := 1     
+	   2 Input     23 Bit       Adders := 2     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               37 Bit    Registers := 22    
+	                2 Bit    Registers := 8     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input     37 Bit        Muxes := 32    
+	   2 Input     23 Bit        Muxes := 2     
+Module sorter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     24 Bit       Adders := 1     
+	   2 Input     11 Bit       Adders := 4     
++---Registers : 
+	               23 Bit    Registers := 8     
+	               11 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     23 Bit        Muxes := 5     
+	   2 Input     23 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 1     
 Module Acquire 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -930,7 +845,7 @@ Detailed RTL Component Info :
 	   3 Input     24 Bit       Adders := 1     
 	   9 Input     23 Bit       Adders := 500   
 	   5 Input     23 Bit       Adders := 1     
-	   2 Input     15 Bit       Adders := 4     
+	   2 Input     15 Bit       Adders := 3     
 	   2 Input     11 Bit       Adders := 2     
 	   2 Input      9 Bit       Adders := 4     
 	   2 Input      8 Bit       Adders := 1     
@@ -938,8 +853,8 @@ Detailed RTL Component Info :
 	   2 Input      5 Bit       Adders := 1     
 	   3 Input      3 Bit       Adders := 250   
 	   2 Input      3 Bit       Adders := 1     
-	   3 Input      2 Bit       Adders := 250   
 	   2 Input      2 Bit       Adders := 250   
+	   3 Input      2 Bit       Adders := 250   
 +---XORs : 
 	   3 Input      1 Bit         XORs := 1000  
 	   2 Input      1 Bit         XORs := 1000  
@@ -947,7 +862,6 @@ Detailed RTL Component Info :
 +---Registers : 
 	               32 Bit    Registers := 264   
 	               23 Bit    Registers := 1002  
-	               15 Bit    Registers := 1     
 	               11 Bit    Registers := 7     
 	               10 Bit    Registers := 1000  
 	                9 Bit    Registers := 504   
@@ -965,14 +879,14 @@ Detailed RTL Component Info :
 	   2 Input     23 Bit        Muxes := 3003  
 	   3 Input     13 Bit        Muxes := 1     
 	   2 Input     11 Bit        Muxes := 4     
-	   3 Input     11 Bit        Muxes := 1     
 	   5 Input     11 Bit        Muxes := 1     
+	   3 Input     11 Bit        Muxes := 1     
 	   2 Input     10 Bit        Muxes := 1000  
 	   8 Input     10 Bit        Muxes := 250   
 	   2 Input      9 Bit        Muxes := 3     
 	   5 Input      5 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1264  
 	   4 Input      1 Bit        Muxes := 250   
+	   2 Input      1 Bit        Muxes := 1264  
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -980,71 +894,69 @@ Finished RTL Hierarchical Component Statistics
 Start Part Resource Summary
 ---------------------------------------------------------------------------------
 Part Resources:
-DSPs: 768 (col length:192)
-BRAMs: 3456 (col length: RAMB18 192 RAMB36 96)
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:03:57 ; elapsed = 00:05:08 . Memory (MB): peak = 2477.074 ; gain = 1590.215 ; free physical = 140 ; free virtual = 5584
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:04:07 ; elapsed = 00:04:23 . Memory (MB): peak = 2269.383 ; gain = 1382.523 ; free physical = 283 ; free virtual = 9969
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:04:24 ; elapsed = 00:05:49 . Memory (MB): peak = 2477.082 ; gain = 1590.223 ; free physical = 149 ; free virtual = 5517
+Finished Cross Boundary Optimization : Time (s): cpu = 00:04:27 ; elapsed = 00:04:38 . Memory (MB): peak = 2269.391 ; gain = 1382.531 ; free physical = 267 ; free virtual = 9834
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:04:24 ; elapsed = 00:05:49 . Memory (MB): peak = 2477.082 ; gain = 1590.223 ; free physical = 149 ; free virtual = 5517
+Finished Parallel Reinference  : Time (s): cpu = 00:04:27 ; elapsed = 00:04:38 . Memory (MB): peak = 2269.391 ; gain = 1382.531 ; free physical = 267 ; free virtual = 9834
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
 |      |RTL Partition      |Replication |Instances |
 +------+-------------------+------------+----------+
-|1     |Acquire__GB0       |           1|     24276|
-|2     |Acquire__GB1       |           1|     15540|
-|3     |Acquire__GB2       |           1|     11060|
-|4     |Acquire__GB3       |           1|     14041|
-|5     |Acquire__GB4       |           1|     24332|
-|6     |Acquire__GB5       |           1|     14242|
-|7     |Acquire__GB6       |           1|     17930|
-|8     |Acquire__GB7       |           1|     14985|
-|9     |Acquire__GB8       |           1|      9181|
-|10    |Acquire__GB9       |           1|     21300|
-|11    |Acquire__GB10      |           1|     17679|
-|12    |Acquire__GB11      |           1|      7751|
-|13    |Acquire__GB12      |           1|     11738|
-|14    |Acquire__GB13      |           1|      8062|
-|15    |Acquire__GB14      |           1|     18598|
-|16    |Acquire__GB15      |           1|     41146|
-|17    |Acquire__GB16      |           1|      7562|
-|18    |Acquire__GB17      |           1|      9768|
-|19    |Acquire__GB18      |           1|      8370|
-|20    |Acquire__GB19      |           1|      5968|
-|21    |Acquire__GB20      |           1|     19897|
-|22    |Acquire__GB21      |           1|      5782|
-|23    |Acquire__GB22      |           1|     22858|
-|24    |Acquire__GB23      |           1|     14099|
-|25    |Acquire__GB24      |           1|     22844|
-|26    |Acquire__GB25      |           1|     17407|
-|27    |Acquire__GB26      |           1|     20699|
-|28    |Acquire__GB27      |           1|      8954|
-|29    |Acquire__GB28      |           1|     14472|
-|30    |Acquire__GB29      |           1|     14424|
-|31    |Acquire__GB30      |           1|     25046|
-|32    |Acquire__GB31      |           1|     24091|
-|33    |Acquire__GB32      |           1|      9129|
-|34    |Acquire__GB33      |           1|     23617|
-|35    |Acquire__GB34      |           1|     24443|
-|36    |Acquire__GB35      |           1|     20604|
-|37    |Acquire__GB36      |           1|     11292|
-|38    |Acquire__GB37      |           1|     23606|
-|39    |Acquire__GB38      |           1|      6512|
-|40    |Acquire__GB39      |           1|      8140|
-|41    |Acquire__GB40      |           1|     10582|
-|42    |Acquire__GB41      |           1|     13024|
-|43    |Acquire__GB42      |           1|     16280|
-|44    |Acquire__GB43      |           1|     20350|
-|45    |Acquire__GB44      |           1|     21978|
-|46    |Acquire__GB45      |           1|     12750|
-|47    |Top_Acq_Track__GC0 |           1|       121|
+|1     |CORDIC             |           4|      5062|
+|2     |Acquire__GCB0      |           1|     15162|
+|3     |Acquire__GCB1      |           1|     13875|
+|4     |Acquire__GCB2      |           1|      8917|
+|5     |Acquire__GCB3      |           1|     11106|
+|6     |Acquire__GCB4      |           1|     24707|
+|7     |Acquire__GCB5      |           1|      5550|
+|8     |Acquire__GCB6      |           1|     13605|
+|9     |Acquire__GCB7      |           1|     13316|
+|10    |Acquire__GCB8      |           1|      7760|
+|11    |Acquire__GCB9      |           1|      9954|
+|12    |Acquire__GCB10     |           1|     30791|
+|13    |Acquire__GCB11     |           1|     20242|
+|14    |Acquire__GCB12     |           1|     13354|
+|15    |Acquire__GCB13     |           1|     25630|
+|16    |Acquire__GCB14     |           1|     13824|
+|17    |Acquire__GCB15     |           1|     13876|
+|18    |Acquire__GCB16     |           1|     12986|
+|19    |Acquire__GCB17     |           1|     27490|
+|20    |Acquire__GCB18     |           1|     14488|
+|21    |Acquire__GCB19     |           1|     13925|
+|22    |Acquire__GCB20     |           1|     33210|
+|23    |Acquire__GCB21     |           1|     15725|
+|24    |Acquire__GCB22     |           1|     45232|
+|25    |Acquire__GCB23     |           1|     14314|
+|26    |Acquire__GCB24     |           1|     20350|
+|27    |Acquire__GCB25     |           1|      6772|
+|28    |Acquire__GCB26     |           1|     23079|
+|29    |Acquire__GCB27     |           1|     15262|
+|30    |Acquire__GCB28     |           1|     15057|
+|31    |Acquire__GCB29     |           1|     14653|
+|32    |Acquire__GCB30     |           1|     22380|
+|33    |Acquire__GCB31     |           1|     21978|
+|34    |Acquire__GCB32     |           1|     22933|
+|35    |Acquire__GCB33     |           1|     18731|
+|36    |Acquire__GCB34     |           1|      6739|
+|37    |Acquire__GCB35     |           1|     19540|
+|38    |Acquire__GCB36     |           1|      5716|
+|39    |Acquire__GCB37     |           1|     30272|
+|40    |Acquire__GCB38     |           1|     11443|
+|41    |Acquire__GCB39     |           1|     21196|
+|42    |Acquire__GCB40     |           1|      5698|
+|43    |Acquire__GCB41     |           1|      6736|
+|44    |Acquire__GCB42     |           1|      8954|
+|45    |Top_Acq_Track__GC0 |           1|       122|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -1565,30 +1477,153 @@ Finished ROM, RAM, DSP and Shift Register Reporting
 ---------------------------------------------------------------------------------
 Start Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/x_reg[0][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/y_reg[0][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/y_reg[0][1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/x_reg[0][1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/y_reg[0][2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/x_reg[0][2] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/y_reg[0][3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/x_reg[0][3] )
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/y_reg[0][28]' (FD) to 'Acq_MOD/i_18/ABS/y_reg[0][29]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/x_reg[0][28]' (FD) to 'Acq_MOD/i_18/ABS/x_reg[0][29]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/y_reg[0][29]' (FD) to 'Acq_MOD/i_18/ABS/y_reg[0][30]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/x_reg[0][29]' (FD) to 'Acq_MOD/i_18/ABS/x_reg[0][30]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/y_reg[0][30]' (FD) to 'Acq_MOD/i_18/ABS/y_reg[0][31]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/x_reg[0][30]' (FD) to 'Acq_MOD/i_18/ABS/x_reg[0][31]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][1]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][2]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][1]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][2]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][2]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][3]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][2]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/x_reg[0][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/y_reg[0][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/xyz[0].y_reg[1][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_18/\ABS/xyz[0].x_reg[1][0] )
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][3]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].y_reg[1][4]'
-INFO: [Synth 8-3886] merging instance 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][3]' (FD) to 'Acq_MOD/i_18/ABS/xyz[0].x_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][0]' (FD) to 'CORDIC:/y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][0]' (FD) to 'CORDIC:/y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][1]' (FD) to 'CORDIC:/y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][1]' (FD) to 'CORDIC:/y_reg[0][2]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][2]' (FD) to 'CORDIC:/y_reg[0][2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CORDIC:/\y_reg[0][2] )
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][16]' (FD) to 'CORDIC:/x_reg[0][17]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][16]' (FD) to 'CORDIC:/y_reg[0][17]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][17]' (FD) to 'CORDIC:/x_reg[0][18]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][17]' (FD) to 'CORDIC:/y_reg[0][18]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][18]' (FD) to 'CORDIC:/x_reg[0][19]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][18]' (FD) to 'CORDIC:/y_reg[0][19]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/xyz[0].y_reg[1][1]' (FD) to 'CORDIC:/xyz[0].y_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/xyz[0].x_reg[1][1]' (FD) to 'CORDIC:/xyz[0].x_reg[1][2]'
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][18]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][17]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][16]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][18]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][17]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][16]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].x_reg[1][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].y_reg[1][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][30]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][29]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][28]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][27]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][26]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][25]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][24]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][23]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][22]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][21]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][20]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][19]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][18]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][17]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][16]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][15]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][14]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][13]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][12]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][11]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][10]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][9]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][8]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][7]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][6]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][5]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][4]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][3]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[9].z_reg[10][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].x_reg[11][3]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].x_reg[11][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].x_reg[11][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].x_reg[11][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].y_reg[11][3]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].y_reg[11][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].y_reg[11][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[10].y_reg[11][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][1]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][2]) is unused and will be removed from module CORDIC.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_41/i_39/\angle_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (Acq_MOD/i_41/\phase_reg[0][0] )
+INFO: [Synth 8-3886] merging instance 'CORDIC:/x_reg[0][3]' (FD) to 'CORDIC:/xyz[0].x_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/y_reg[0][3]' (FD) to 'CORDIC:/xyz[0].x_reg[1][0]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/xyz[0].y_reg[1][0]' (FD) to 'CORDIC:/xyz[0].x_reg[1][0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (CORDIC:/\xyz[0].x_reg[1][0] )
+INFO: [Synth 8-3886] merging instance 'CORDIC:/xyz[0].y_reg[1][2]' (FD) to 'CORDIC:/xyz[0].y_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'CORDIC:/xyz[0].x_reg[1][2]' (FD) to 'CORDIC:/xyz[0].x_reg[1][3]'
+WARNING: [Synth 8-3332] Sequential element (xyz[0].x_reg[1][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].y_reg[1][2]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].x_reg[1][0]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][3]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][3]) is unused and will be removed from module CORDIC.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].y_reg[1][0]) is unused and will be removed from module CORDIC.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\x_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\y_reg[0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\y_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\x_reg[0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\y_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\x_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\y_reg[0][3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\x_reg[0][3] )
+INFO: [Synth 8-3886] merging instance 'ABS/y_reg[0][28]' (FD) to 'ABS/y_reg[0][29]'
+INFO: [Synth 8-3886] merging instance 'ABS/x_reg[0][28]' (FD) to 'ABS/x_reg[0][29]'
+INFO: [Synth 8-3886] merging instance 'ABS/y_reg[0][29]' (FD) to 'ABS/y_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'ABS/x_reg[0][29]' (FD) to 'ABS/x_reg[0][30]'
+INFO: [Synth 8-3886] merging instance 'ABS/y_reg[0][30]' (FD) to 'ABS/y_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'ABS/x_reg[0][30]' (FD) to 'ABS/x_reg[0][31]'
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].y_reg[1][1]' (FD) to 'ABS/xyz[0].y_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].x_reg[1][1]' (FD) to 'ABS/xyz[0].x_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].y_reg[1][2]' (FD) to 'ABS/xyz[0].y_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].x_reg[1][2]' (FD) to 'ABS/xyz[0].x_reg[1][3]'
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][30]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][29]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][28]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][3]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][2]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][1]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (y_reg[0][0]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][30]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][29]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][28]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][3]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][2]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][1]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (x_reg[0][0]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].y_reg[1][2]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].y_reg[1][1]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].x_reg[1][2]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[0].x_reg[1][1]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][20]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][19]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][18]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][17]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][16]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][15]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][14]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][13]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][12]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][11]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][10]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][9]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][8]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][7]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][6]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][5]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][4]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][3]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][2]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][1]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[20].y_reg[21][0]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[21].x_reg[22][4]) is unused and will be removed from module CORDIC_VECT.
+WARNING: [Synth 8-3332] Sequential element (xyz[21].x_reg[22][3]) is unused and will be removed from module CORDIC_VECT.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\x_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\y_reg[0][4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\xyz[0].y_reg[1][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (ABS/\xyz[0].x_reg[1][0] )
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].y_reg[1][3]' (FD) to 'ABS/xyz[0].y_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'ABS/xyz[0].x_reg[1][3]' (FD) to 'ABS/xyz[0].x_reg[1][4]'
 INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][22]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
 INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][21]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
 INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[3].addr_reg[3][20]' (FDRE) to 'MAX/Top_regs[3].addr_reg[3][11]'
@@ -1613,65 +1648,6 @@ INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][19]' (FDRE) t
 INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][20]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][21]'
 INFO: [Synth 8-3886] merging instance 'MAX/Top_regs[1].addr_reg[1][21]' (FDRE) to 'MAX/Top_regs[1].addr_reg[1][22]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (MAX/\Top_regs[1].addr_reg[1][22] )
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][22]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][21]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][20]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][19]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][18]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][17]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][16]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][15]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][14]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][13]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][12]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][11]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][10]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][9]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][8]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][7]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][6]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][5]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][4]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][3]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][2]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][1]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (top_reg[4][0]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][22]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][21]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][20]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][19]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][18]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][17]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][16]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][15]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][14]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][13]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][12]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[3].addr_reg[3][11]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][22]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][21]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][20]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][19]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][18]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][17]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][16]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][15]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][14]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][13]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][12]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[2].addr_reg[2][11]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][22]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][21]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][20]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][19]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][18]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][17]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][16]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][15]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][14]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][13]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][12]) is unused and will be removed from module sorter.
-WARNING: [Synth 8-3332] Sequential element (Top_regs[1].addr_reg[1][11]) is unused and will be removed from module sorter.
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][27]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].z_reg[1][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
@@ -1722,26 +1698,8 @@ INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][5]' (FD) to 'DIV/S
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][9]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][6]' (FD) to 'DIV/STAGES[0].y_reg[1][7]'
 INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][10]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][7]' (FD) to 'DIV/STAGES[0].y_reg[1][8]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][11]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].y_reg[1][8]' (FD) to 'DIV/STAGES[0].y_reg[1][9]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[0].x_reg[1][12]' (FDR) to 'DIV/STAGES[0].x_reg[1][36]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].x_reg[1][36] )
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][0]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][2]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][3]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][4]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][5]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][6]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].x_reg[2][7]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][1]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][2]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][3]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][4]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
-INFO: [Synth 8-3886] merging instance 'DIV/STAGES[1].z_reg[2][5]' (FD) to 'DIV/STAGES[0].z_reg[1][31]'
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].x_reg[1][36] )
 INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[2].z_reg[3][24] )
@@ -1756,123 +1714,67 @@ INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAG
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[0].z_reg[1][31] )
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[7].z_reg[8][4] )
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][30]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][29]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][28]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][27]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][26]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][25]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][24]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][23]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][22]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][21]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][20]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][19]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][18]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][17]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][16]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][15]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][14]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][13]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][12]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][11]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][10]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][9]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][8]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][7]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][6]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][5]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][4]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][3]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][2]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][1]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].z_reg[1][0]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][8]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][7]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][6]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][5]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][4]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][3]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][2]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].y_reg[1][1]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].x_reg[1][36]) is unused and will be removed from module CORDIC_LIN_VECT.
-WARNING: [Synth 8-3332] Sequential element (STAGES[0].x_reg[1][12]) is unused and will be removed from module CORDIC_LIN_VECT.
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[1].z_reg[2][27] )
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (DIV/\STAGES[1].z_reg[2][28] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[1].y_reg[2][0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (DIV/\STAGES[2].y_reg[3][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_7/\read_pointer_reg[0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (temp_reg)
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[2].ROTOR /\y_reg[0][3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[4].ROTOR /\y_reg[0][3] )
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[2].ROTOR /\xyz[0].x_reg[1][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[4].ROTOR /\xyz[0].x_reg[1][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_38/\angle_reg[0][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (read_pointer0_inferred/\read_pointer_reg[0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\phase_reg[0][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[3].ROTOR /\y_reg[0][3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[1].ROTOR /\y_reg[0][3] )
-INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[3].ROTOR /\xyz[0].x_reg[1][0] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\CORDIC_ROTOR[1].ROTOR /\xyz[0].x_reg[1][0] )
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:06:00 ; elapsed = 00:12:04 . Memory (MB): peak = 3127.156 ; gain = 2240.297 ; free physical = 119 ; free virtual = 3561
+Finished Area Optimization : Time (s): cpu = 00:06:48 ; elapsed = 00:08:16 . Memory (MB): peak = 2956.465 ; gain = 2069.605 ; free physical = 158 ; free virtual = 7991
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:06:00 ; elapsed = 00:12:04 . Memory (MB): peak = 3127.156 ; gain = 2240.297 ; free physical = 119 ; free virtual = 3560
+Finished Parallel Area Optimization  : Time (s): cpu = 00:06:48 ; elapsed = 00:08:16 . Memory (MB): peak = 2956.465 ; gain = 2069.605 ; free physical = 158 ; free virtual = 7991
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
 |      |RTL Partition      |Replication |Instances |
 +------+-------------------+------------+----------+
-|1     |Acquire__GB0       |           1|     13322|
-|2     |Acquire__GB1       |           1|      8570|
-|3     |Acquire__GB2       |           1|      6082|
-|4     |Acquire__GB3       |           1|      7850|
-|5     |Acquire__GB4       |           1|     13378|
-|6     |Acquire__GB5       |           1|      7835|
-|7     |Acquire__GB6       |           1|      9906|
-|8     |Acquire__GB7       |           1|      8264|
-|9     |Acquire__GB8       |           1|      5160|
-|10    |Acquire__GB9       |           1|     19118|
-|11    |Acquire__GB10      |           1|      9713|
-|12    |Acquire__GB11      |           1|      4267|
-|13    |Acquire__GB12      |           1|      6436|
-|14    |Acquire__GB13      |           1|      4578|
-|15    |Acquire__GB14      |           1|     18597|
-|16    |Acquire__GB15      |           1|     22770|
-|17    |Acquire__GB16      |           1|      3198|
-|18    |Acquire__GB17      |           1|      3788|
-|19    |Acquire__GB18      |           1|      4691|
-|20    |Acquire__GB19      |           1|      5364|
-|21    |Acquire__GB20      |           1|     12516|
-|22    |Acquire__GB21      |           1|      3294|
-|23    |Acquire__GB22      |           1|     11942|
-|24    |Acquire__GB23      |           1|      8897|
-|25    |Acquire__GB24      |           1|     12877|
-|26    |Acquire__GB25      |           1|      7895|
-|27    |Acquire__GB26      |           1|     18561|
-|28    |Acquire__GB27      |           1|      3473|
-|29    |Acquire__GB28      |           1|      8000|
-|30    |Acquire__GB29      |           1|      7952|
-|31    |Acquire__GB30      |           1|     16212|
-|32    |Acquire__GB31      |           1|      9603|
-|33    |Acquire__GB32      |           1|      5313|
-|34    |Acquire__GB33      |           1|     12818|
-|35    |Acquire__GB34      |           1|      9496|
-|36    |Acquire__GB35      |           1|     12313|
-|37    |Acquire__GB36      |           1|      7034|
-|38    |Acquire__GB37      |           1|      9151|
-|39    |Acquire__GB38      |           1|      2526|
-|40    |Acquire__GB39      |           1|      3159|
-|41    |Acquire__GB40      |           1|      4104|
-|42    |Acquire__GB41      |           1|      5055|
-|43    |Acquire__GB42      |           1|      6316|
-|44    |Acquire__GB43      |           1|      7895|
-|45    |Acquire__GB44      |           1|      8526|
-|46    |Acquire__GB45      |           1|      6997|
-|47    |Top_Acq_Track__GC0 |           1|       121|
+|1     |CORDIC             |           4|      3099|
+|2     |Acquire__GCB0      |           1|      8900|
+|3     |Acquire__GCB1      |           1|      7952|
+|4     |Acquire__GCB2      |           1|      5127|
+|5     |Acquire__GCB3      |           1|      6368|
+|6     |Acquire__GCB4      |           1|     16771|
+|7     |Acquire__GCB5      |           1|      3182|
+|8     |Acquire__GCB6      |           1|      7951|
+|9     |Acquire__GCB7      |           1|      7630|
+|10    |Acquire__GCB8      |           1|      5168|
+|11    |Acquire__GCB9      |           1|      5690|
+|12    |Acquire__GCB10     |           1|     22077|
+|13    |Acquire__GCB11     |           1|     11712|
+|14    |Acquire__GCB12     |           1|      7783|
+|15    |Acquire__GCB13     |           1|     22125|
+|16    |Acquire__GCB14     |           1|      8138|
+|17    |Acquire__GCB15     |           1|      7953|
+|18    |Acquire__GCB16     |           1|      6551|
+|19    |Acquire__GCB17     |           1|     24546|
+|20    |Acquire__GCB18     |           1|      8511|
+|21    |Acquire__GCB19     |           1|      8002|
+|22    |Acquire__GCB20     |           1|     16528|
+|23    |Acquire__GCB21     |           1|      9559|
+|24    |Acquire__GCB22     |           1|     24803|
+|25    |Acquire__GCB23     |           1|      6347|
+|26    |Acquire__GCB24     |           1|      8297|
+|27    |Acquire__GCB25     |           1|      3040|
+|28    |Acquire__GCB26     |           1|     11488|
+|29    |Acquire__GCB27     |           1|      9159|
+|30    |Acquire__GCB28     |           1|      8660|
+|31    |Acquire__GCB29     |           1|      5977|
+|32    |Acquire__GCB30     |           1|     20162|
+|33    |Acquire__GCB31     |           1|      8962|
+|34    |Acquire__GCB32     |           1|     10476|
+|35    |Acquire__GCB33     |           1|      8006|
+|36    |Acquire__GCB34     |           1|      3897|
+|37    |Acquire__GCB35     |           1|     11405|
+|38    |Acquire__GCB36     |           1|      2291|
+|39    |Acquire__GCB37     |           1|     15488|
+|40    |Acquire__GCB38     |           1|      6895|
+|41    |Acquire__GCB39     |           1|      8659|
+|42    |Acquire__GCB40     |           1|      2324|
+|43    |Acquire__GCB41     |           1|      2821|
+|44    |Acquire__GCB42     |           1|      3651|
+|45    |Top_Acq_Track__GC0 |           1|       122|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
@@ -1880,67 +1782,457 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'CLOCK_NETWORK/clk_out1' to pin 'CLOCK_NETWORK/bbstub_clk_out1/O'
 INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:16 ; elapsed = 00:15:01 . Memory (MB): peak = 3472.055 ; gain = 2585.195 ; free physical = 126 ; free virtual = 3158
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:01 ; elapsed = 00:08:32 . Memory (MB): peak = 3077.754 ; gain = 2190.895 ; free physical = 143 ; free virtual = 7867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
 +------+-------------------+------------+----------+
 |      |RTL Partition      |Replication |Instances |
 +------+-------------------+------------+----------+
-|1     |Acquire__GB0       |           1|     13322|
-|2     |Acquire__GB1       |           1|      8570|
-|3     |Acquire__GB2       |           1|      6082|
-|4     |Acquire__GB3       |           1|      7850|
-|5     |Acquire__GB4       |           1|     13378|
-|6     |Acquire__GB5       |           1|      7835|
-|7     |Acquire__GB6       |           1|      9906|
-|8     |Acquire__GB7       |           1|      8264|
-|9     |Acquire__GB8       |           1|      5160|
-|10    |Acquire__GB9       |           1|     19118|
-|11    |Acquire__GB10      |           1|      9713|
-|12    |Acquire__GB11      |           1|      4267|
-|13    |Acquire__GB12      |           1|      6436|
-|14    |Acquire__GB13      |           1|      4578|
-|15    |Acquire__GB14      |           1|     18597|
-|16    |Acquire__GB15      |           1|     22770|
-|17    |Acquire__GB16      |           1|      3198|
-|18    |Acquire__GB17      |           1|      3788|
-|19    |Acquire__GB18      |           1|      4691|
-|20    |Acquire__GB19      |           1|      5364|
-|21    |Acquire__GB20      |           1|     12516|
-|22    |Acquire__GB21      |           1|      3294|
-|23    |Acquire__GB22      |           1|     11942|
-|24    |Acquire__GB23      |           1|      8897|
-|25    |Acquire__GB24      |           1|     12877|
-|26    |Acquire__GB25      |           1|      7895|
-|27    |Acquire__GB26      |           1|     18561|
-|28    |Acquire__GB27      |           1|      3473|
-|29    |Acquire__GB28      |           1|      8000|
-|30    |Acquire__GB29      |           1|      7952|
-|31    |Acquire__GB30      |           1|     16212|
-|32    |Acquire__GB31      |           1|      9603|
-|33    |Acquire__GB32      |           1|      5313|
-|34    |Acquire__GB33      |           1|     12818|
-|35    |Acquire__GB34      |           1|      9496|
-|36    |Acquire__GB35      |           1|     12313|
-|37    |Acquire__GB36      |           1|      7034|
-|38    |Acquire__GB37      |           1|      9151|
-|39    |Acquire__GB38      |           1|      2526|
-|40    |Acquire__GB39      |           1|      3159|
-|41    |Acquire__GB40      |           1|      4104|
-|42    |Acquire__GB41      |           1|      5055|
-|43    |Acquire__GB42      |           1|      6316|
-|44    |Acquire__GB43      |           1|      7895|
-|45    |Acquire__GB44      |           1|      8526|
-|46    |Acquire__GB45      |           1|      6997|
-|47    |Top_Acq_Track__GC0 |           1|       121|
+|1     |CORDIC             |           4|      3099|
+|2     |Acquire__GCB0      |           1|      8900|
+|3     |Acquire__GCB1      |           1|      7952|
+|4     |Acquire__GCB2      |           1|      5127|
+|5     |Acquire__GCB3      |           1|      6368|
+|6     |Acquire__GCB4      |           1|     16771|
+|7     |Acquire__GCB5      |           1|      3182|
+|8     |Acquire__GCB6      |           1|      7951|
+|9     |Acquire__GCB7      |           1|      7630|
+|10    |Acquire__GCB8      |           1|      5168|
+|11    |Acquire__GCB9      |           1|      5690|
+|12    |Acquire__GCB10     |           1|     22077|
+|13    |Acquire__GCB11     |           1|     11712|
+|14    |Acquire__GCB12     |           1|      7783|
+|15    |Acquire__GCB13     |           1|     22125|
+|16    |Acquire__GCB14     |           1|      8138|
+|17    |Acquire__GCB15     |           1|      7953|
+|18    |Acquire__GCB16     |           1|      6551|
+|19    |Acquire__GCB17     |           1|     24546|
+|20    |Acquire__GCB18     |           1|      8511|
+|21    |Acquire__GCB19     |           1|      8002|
+|22    |Acquire__GCB20     |           1|     16528|
+|23    |Acquire__GCB21     |           1|      9559|
+|24    |Acquire__GCB22     |           1|     24803|
+|25    |Acquire__GCB23     |           1|      6347|
+|26    |Acquire__GCB24     |           1|      8297|
+|27    |Acquire__GCB25     |           1|      3040|
+|28    |Acquire__GCB26     |           1|     11488|
+|29    |Acquire__GCB27     |           1|      9159|
+|30    |Acquire__GCB28     |           1|      8660|
+|31    |Acquire__GCB29     |           1|      5977|
+|32    |Acquire__GCB30     |           1|     20162|
+|33    |Acquire__GCB31     |           1|      8962|
+|34    |Acquire__GCB32     |           1|     10476|
+|35    |Acquire__GCB33     |           1|      8006|
+|36    |Acquire__GCB34     |           1|      3897|
+|37    |Acquire__GCB35     |           1|     11405|
+|38    |Acquire__GCB36     |           1|      2291|
+|39    |Acquire__GCB37     |           1|     15488|
+|40    |Acquire__GCB38     |           1|      6895|
+|41    |Acquire__GCB39     |           1|      8659|
+|42    |Acquire__GCB40     |           1|      2324|
+|43    |Acquire__GCB41     |           1|      2821|
+|44    |Acquire__GCB42     |           1|      3651|
+|45    |Top_Acq_Track__GC0 |           1|       122|
 +------+-------------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-/opt/Vivado/2016.1/bin/loader: line 164:  8845 Terminated              "$RDI_PROG" "$@"
-/opt/Vivado/2016.1/bin/loader: line 164:  8846 Terminated              "$RDI_PROG" "$@"
-/opt/Vivado/2016.1/bin/loader: line 164:  8653 Terminated              "$RDI_PROG" "$@"
-/opt/Vivado/2016.1/bin/loader: line 164:  8850 Terminated              "$RDI_PROG" "$@"
-/opt/Vivado/2016.1/bin/loader: line 164:  8848 Terminated              "$RDI_PROG" "$@"
-Parent process (pid 8653) has died. This helper process will now exit
+INFO: [Synth 8-4480] The timing for the instance Adders[131].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[131].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[238].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[24].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[173].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[173].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[37].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[37].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[20].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[20].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[159].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[159].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[159].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[159].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[40].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[40].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[17].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[17].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[245].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[245].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[40].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[40].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[56].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[56].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[110].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[110].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[237].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[237].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[237].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[237].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[151].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[129].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[129].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[12].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[12].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[236].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[236].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[18].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[18].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[18].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[18].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[98].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[98].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[179].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[179].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[103].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[55].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[34].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[34].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[34].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[34].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[58].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[50].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[96].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[96].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[35].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[35].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[242].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[242].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[35].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[35].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[26].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[26].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[44].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[44].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[181].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[181].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[181].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[181].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[32].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[32].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[75].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[75].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[89].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[127].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[127].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[24].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[24].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[22].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[22].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[240].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[240].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[240].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[240].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[63].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[63].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[188].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[188].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[60].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[60].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[116].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[116].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[97].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[97].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[220].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[220].temp1_reg (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[72].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[72].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[161].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Synth 8-4480] The timing for the instance Adders[161].temp1_reg_rep (implemented as a block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+INFO: [Common 17-14] Message 'Synth 8-4480' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-4480' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-4480' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:09:24 ; elapsed = 00:12:06 . Memory (MB): peak = 3251.945 ; gain = 2365.086 ; free physical = 829 ; free virtual = 7950
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:09:24 ; elapsed = 00:12:06 . Memory (MB): peak = 3251.945 ; gain = 2365.086 ; free physical = 827 ; free virtual = 7949
+
+Report RTL Partitions: 
++------+---------------+------------+----------+
+|      |RTL Partition  |Replication |Instances |
++------+---------------+------------+----------+
+|1     |Acquire__GCB4  |           1|      6639|
+|2     |Acquire__GCB10 |           1|      8257|
+|3     |Acquire__GCB11 |           1|      6027|
+|4     |Acquire__GCB13 |           1|     14351|
+|5     |Acquire__GCB17 |           1|      6077|
+|6     |Acquire__GCB20 |           1|      7990|
+|7     |Acquire__GCB22 |           1|     10827|
+|8     |Acquire__GCB26 |           1|      6266|
+|9     |Acquire__GCB30 |           1|      4997|
+|10    |Acquire__GCB32 |           1|      8164|
+|11    |Acquire__GCB35 |           1|      7078|
+|12    |Acquire__GCB37 |           1|      7773|
++------+---------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:09:24 ; elapsed = 00:12:06 . Memory (MB): peak = 3251.945 ; gain = 2365.086 ; free physical = 828 ; free virtual = 7951
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-4442] BlackBox module CLOCK_NETWORK has unconnected pin reset
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I1  has unconnected pin dinb[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I2  has unconnected pin dinb[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_I3  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q1  has unconnected pin dinb[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[9]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[8]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[7]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[6]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[5]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[4]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[3]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[2]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[1]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dina[0]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dinb[11]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dinb[10]
+CRITICAL WARNING: [Synth 8-4442] BlackBox module \MEM/MEM_Q2  has unconnected pin dinb[9]
+INFO: [Common 17-14] Message 'Synth 8-4442' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:09:48 ; elapsed = 00:12:33 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 566 ; free virtual = 7734
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:09:51 ; elapsed = 00:12:37 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 590 ; free virtual = 7754
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:09:55 ; elapsed = 00:12:42 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 614 ; free virtual = 7786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:09:56 ; elapsed = 00:12:43 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 613 ; free virtual = 7786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:09:57 ; elapsed = 00:12:45 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 613 ; free virtual = 7791
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:09:58 ; elapsed = 00:12:46 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 613 ; free virtual = 7791
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                  | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|CORDIC      | xyz[10].strobe_reg[11][3] | 12     | 16    | NO           | NO                 | YES               | 16     | 0       | 
++------------+---------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |ila_2         |         1|
+|2     |ila_0         |         1|
+|3     |ila_3         |         1|
+|4     |ila_1         |         1|
+|5     |clk_wiz_0     |         1|
+|6     |blk_mem_I     |         2|
+|7     |blk_mem_I1    |         1|
+|8     |blk_mem_Q     |         2|
+|9     |blk_mem_Q1    |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+-------------+------+
+|      |Cell         |Count |
++------+-------------+------+
+|1     |blk_mem_I    |     1|
+|2     |blk_mem_I1   |     1|
+|3     |blk_mem_I__1 |     1|
+|4     |blk_mem_Q    |     1|
+|5     |blk_mem_Q1   |     1|
+|6     |blk_mem_Q__1 |     1|
+|7     |clk_wiz_0    |     1|
+|8     |ila_0        |     1|
+|9     |ila_1        |     1|
+|10    |ila_2        |     1|
+|11    |ila_3        |     1|
+|12    |CARRY4       | 21599|
+|13    |LUT1         | 25772|
+|14    |LUT2         | 18954|
+|15    |LUT3         | 41735|
+|16    |LUT4         | 27469|
+|17    |LUT5         | 10527|
+|18    |LUT6         | 28733|
+|19    |MUXF7        |  5279|
+|20    |MUXF8        |   748|
+|21    |RAMB18E1     |    23|
+|22    |RAMB18E1_1   |    19|
+|23    |RAMB18E1_2   |     1|
+|24    |RAMB18E1_3   |   111|
+|25    |RAMB18E1_4   |   107|
+|26    |SRL16E       |    19|
+|27    |SRLC32E      |     2|
+|28    |XORCY        |     1|
+|29    |FDRE         | 50768|
+|30    |FDSE         |  4178|
+|31    |IBUF         |     1|
+|32    |OBUF         |     1|
++------+-------------+------+
+
+Report Instance Areas: 
++------+----------------------------+----------------+-------+
+|      |Instance                    |Module          |Cells  |
++------+----------------------------+----------------+-------+
+|1     |top                         |                | 236169|
+|2     |  Acq_MOD                   |Acquire         | 236045|
+|3     |    \CORDIC_ROTOR[1].ROTOR  |CORDIC__1       |   1859|
+|4     |    \CORDIC_ROTOR[2].ROTOR  |CORDIC__2       |   1859|
+|5     |    \CORDIC_ROTOR[3].ROTOR  |CORDIC__3       |   1859|
+|6     |    \CORDIC_ROTOR[4].ROTOR  |CORDIC          |   1859|
+|7     |    pk_metric_sorter        |sorter2         |    402|
+|8     |    DIV                     |CORDIC_LIN_VECT |   2438|
+|9     |    ABS                     |CORDIC_VECT     |   8670|
+|10    |    MAX                     |sorter          |    516|
+|11    |  MEM                       |Memory_Module   |    120|
++------+----------------------------+----------------+-------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:09:58 ; elapsed = 00:12:46 . Memory (MB): peak = 3372.812 ; gain = 2485.953 ; free physical = 613 ; free virtual = 7791
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 121 critical warnings and 216 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:09:18 ; elapsed = 00:12:11 . Memory (MB): peak = 3376.727 ; gain = 1919.680 ; free physical = 608 ; free virtual = 7790
+Synthesis Optimization Complete : Time (s): cpu = 00:09:59 ; elapsed = 00:12:49 . Memory (MB): peak = 3376.727 ; gain = 2489.867 ; free physical = 600 ; free virtual = 7790
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21862 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'Top_Acq_Track' is not ideal for floorplanning, since the cellview 'Acquire' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+523 Infos, 319 Warnings, 102 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:11:14 ; elapsed = 00:14:18 . Memory (MB): peak = 3396.824 ; gain = 2429.457 ; free physical = 3816 ; free virtual = 11157
+write_checkpoint: Time (s): cpu = 00:00:42 ; elapsed = 00:00:36 . Memory (MB): peak = 3428.840 ; gain = 32.016 ; free physical = 3761 ; free virtual = 11137
+report_utilization: Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 3428.840 ; gain = 0.000 ; free physical = 3746 ; free virtual = 11134
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 17:35:08 2017...

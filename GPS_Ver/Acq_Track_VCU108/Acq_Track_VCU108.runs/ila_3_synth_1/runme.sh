@@ -7,20 +7,20 @@
 # 
 
 if [ -z "$PATH" ]; then
-  PATH=/Scratch/Softwares/Vivado/SDK/2016.1/bin:/Scratch/Softwares/Vivado/Vivado/2016.1/ids_lite/ISE/bin/lin64:/Scratch/Softwares/Vivado/Vivado/2016.1/bin
+  PATH=/opt/Xilinx/Vivado/2016.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2016.1/bin
 else
-  PATH=/Scratch/Softwares/Vivado/SDK/2016.1/bin:/Scratch/Softwares/Vivado/Vivado/2016.1/ids_lite/ISE/bin/lin64:/Scratch/Softwares/Vivado/Vivado/2016.1/bin:$PATH
+  PATH=/opt/Xilinx/Vivado/2016.1/ids_lite/ISE/bin/lin64:/opt/Xilinx/Vivado/2016.1/bin:$PATH
 fi
 export PATH
 
 if [ -z "$LD_LIBRARY_PATH" ]; then
-  LD_LIBRARY_PATH=/Scratch/Softwares/Vivado/Vivado/2016.1/ids_lite/ISE/lib/lin64
+  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2016.1/ids_lite/ISE/lib/lin64
 else
-  LD_LIBRARY_PATH=/Scratch/Softwares/Vivado/Vivado/2016.1/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
+  LD_LIBRARY_PATH=/opt/Xilinx/Vivado/2016.1/ids_lite/ISE/lib/lin64:$LD_LIBRARY_PATH
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_3_synth_1'
+HD_PWD='/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_3_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

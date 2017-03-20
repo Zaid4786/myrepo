@@ -4,7 +4,7 @@
 
 set_msg_config -id {HDL 9-1061} -limit 100000
 set_msg_config -id {HDL 9-1654} -limit 100000
-create_project -in_memory -part xcvu095-ffva2104-2-e
+create_project -in_memory -part xc7a200tfbg676-2
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -15,7 +15,7 @@ set_property parent.project_path /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part xilinx.com:vcu108:part0:1.1 [current_project]
+set_property board_part xilinx.com:ac701:part0:1.3 [current_project]
 read_ip -quiet /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.xci
 set_property is_locked true [get_files /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1.xci]
 
@@ -25,7 +25,7 @@ foreach dcp [get_files -quiet -all *.dcp] {
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 
-synth_design -top blk_mem_I1 -part xcvu095-ffva2104-2-e -mode out_of_context
+synth_design -top blk_mem_I1 -part xc7a200tfbg676-2 -mode out_of_context
 
 rename_ref -prefix_all blk_mem_I1_
 

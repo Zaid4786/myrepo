@@ -1,0 +1,370 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<style type="text/css">
+body {margin-top:6.35em; 
+      margin-left:6.35em; 
+      width:62.5em;
+      text-align:justify;
+      font-size:1em; 
+      font-family:"Arial", Serif;
+      color:#000000;}
+
+h1 {font-size:1.125em;
+    font-family:"Arial", Sans-serif;
+    color:#943634;}
+
+p {font-size:inherit;
+   width:62.5em;
+   font-family:inherit;
+   color:inherit;}
+
+ul {font-size:inherit;
+    width:62.5em;
+    font-family:inherit;
+    color:inherit;}
+
+li {width:46.15em;}
+
+.image {position: relative;
+        width: 100%;}
+
+table {border-collapse:collapse;
+       border-spacing:0;
+       caption-side:bottom;
+       border-style:solid;
+       border-width:thin;
+       font-size:1em;
+       width:62.5em;
+       font-family:inherit;
+       color:inherit;}
+
+.title_table {border-collapse:collapse;
+       border-spacing:0;
+       caption-side:bottom;
+       font-size:1em;
+       width:62.5em;
+       border-style:none;}
+
+.title_table_image_cell {border-bottom:thin solid #000000;}
+
+.title_table_design_cell {vertical-align:bottom;
+        font-size:1.875em;
+        text-align:right;
+        border-bottom:thin solid #000000;}
+
+.title_table_date_cell{font-size:1.25em;
+        vertical-align:bottom;
+        text-align:left;
+        border-bottom:thick solid #943634}
+
+.sg_row {font-size:inherit;
+         font-family:inherit;
+         color:inherit;
+         border-style:solid;
+         border-width:thin;}
+
+.sg_cell {margin:0;
+          padding:1em;
+          border-width:inherit;
+          border-style:inherit;
+          font-size:inherit;
+          font-family:inherit;
+          color:inherit;}
+
+.sg_cell_first_row {margin:0;
+          padding:1em;
+          border-width:inherit;
+          border-style:inherit;
+          border-bottom:thick solid #943634;
+          font-size:inherit;
+          font-family:inherit;
+          color:inherit;}
+
+.sg_caption {text-align:left;
+             caption-side:bottom;
+             font-family:inherit;
+             font-size:inherit;}
+</style>
+</head>
+<body>
+<table class="title_table">
+<tr>
+<td class="title_table_image_cell"></td>
+<td class="title_table_design_cell">sum_1</td>
+</tr>
+<tr>
+<td colspan=2 class="title_table_date_cell"><b></b></td>
+</tr>
+</table>
+<h1>int sum_1_Initialize(sum_1* InstancePtr, u16 DeviceId)</h1>
+<p>
+Initialize sum_1 pointer with a specifc instance of the device based device id.
+<br/>
+  @param InstancePtr to be initialized
+<br/>
+  @param DeviceId device id assigned to the device in xparameters.h
+<br/>
+<br/>
+  @return int XST_SUCCESS if initialization is successful
+<br/>
+</p>
+<h1>void sum_1_gateway_in2_write(sum_1 *InstancePtr, u32 Data);</h1>
+<p>
+ Write to gateway_in2 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in2 instance to operate on.<br/>
+ @param	Data is value to be written to gateway gateway_in2.<br/>
+<br/>
+ @return	None.<br/>
+<br/>
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_in2_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_in2 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in2 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>void sum_1_gateway_in1_write(sum_1 *InstancePtr, int Data);</h1>
+<p>
+ Write to gateway_in1 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in1 instance to operate on.<br/>
+ @param	Data is value to be written to gateway gateway_in1.<br/>
+<br/>
+ @return	None.<br/>
+<br/>
+ @note    .<br/>
+<br/>
+</p>
+<h1>int sum_1_gateway_in1_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_in1 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in1 instance to operate on.<br/>
+<br/>
+ @return	int<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>void sum_1_gateway_in_write(sum_1 *InstancePtr, int Data);</h1>
+<p>
+ Write to gateway_in gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in instance to operate on.<br/>
+ @param	Data is value to be written to gateway gateway_in.<br/>
+<br/>
+ @return	None.<br/>
+<br/>
+ @note    .<br/>
+<br/>
+</p>
+<h1>int sum_1_gateway_in_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_in gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_in instance to operate on.<br/>
+<br/>
+ @return	int<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out2_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out2 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out2 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out3_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out3 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out3 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out1_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out1 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out1 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out16_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out16 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out16 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u8 sum_1_gateway_out17_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out17 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out17 instance to operate on.<br/>
+<br/>
+ @return	u8<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out4_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out4 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out4 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out5_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out5 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out5 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out6_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out6 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out6 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out7_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out7 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out7 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out18_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out18 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out18 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u8 sum_1_gateway_out8_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out8 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out8 instance to operate on.<br/>
+<br/>
+ @return	u8<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out9_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out9 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out9 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u8 sum_1_gateway_out10_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out10 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out10 instance to operate on.<br/>
+<br/>
+ @return	u8<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u8 sum_1_gateway_out13_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out13 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out13 instance to operate on.<br/>
+<br/>
+ @return	u8<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out14_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out14 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out14 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+<h1>u32 sum_1_gateway_out15_read(sum_1 *InstancePtr);</h1>
+<p>
+ Read from gateway_out15 gateway of sum_1. Assignments are LSB-justified.<br/>
+<br/>
+ @param	InstancePtr is the gateway_out15 instance to operate on.<br/>
+<br/>
+ @return	u32<br/>
+
+ @note    .<br/>
+<br/>
+</p>
+</body>
+</html>

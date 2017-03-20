@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1489319804">
+  <File Type="VDS-TIMING-PB" Name="hwcosim_top_wrapper_timing_summary_synth.pb"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="hwcosim_top_wrapper_timing_summary_synth.rpt"/>
+  <File Type="RDS-RDS" Name="hwcosim_top_wrapper.vds"/>
+  <File Type="PA-TCL" Name="hwcosim_top_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="hwcosim_top_wrapper_drc_synth.rpt"/>
+  <File Type="RDS-UTIL" Name="hwcosim_top_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="hwcosim_top_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="hwcosim_top_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/hwcosim_top.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/hdl/hwcosim_top_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/sum_1_0/sum_1_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sysgen/sum_1_mod.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/sum_1_mod.v"/>
+        <Attr Name="ImportTime" Val="1489319763"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/ip/hwcosim_top_sum_1_0_0/sum_1_blk_mem_gen_v8_3_i0_vivado.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="hwcosim_top_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/sysgen/sum_1_clock.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/sum_1_clock.xdc"/>
+        <Attr Name="ImportTime" Val="1489319727"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/common/jtag_hwcosim_top.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Vivado/2016.1/data/sysgen/hwcosim_ip_repos/common/jtag_hwcosim_top.xdc"/>
+        <Attr Name="ImportTime" Val="1460153369"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

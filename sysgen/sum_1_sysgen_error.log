@@ -1,0 +1,40 @@
+--------------------------------- Version Log ----------------------------------
+Version                                 Path
+System Generator 2016.1                 /home/zaid/Vivado/2016.1
+Matlab 9.1.0.441655 (R2016b)            /usr/local/MATLAB/R2016b
+Vivado 2016.1                           /home/zaid/Vivado/2016.1
+--------------------------------------------------------------------------------
+Summary of Errors:
+Error 0001: ERROR: [USF-XSim-62] 'compile' step failed with error(s)....
+     Block: 'sum_1/ System Generator'
+Error 0002: ERROR: [USF-XSim-62] 'compile' step failed with error(s)....
+     Block: 'sum_1/Inverter'
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'sum_1/ System Generator'
+
+Details:
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please
+check the Tcl console output or
+'/tmp/xlsim9mTKXu/hdl_netlist/xelab.sim/sim_1/behav/xvlog.log'
+file for more information.
+Please refer to '/tmp/xlsim9mTKXu/vivado.log' for more details.
+
+--------------------------------------------------------------------------------
+
+Error 0001:
+
+Reported by:
+  'sum_1/Inverter'
+
+Details:
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please
+check the Tcl console output or
+'/tmp/xlsim9mTKXu/hdl_netlist/xelab.sim/sim_1/behav/xvlog.log'
+file for more information.
+Please refer to '/tmp/xlsim9mTKXu/vivado.log' for more details.
+
+--------------------------------------------------------------------------------

@@ -1,0 +1,7 @@
+{
+	'selections' => [
+		{
+			'name' => '/sum_tb/sum_1 hwcosim1/Out3'
+		},
+	],
+}

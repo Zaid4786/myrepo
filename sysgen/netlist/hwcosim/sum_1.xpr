@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2016.1 (64-bit)              -->
+<!--                                                         -->
+<!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
+
+<Project Version="7" Minor="12" Path="/home/zaid/MTP/myrepo/sysgen/netlist/hwcosim/sum_1.xpr">
+  <DefaultLaunch Dir="$PRUNDIR"/>
+  <Configuration>
+    <Option Name="Id" Val="8ae437b68b3a40a48d7177028fc59640"/>
+    <Option Name="Part" Val="xc7vx485tffg1761-2"/>
+    <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
+    <Option Name="CompiledLibDirXSim" Val=""/>
+    <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
+    <Option Name="CompiledLibDirQuesta" Val="$PCACHEDIR/compile_simlib/questa"/>
+    <Option Name="CompiledLibDirIES" Val="$PCACHEDIR/compile_simlib/ies"/>
+    <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
+    <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
+    <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
+    <Option Name="BoardPart" Val="xilinx.com:vc707:part0:0.9"/>
+    <Option Name="ActiveSimSet" Val="sim_1"/>
+    <Option Name="DefaultLib" Val="xil_defaultlib"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../ip"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Vivado/2016.1/data/sysgen/hwcosim_ip_repos"/>
+    <Option Name="EnableCoreContainer" Val="FALSE"/>
+    <Option Name="XPMLibraries" Val="XPM_CDC"/>
+    <Option Name="XPMLibraries" Val="XPM_MEMORY"/>
+    <Option Name="CreateRefXciForCoreContainers" Val="FALSE"/>
+    <Option Name="IPUserFilesDir" Val="$PPRDIR/sum_1.ip_user_files"/>
+    <Option Name="IPStaticSourceDir" Val="$PPRDIR/sum_1.ip_user_files/ipstatic"/>
+    <Option Name="EnableBDX" Val="FALSE"/>
+    <Option Name="DSABoardId" Val="vc707"/>
+    <Option Name="WTXSimLaunchSim" Val="0"/>
+    <Option Name="WTModelSimLaunchSim" Val="0"/>
+    <Option Name="WTQuestaLaunchSim" Val="0"/>
+    <Option Name="WTIesLaunchSim" Val="0"/>
+    <Option Name="WTVcsLaunchSim" Val="0"/>
+    <Option Name="WTRivieraLaunchSim" Val="0"/>
+    <Option Name="WTActivehdlLaunchSim" Val="0"/>
+    <Option Name="WTXSimExportSim" Val="0"/>
+    <Option Name="WTModelSimExportSim" Val="0"/>
+    <Option Name="WTQuestaExportSim" Val="0"/>
+    <Option Name="WTIesExportSim" Val="0"/>
+    <Option Name="WTVcsExportSim" Val="0"/>
+    <Option Name="WTRivieraExportSim" Val="0"/>
+    <Option Name="WTActivehdlExportSim" Val="0"/>
+    <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
+  </Configuration>
+  <FileSets Version="1" Minor="31">
+    <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+      <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/hwcosim_top.bd">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_axis_data_fifo_rx_0/hwcosim_top_axis_data_fifo_rx_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_hwc_jtag_axi_transport_0_0/hwcosim_top_hwc_jtag_axi_transport_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_sys_clk_wiz_0/hwcosim_top_sys_clk_wiz_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_axis_dwidth_converter_tx_0/hwcosim_top_axis_dwidth_converter_tx_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_hwcosim_cmd_proc_0/hwcosim_top_hwcosim_cmd_proc_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_axis_dwidth_converter_rx_0/hwcosim_top_axis_dwidth_converter_rx_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_axis_data_fifo_tx_0/hwcosim_top_axis_data_fifo_tx_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="hwcosim_top_ooc.xdc"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="hdl/hwcosim_top.v"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_sum_1_0_0/hwcosim_top_sum_1_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_xlconstant_0_0/hwcosim_top_xlconstant_0_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="ip/hwcosim_top_proc_sys_reset_0/hwcosim_top_proc_sys_reset_0.xci"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="hw_handoff/hwcosim_top.hwh"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="hdl/hwcosim_top.hwdef"/>
+        <CompFileExtendedInfo CompFileName="hwcosim_top.bd" FileRelPathName="hw_handoff/hwcosim_top_bd.tcl"/>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/hdl/hwcosim_top_wrapper.v">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/sum_1_0/sum_1_0.xci">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/sysgen/sum_1_mod.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/sum_1_mod.v"/>
+          <Attr Name="ImportTime" Val="1489319763"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/bd/hwcosim_top/ip/hwcosim_top_sum_1_0_0/sum_1_blk_mem_gen_v8_3_i0_vivado.coe">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="hwcosim_top_wrapper"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+      <Filter Type="Constrs"/>
+      <File Path="$PSRCDIR/constrs_1/imports/sysgen/sum_1_clock.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../sysgen/sum_1_clock.xdc"/>
+          <Attr Name="ImportTime" Val="1489319727"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/constrs_1/imports/common/jtag_hwcosim_top.xdc">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../Vivado/2016.1/data/sysgen/hwcosim_ip_repos/common/jtag_hwcosim_top.xdc"/>
+          <Attr Name="ImportTime" Val="1460153369"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="ConstrsType" Val="XDC"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
+      <Filter Type="Srcs"/>
+      <Config>
+        <Option Name="DesignMode" Val="RTL"/>
+        <Option Name="TopModule" Val="sum_1_stub"/>
+        <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
+        <Option Name="TransportPathDelay" Val="0"/>
+        <Option Name="TransportIntDelay" Val="0"/>
+        <Option Name="SrcSet" Val="sources_1"/>
+      </Config>
+    </FileSet>
+  </FileSets>
+  <Simulators>
+    <Simulator Name="XSim">
+      <Option Name="Description" Val="Vivado Simulator"/>
+      <Option Name="CompiledLib" Val="0"/>
+    </Simulator>
+    <Simulator Name="ModelSim">
+      <Option Name="Description" Val="ModelSim Simulator"/>
+    </Simulator>
+    <Simulator Name="Questa">
+      <Option Name="Description" Val="Questa Advanced Simulator"/>
+    </Simulator>
+    <Simulator Name="IES">
+      <Option Name="Description" Val="Incisive Enterprise Simulator (IES)"/>
+    </Simulator>
+    <Simulator Name="VCS">
+      <Option Name="Description" Val="Verilog Compiler Simulator (VCS)"/>
+    </Simulator>
+    <Simulator Name="Riviera">
+      <Option Name="Description" Val="Riviera-PRO Simulator"/>
+    </Simulator>
+  </Simulators>
+  <Runs Version="1" Minor="10">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7vx485tffg1761-2" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7vx485tffg1761-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+    </Run>
+  </Runs>
+</Project>

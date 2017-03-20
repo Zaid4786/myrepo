@@ -1,0 +1,21 @@
+  sum_1 sysgen_dut (
+    .clk(clk),
+    .sum_1_aresetn(sum_1_aresetn),
+    .sum_1_s_axi_awaddr(sum_1_s_axi_awaddr),
+    .sum_1_s_axi_awvalid(sum_1_s_axi_awvalid),
+    .sum_1_s_axi_wdata(sum_1_s_axi_wdata),
+    .sum_1_s_axi_wstrb(sum_1_s_axi_wstrb),
+    .sum_1_s_axi_wvalid(sum_1_s_axi_wvalid),
+    .sum_1_s_axi_bready(sum_1_s_axi_bready),
+    .sum_1_s_axi_araddr(sum_1_s_axi_araddr),
+    .sum_1_s_axi_arvalid(sum_1_s_axi_arvalid),
+    .sum_1_s_axi_rready(sum_1_s_axi_rready),
+    .sum_1_s_axi_awready(sum_1_s_axi_awready),
+    .sum_1_s_axi_wready(sum_1_s_axi_wready),
+    .sum_1_s_axi_bresp(sum_1_s_axi_bresp),
+    .sum_1_s_axi_bvalid(sum_1_s_axi_bvalid),
+    .sum_1_s_axi_arready(sum_1_s_axi_arready),
+    .sum_1_s_axi_rdata(sum_1_s_axi_rdata),
+    .sum_1_s_axi_rresp(sum_1_s_axi_rresp),
+    .sum_1_s_axi_rvalid(sum_1_s_axi_rvalid)
+  );

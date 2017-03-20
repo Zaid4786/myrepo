@@ -1,0 +1,8 @@
+OPTION psf_version = 2.1;
+BEGIN driver sum_1
+ OPTION supported_peripherals = (sum_1_v1_0);
+ OPTION driver_state = ACTIVE;
+ OPTION copyfiles = all;
+ OPTION name = sum_1;
+ OPTION version = 1.0;
+END driver

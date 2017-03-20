@@ -9,19 +9,18 @@
     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 
 source blk_mem_I1.tcl -notrace
-Command: synth_design -top blk_mem_I1 -part xcvu095-ffva2104-2-e -mode out_of_context
+Command: synth_design -top blk_mem_I1 -part xc7a200tfbg676-2 -mode out_of_context
 Starting synth_design
-Attempting to get a license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu095'
-INFO: [Common 17-1223] The version limit for your license is '2016.10' and will expire in -125 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 8087 
+INFO: Helper process launched with PID 8942 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:17 . Memory (MB): peak = 1184.965 ; gain = 298.109 ; free physical = 150 ; free virtual = 9326
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1070.094 ; gain = 183.238 ; free physical = 2126 ; free virtual = 12697
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'blk_mem_I1' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/synth/blk_mem_I1.vhd:66]
-	Parameter C_FAMILY bound to: virtexu - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 1 - type: integer 
@@ -90,12 +89,12 @@ INFO: [Synth 8-638] synthesizing module 'blk_mem_I1' [/home/zaid/MTP/myrepo/GPS_
 	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
-	Parameter C_COUNT_18K_BRAM bound to: 8 - type: string 
-	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     10.536252 mW - type: string 
+	Parameter C_COUNT_36K_BRAM bound to: 13 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 2 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     8.879987 mW - type: string 
 INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/synth/blk_mem_I1.vhd:227]
-	Parameter C_FAMILY bound to: virtexu - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 1 - type: integer 
@@ -164,11 +163,11 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
-	Parameter C_COUNT_36K_BRAM bound to: 10 - type: string 
-	Parameter C_COUNT_18K_BRAM bound to: 8 - type: string 
-	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     10.536252 mW - type: string 
-	Parameter C_FAMILY bound to: virtexu - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_COUNT_36K_BRAM bound to: 13 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 2 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     8.879987 mW - type: string 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
 	Parameter C_AXI_TYPE bound to: 1 - type: integer 
@@ -238,9 +237,9 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_USE_URAM bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -345,8 +344,8 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
 	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -419,9 +418,9 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
 	Parameter C_NUM_PRIM_DEPTH bound to: 16 - type: integer 
 	Parameter C_SEL_WIDTH bound to: 4 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -476,7 +475,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -530,16 +529,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -695,23 +688,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 1 - type: integer 
 	Parameter READ_WIDTH_B bound to: 1 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 1 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -766,7 +761,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -820,13 +815,8 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -900,7 +890,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_A bound to: 18'b000000000000000000 
-	Parameter INIT_B bound to: 18'b000000000000000000 
+	Parameter INIT_B bound to: 20'b00000000000000000000 
 	Parameter INIT_FILE bound to: NONE - type: string 
 	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
 	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
@@ -910,23 +900,23 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 1 - type: integer 
 	Parameter READ_WIDTH_B bound to: 1 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 18'b000000000000000000 
-	Parameter SRVAL_B bound to: 18'b000000000000000000 
+	Parameter SRVAL_B bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 1 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -981,7 +971,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -1035,16 +1025,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -1200,23 +1184,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 1 - type: integer 
 	Parameter READ_WIDTH_B bound to: 1 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 1 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -1271,7 +1257,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -1325,13 +1311,8 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -1405,7 +1386,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_3F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INIT_A bound to: 18'b000000000000000000 
-	Parameter INIT_B bound to: 18'b000000000000000000 
+	Parameter INIT_B bound to: 20'b00000000000000000000 
 	Parameter INIT_FILE bound to: NONE - type: string 
 	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
 	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
@@ -1415,23 +1396,23 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 2 - type: integer 
 	Parameter READ_WIDTH_B bound to: 2 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 18'b000000000000000000 
-	Parameter SRVAL_B bound to: 18'b000000000000000000 
+	Parameter SRVAL_B bound to: 20'b00000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 2 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 2 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -1486,7 +1467,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -1540,16 +1521,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
 	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
@@ -1705,23 +1680,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 1 - type: integer 
 	Parameter READ_WIDTH_B bound to: 1 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 1 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 1 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -1776,7 +1753,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -1830,16 +1807,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1101110000000000011001110101111110000001000111001100010110011101000100101100001010100110000010001111110110100011111101000011100000111011100001000011111100111000001110110100001000011111110000111100111000101110010011100100101100010111110011101100011110110011 
 	Parameter INITP_01 bound to: 256'b0000100011111001011111111111001000100011001111000111001111011111100010111110100000000100110001001101000110011010000011110100100111110000111100100011100111000001111010101110000001100110000111110011011111011111011010001100010011000001111001000110011111000001 
 	Parameter INITP_02 bound to: 256'b0000010100000110001000011010011111010111111110011000101110010101100110000000101110001001110010001100011101111110110011001110000111100110111001011111000110111011000000011010100010001001010100011001101111001001011111110011010010010111111111111111000010011110 
@@ -1995,23 +1966,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -2066,7 +2039,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -2120,16 +2093,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1010111011000010000000001111100111001101100110001111100000000011100110011111000110001110000001110001110001100011100111111111111001101111011111110001100111100011100010000001110011100111110000001010010001001011001100100100101100110101001001001000000011001101 
 	Parameter INITP_01 bound to: 256'b0110010111001100001000010000011110110011101101101010100100011111101100010000111111001110111000000000000110101101001001110001101100001100011101110110110010011001001001111111100101100111100001111100001000111110011111110011111001101111110000010010000001100001 
 	Parameter INITP_02 bound to: 256'b1100000011110111110110100000000010110011011010000001111111000110101110011110011100110011000001110000000101011110000001110000000010111100010011000011101001110000110011101000011100001111110000000000110101000110110010010111100101011100111000100111111110111110 
@@ -2285,23 +2252,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -2356,7 +2325,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -2410,16 +2379,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1110110111101101001001101100111000011100000011101110000000100111100110000000010001111111100011111001000000111110000111100000011011110110100000111000010111101011110110111100011111110111001111000110001101111100000100000000101010011110000100100010010000001111 
 	Parameter INITP_01 bound to: 256'b0011110000111001110001100111101101111011100110000011011000000100011010101101011111111111111111100010010001100001101110001001000001111000100110010000100011001001100111100111111111001011111010111111000011111110110110011000110110010000000111011110110111111110 
 	Parameter INITP_02 bound to: 256'b0001100000101110000001111110000111110010111101101001000001101100001101101101111001111111101010001001001010000011111101100010100111111001110000010101100000110111101001000000001001001001100001010111100011100011000110001100011011110000110110100111011110011111 
@@ -2575,23 +2538,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -2646,7 +2611,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -2700,16 +2665,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0110111100111111111000011101101110000011100000011111100000000000001111111000110000000001110110110000000111111000001111000011000000110001000100100111101000011000111101110110000001100111111001110000110011110110100000001111111110000011111100011111101010010110 
 	Parameter INITP_01 bound to: 256'b1001000110111001111111110110001111001101101100101100001100000111111001000000011110000101010000100100001100001110110011101000010111111011100111100001000001111010111100111001110010010110111110001111001100000101100000001011001001011010000001101110110100001100 
 	Parameter INITP_02 bound to: 256'b0111101111101001101111011000111000010011000001000111110011111000100001111101111101110110111111111110111111110111100000000110111110111010110000011110001011111111110100111000010000000110100111100100100110100101111010011111100011110110110111110011111111111011 
@@ -2865,23 +2824,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -2936,7 +2897,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -2990,16 +2951,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1111101100111000010000000001100110000000001101101100111110111101101111101111000001000110001100101110110000010010110100010010111000111111101100000010110111011000100110000010111101110001111100100000000111110000100001101100011011000101100111101101111001101101 
 	Parameter INITP_01 bound to: 256'b1110000110100001111110000000001111111000111111100001000100111110000111111100100111100011110100111110111100000000000111110001100000100100000011000000001111101110100100011101000011101011100111100111011111101110010000000001111000010001111100000011000011001111 
 	Parameter INITP_02 bound to: 256'b0001111000111101000000110011101110000111110111000011001100011110111111000000011111011011011100100110110000000101100000110111101001010001100111011100011111000111000110011000011000100111111100011111110011111110100111000101001111000100000101111111101110011001 
@@ -3155,23 +3110,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -3226,7 +3183,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -3280,16 +3237,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0111111110110100001000001110011110110100010000010110100011011110011010010111000001111101000010011110011001001111001001001111100111101011011110111111101111000111000000110001000001000111111111111100010101110010011111100111111111010001001011110110001111110011 
 	Parameter INITP_01 bound to: 256'b1100110110000110000101100001000011111111100011001111100010101101110001010001100101100100000110110000110000100111001010100000100010011000011001100100111100100001100100000000010010110000000111101100111011000000010001101100111011101000111101110011101111111100 
 	Parameter INITP_02 bound to: 256'b1111110111110001111010000000010011101111000000100000101111011000100000000110011110001001010101111010101001101100011101110100011011000110011101100101000000000010110010001000000001101010000000010001110010111000001000100100110001100001001101010101100100010111 
@@ -3445,23 +3396,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -3516,7 +3469,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -3570,16 +3523,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0000110100001000100110000001000010100011110100000000010010010111101111011111110101110110000100001100000001110011111110000010000011110001001101110000011001110010010110101111101000010111000011000001100011011011111100111011010011111011001101010011111100010010 
 	Parameter INITP_01 bound to: 256'b0010000000110000000000111110111001110000001101100001001010000001010111111101110000001110110000011100100000111001000000010000011001000101001110001111111111000000111011101111000010111010011100110010110110011111101111100011000001000000011010011001000010110000 
 	Parameter INITP_02 bound to: 256'b0110001111001100101110011100000110110010111101110000011100100010110000001111001011000110010001011101001111101011101011000001110011010110100010001100101111101100011001000001000001110000000000000111111100000110010101111001001111000011000001110111101010011100 
@@ -3735,23 +3682,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -3806,7 +3755,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -3860,16 +3809,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1000110001001001100000111011011010110000001110001100000010100111010001000011111011000001000111000110110101000110010011111101000001101101110111110101100001110011000111101011010000001000011100001111111100100011001110000001011101000110110011010001010001100110 
 	Parameter INITP_01 bound to: 256'b0111100010010101111001111000111100110011001100011001111001111100010010011110011111101100100011110001001100111110100111000011110011100111111011110000110100100000011100000011101110111001110100101111000010011100001101000100010011101100110001010010010000011011 
 	Parameter INITP_02 bound to: 256'b1100001100110010011001001111001000111111100011010010000010001110111001111100101100011110000010001110000000000100110000001101101110011100100111100110111100000011111011011011001011000000011111011110011001110101011011000111111000010110001100110000111101000011 
@@ -4025,23 +3968,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -4096,7 +4041,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -4150,16 +4095,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b1011111110101110001010000111100000010010001010010110001111111111000100000011000000011111101100100001111110110111000010111110111001101011100011010100110011001100100011011100000010100001111000011100100011001010000110111111000101000001010111011101110001111000 
 	Parameter INITP_01 bound to: 256'b0010100000101011010001110101001000001010110001111000011000000111011100101101111111100110011110000101111000001100000010100110000111111111110110000000000100100010011110001001000100100111111110000010010111100000101000100111001010010110011100010111001111001001 
 	Parameter INITP_02 bound to: 256'b0101111110110000101111111001001110111011010001000011000000011101101100011001010100111000111110010000000011000000000010000000001111111010001001001011000000000000000110110001101111000100111001100010111110100110111011111111001011110110000000110111110011111000 
@@ -4315,23 +4254,25 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
@@ -4386,7 +4327,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
 	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
-	Parameter C_SIM_DEVICE bound to: 8SERIES - type: string 
+	Parameter C_SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
 	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
 	Parameter C_MEM_TYPE bound to: 0 - type: integer 
@@ -4440,16 +4381,10 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_MEM_ADDR_WIDTH_A bound to: 16 - type: integer 
 	Parameter C_MEM_ADDR_WIDTH_B bound to: 16 - type: integer 
 	Parameter DOUBLING_RESOURCE_FIX bound to: 0 - type: integer 
-	Parameter CASCADE_ORDER_A bound to: NONE - type: string 
-	Parameter CASCADE_ORDER_B bound to: NONE - type: string 
-	Parameter CLOCK_DOMAINS bound to: INDEPENDENT - type: string 
 	Parameter DOA_REG bound to: 0 - type: integer 
 	Parameter DOB_REG bound to: 0 - type: integer 
-	Parameter ENADDRENA bound to: FALSE - type: string 
-	Parameter ENADDRENB bound to: FALSE - type: string 
-	Parameter EN_ECC_PIPE bound to: FALSE - type: string 
-	Parameter EN_ECC_READ bound to: FALSE - type: string 
-	Parameter EN_ECC_WRITE bound to: FALSE - type: string 
+	Parameter EN_ECC_READ bound to: 0 - type: bool 
+	Parameter EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter INITP_00 bound to: 256'b0001100101111000011111011001100111001100101100011100110001000110000011000110100010000110011011111110100011111000001000111000110011101110000011001001101101001000011001110000111100010010111000000110111101011100001111011100110010000011111110111011110000000001 
 	Parameter INITP_01 bound to: 256'b0001111010000010111101011001110000010010000001100100111100001001110001111011111010100111001111001011111100000111011110010011010110001100000000001011001000001000000011111001001001011101101001101000010111100110100001001011000011101111000001111001111101100010 
 	Parameter INITP_02 bound to: 256'b0111001101001000011110100111011011010011100001100111111101011110111110000010000000110011110001101100111110101110111111101110011110111001100100000111111100011010111000000011111100111110011100101000000000111111110010000110100111111010101001111110011001111110 
@@ -4605,14 +4540,16 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
 	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
-	Parameter RDADDRCHANGEA bound to: FALSE - type: string 
-	Parameter RDADDRCHANGEB bound to: FALSE - type: string 
+	Parameter RAM_EXTENSION_A bound to: NONE - type: string 
+	Parameter RAM_EXTENSION_B bound to: NONE - type: string 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: PERFORMANCE - type: string 
 	Parameter READ_WIDTH_A bound to: 9 - type: integer 
 	Parameter READ_WIDTH_B bound to: 9 - type: integer 
 	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
 	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
 	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
-	Parameter SLEEP_ASYNC bound to: FALSE - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
 	Parameter SRVAL_A bound to: 36'b000000000000000000000000000000000000 
 	Parameter SRVAL_B bound to: 36'b000000000000000000000000000000000000 
 	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
@@ -4620,7 +4557,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter WRITE_WIDTH_A bound to: 9 - type: integer 
 	Parameter WRITE_WIDTH_B bound to: 9 - type: integer 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RST bound to: 0 - type: integer 
 	Parameter C_MUX_RST_WIDTH bound to: 1 - type: integer 
@@ -4642,7 +4579,7 @@ INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at '/home/zaid/MTP/myr
 	Parameter C_EN_ECC_WRITE bound to: 0 - type: bool 
 	Parameter C_EN_ECC_PIPE bound to: 0 - type: bool 
 	Parameter C_FAMILY bound to: virtex6 - type: string 
-	Parameter C_XDEVICEFAMILY bound to: virtexu - type: string 
+	Parameter C_XDEVICEFAMILY bound to: artix7 - type: string 
 	Parameter C_RST_TYPE bound to: SYNC - type: string 
 	Parameter C_HAS_RST bound to: 0 - type: integer 
 	Parameter C_MUX_RST_WIDTH bound to: 1 - type: integer 
@@ -4776,7 +4713,7 @@ WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected p
 WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[114]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:01:45 ; elapsed = 00:01:50 . Memory (MB): peak = 1371.754 ; gain = 484.898 ; free physical = 179 ; free virtual = 8948
+Finished RTL Elaboration : Time (s): cpu = 00:01:43 ; elapsed = 00:01:44 . Memory (MB): peak = 1255.883 ; gain = 369.027 ; free physical = 1734 ; free virtual = 12312
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -4786,9 +4723,11 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:46 ; elapsed = 00:01:50 . Memory (MB): peak = 1371.754 ; gain = 484.898 ; free physical = 179 ; free virtual = 8947
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:43 ; elapsed = 00:01:44 . Memory (MB): peak = 1255.883 ; gain = 369.027 ; free physical = 1734 ; free virtual = 12311
 ---------------------------------------------------------------------------------
-INFO: [Device 21-403] Loading part xcvu095-ffva2104-2-e
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -4802,26 +4741,26 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.40 . Memory (MB): peak = 1771.293 ; gain = 1.000 ; free physical = 167 ; free virtual = 8401
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.06 . Memory (MB): peak = 1481.742 ; gain = 0.000 ; free physical = 1430 ; free virtual = 12028
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:02:06 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 160 ; free virtual = 8398
+Finished Constraint Validation : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1425 ; free virtual = 12029
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
-Loading part: xcvu095-ffva2104-2-e
+Loading part: xc7a200tfbg676-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:02:06 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 160 ; free virtual = 8398
+Finished Loading Part and Timing Information : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1429 ; free virtual = 12029
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for U0. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:02:06 ; elapsed = 00:02:22 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 160 ; free virtual = 8399
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:01:58 ; elapsed = 00:02:01 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1429 ; free virtual = 12029
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:07 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 138 ; free virtual = 8377
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:59 ; elapsed = 00:02:02 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1427 ; free virtual = 12026
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4863,12 +4802,12 @@ Finished RTL Hierarchical Component Statistics
 Start Part Resource Summary
 ---------------------------------------------------------------------------------
 Part Resources:
-DSPs: 768 (col length:192)
-BRAMs: 3456 (col length: RAMB18 192 RAMB36 96)
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:02:07 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 137 ; free virtual = 8377
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:01:59 ; elapsed = 00:02:02 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1419 ; free virtual = 12019
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
@@ -4889,9 +4828,9 @@ INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/
 INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/bindec_a.bindec_inst_a/ENOUT" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 136 ; free virtual = 8377
+Finished Cross Boundary Optimization : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1419 ; free virtual = 12019
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:02:07 ; elapsed = 00:02:24 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 136 ; free virtual = 8377
+Finished Parallel Reinference  : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1419 ; free virtual = 12019
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -4902,9 +4841,9 @@ Report RTL Partitions:
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:02:07 ; elapsed = 00:02:25 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 124 ; free virtual = 8350
+Finished Area Optimization : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1410 ; free virtual = 12011
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:02:07 ; elapsed = 00:02:25 . Memory (MB): peak = 1771.293 ; gain = 884.438 ; free physical = 124 ; free virtual = 8350
+Finished Parallel Area Optimization  : Time (s): cpu = 00:02:00 ; elapsed = 00:02:03 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1410 ; free virtual = 12011
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -4918,10 +4857,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:20 ; elapsed = 00:02:45 . Memory (MB): peak = 2009.418 ; gain = 1122.562 ; free physical = 175 ; free virtual = 7786
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1407 ; free virtual = 12017
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:20 ; elapsed = 00:02:45 . Memory (MB): peak = 2010.418 ; gain = 1123.562 ; free physical = 170 ; free virtual = 7783
+Finished Timing Optimization : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1406 ; free virtual = 12016
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4933,16 +4872,16 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 147 ; free virtual = 7765
+Finished Technology Mapping : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1397 ; free virtual = 12007
 ---------------------------------------------------------------------------------
-Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 147 ; free virtual = 7765
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1397 ; free virtual = 12007
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:20 ; elapsed = 00:02:46 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 147 ; free virtual = 7765
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:02:10 ; elapsed = 00:02:13 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1397 ; free virtual = 12007
 ---------------------------------------------------------------------------------
 Start IO Insertion
 ---------------------------------------------------------------------------------
@@ -4959,7 +4898,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 143 ; free virtual = 7765
+Finished IO Insertion : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1397 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -4972,7 +4911,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 143 ; free virtual = 7765
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1397 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -4984,25 +4923,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:21 ; elapsed = 00:02:47 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 143 ; free virtual = 7765
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1396 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 142 ; free virtual = 7765
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1396 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 141 ; free virtual = 7764
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1396 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 141 ; free virtual = 7764
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1396 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -5024,21 +4963,21 @@ Report Cell Usage:
 |4     |LUT4        |    11|
 |5     |LUT5        |    20|
 |6     |LUT6        |    18|
-|7     |RAMB18E2    |     1|
-|8     |RAMB18E2_1  |     1|
-|9     |RAMB36E2    |     1|
-|10    |RAMB36E2_1  |     1|
-|11    |RAMB36E2_10 |     1|
-|12    |RAMB36E2_11 |     1|
-|13    |RAMB36E2_12 |     1|
-|14    |RAMB36E2_2  |     1|
-|15    |RAMB36E2_3  |     1|
-|16    |RAMB36E2_4  |     1|
-|17    |RAMB36E2_5  |     1|
-|18    |RAMB36E2_6  |     1|
-|19    |RAMB36E2_7  |     1|
-|20    |RAMB36E2_8  |     1|
-|21    |RAMB36E2_9  |     1|
+|7     |RAMB18E1    |     1|
+|8     |RAMB18E1_1  |     1|
+|9     |RAMB36E1    |     1|
+|10    |RAMB36E1_1  |     1|
+|11    |RAMB36E1_10 |     1|
+|12    |RAMB36E1_11 |     1|
+|13    |RAMB36E1_12 |     1|
+|14    |RAMB36E1_2  |     1|
+|15    |RAMB36E1_3  |     1|
+|16    |RAMB36E1_4  |     1|
+|17    |RAMB36E1_5  |     1|
+|18    |RAMB36E1_6  |     1|
+|19    |RAMB36E1_7  |     1|
+|20    |RAMB36E1_8  |     1|
+|21    |RAMB36E1_9  |     1|
 |22    |FDRE        |     4|
 +------+------------+------+
 
@@ -5085,12 +5024,14 @@ Report Instance Areas:
 |37    |            \prim_init.ram                   |blk_mem_gen_prim_wrapper_init__parameterized8  |     1|
 +------+---------------------------------------------+-----------------------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:21 ; elapsed = 00:02:48 . Memory (MB): peak = 2020.434 ; gain = 1133.578 ; free physical = 141 ; free virtual = 7765
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.742 ; gain = 594.887 ; free physical = 1396 ; free virtual = 12006
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 162 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:01 ; elapsed = 00:02:14 . Memory (MB): peak = 2020.434 ; gain = 518.078 ; free physical = 137 ; free virtual = 7762
-Synthesis Optimization Complete : Time (s): cpu = 00:02:21 ; elapsed = 00:02:49 . Memory (MB): peak = 2020.441 ; gain = 1133.586 ; free physical = 135 ; free virtual = 7763
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:56 ; elapsed = 00:01:57 . Memory (MB): peak = 1481.742 ; gain = 267.934 ; free physical = 1398 ; free virtual = 12008
+Synthesis Optimization Complete : Time (s): cpu = 00:02:11 ; elapsed = 00:02:14 . Memory (MB): peak = 1481.750 ; gain = 594.895 ; free physical = 1398 ; free virtual = 12008
 INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 Parsing XDC File [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc] for cell 'U0'
 INFO: [Vivado 12-4761] HD.CLK_SRC property is set on port clka. The net connecting to the port drives either clock PIN or hierarchical black box. Use the create_clock constraint to create a clock on this port prior to setting HD.CLK_SRC.  [/home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.srcs/sources_1/ip/blk_mem_I1/blk_mem_I1_ooc.xdc:54]
@@ -5100,9 +5041,9 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-31 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
+34 Infos, 100 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:21 ; elapsed = 00:03:09 . Memory (MB): peak = 2071.066 ; gain = 1026.680 ; free physical = 157 ; free virtual = 7517
+synth_design: Time (s): cpu = 00:02:08 ; elapsed = 00:02:11 . Memory (MB): peak = 1489.195 ; gain = 513.832 ; free physical = 1375 ; free virtual = 11986
 INFO: [Coretcl 2-1174] Renamed 36 cell refs.
-report_utilization: Time (s): cpu = 00:00:00.18 ; elapsed = 00:00:05 . Memory (MB): peak = 2103.082 ; gain = 0.000 ; free physical = 166 ; free virtual = 7546
-INFO: [Common 17-206] Exiting Vivado at Sun Mar  5 02:09:23 2017...
+report_utilization: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1497.199 ; gain = 0.000 ; free physical = 1364 ; free virtual = 11975
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 16 16:57:47 2017...

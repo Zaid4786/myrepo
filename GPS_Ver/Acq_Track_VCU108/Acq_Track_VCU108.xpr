@@ -7,7 +7,7 @@
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="b8a45dd39aa9479f817f644ca107760e"/>
-    <Option Name="Part" Val="xcvu095-ffva2104-2-e"/>
+    <Option Name="Part" Val="xc7a200tfbg676-2"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="CompiledLibDirXSim" Val=""/>
     <Option Name="CompiledLibDirModelSim" Val="$PCACHEDIR/compile_simlib/modelsim"/>
@@ -16,7 +16,7 @@
     <Option Name="CompiledLibDirVCS" Val="$PCACHEDIR/compile_simlib/vcs"/>
     <Option Name="CompiledLibDirRiviera" Val="$PCACHEDIR/compile_simlib/riviera"/>
     <Option Name="CompiledLibDirActivehdl" Val="$PCACHEDIR/compile_simlib/activehdl"/>
-    <Option Name="BoardPart" Val="xilinx.com:vcu108:part0:1.1"/>
+    <Option Name="BoardPart" Val="xilinx.com:ac701:part0:1.3"/>
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="EnableCoreContainer" Val="TRUE"/>
@@ -34,13 +34,13 @@
     <Option Name="WTVcsLaunchSim" Val="0"/>
     <Option Name="WTRivieraLaunchSim" Val="0"/>
     <Option Name="WTActivehdlLaunchSim" Val="0"/>
-    <Option Name="WTXSimExportSim" Val="95"/>
-    <Option Name="WTModelSimExportSim" Val="95"/>
-    <Option Name="WTQuestaExportSim" Val="95"/>
-    <Option Name="WTIesExportSim" Val="95"/>
-    <Option Name="WTVcsExportSim" Val="95"/>
-    <Option Name="WTRivieraExportSim" Val="95"/>
-    <Option Name="WTActivehdlExportSim" Val="95"/>
+    <Option Name="WTXSimExportSim" Val="105"/>
+    <Option Name="WTModelSimExportSim" Val="105"/>
+    <Option Name="WTQuestaExportSim" Val="105"/>
+    <Option Name="WTIesExportSim" Val="105"/>
+    <Option Name="WTVcsExportSim" Val="105"/>
+    <Option Name="WTRivieraExportSim" Val="105"/>
+    <Option Name="WTActivehdlExportSim" Val="105"/>
     <Option Name="GenerateIPUpgradeLog" Val="TRUE"/>
   </Configuration>
   <FileSets Version="1" Minor="31">
@@ -230,26 +230,6 @@
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
-    <FileSet Name="clk_wiz_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clk_wiz_0">
-      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0.xcix">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <Config>
-        <Option Name="TopModule" Val="clk_wiz_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="blk_mem_I" Type="BlockSrcs" RelSrcDir="$PSRCDIR/blk_mem_I">
       <File Path="$PSRCDIR/sources_1/ip/blk_mem_I_1.xcix">
         <FileInfo>
@@ -327,6 +307,26 @@
       </File>
       <Config>
         <Option Name="TopModule" Val="blk_mem_Q1"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="clk_wiz_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/clk_wiz_0">
+      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0.xcix">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <Config>
+        <Option Name="TopModule" Val="clk_wiz_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -433,7 +433,7 @@
     </Simulator>
   </Simulators>
   <Runs Version="1" Minor="10">
-    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xcvu095-ffva2104-2-e" ConstrsSet="constrs_1" Description="Trades off Performance and Area for better Runtime." State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
+    <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7a200tfbg676-2" ConstrsSet="constrs_1" Description="Trades off Performance and Area for better Runtime." State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Flow_RuntimeOptimized" Flow="Vivado Synthesis 2016"/>
         <Step Id="synth_design">
@@ -443,99 +443,88 @@
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xcvu095-ffva2104-2-e" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true">
+    <Run Id="blk_mem_I_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_I" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_I" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_I_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="blk_mem_I_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_I" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_I" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_I_synth_1" IncludeInArchive="true">
+    <Run Id="blk_mem_I1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_I1" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_I1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_I1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="blk_mem_I1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_I1" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_I1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_I1_synth_1" IncludeInArchive="true">
+    <Run Id="blk_mem_Q_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_Q" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_Q" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_Q_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="blk_mem_Q_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_Q" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_Q" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_Q_synth_1" IncludeInArchive="true">
+    <Run Id="blk_mem_Q1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_Q1" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_Q1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_Q1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="blk_mem_Q1_synth_1" Type="Ft3:Synth" SrcSet="blk_mem_Q1" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_Q1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/blk_mem_Q1_synth_1" IncludeInArchive="true">
+    <Run Id="clk_wiz_0_synth_1" Type="Ft3:Synth" SrcSet="clk_wiz_0" Part="xc7a200tfbg676-2" ConstrsSet="clk_wiz_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/clk_wiz_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="ila_0_synth_1" Type="Ft3:Synth" SrcSet="ila_0" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_0_synth_1" IncludeInArchive="true">
+    <Run Id="ila_0_synth_1" Type="Ft3:Synth" SrcSet="ila_0" Part="xc7a200tfbg676-2" ConstrsSet="ila_0" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_0_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="ila_1_synth_1" Type="Ft3:Synth" SrcSet="ila_1" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_1_synth_1" IncludeInArchive="true">
+    <Run Id="ila_1_synth_1" Type="Ft3:Synth" SrcSet="ila_1" Part="xc7a200tfbg676-2" ConstrsSet="ila_1" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_1_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="ila_2_synth_1" Type="Ft3:Synth" SrcSet="ila_2" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_2_synth_1" IncludeInArchive="true">
+    <Run Id="ila_2_synth_1" Type="Ft3:Synth" SrcSet="ila_2" Part="xc7a200tfbg676-2" ConstrsSet="ila_2" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_2_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="ila_3_synth_1" Type="Ft3:Synth" SrcSet="ila_3" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_3_synth_1" IncludeInArchive="true">
+    <Run Id="ila_3_synth_1" Type="Ft3:Synth" SrcSet="ila_3" Part="xc7a200tfbg676-2" ConstrsSet="ila_3" Description="Vivado Synthesis Defaults" Dir="$PRUNDIR/ila_3_synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016">
+          <Desc>Vivado Synthesis Defaults</Desc>
+        </StratHandle>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
     </Run>
-    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-    </Run>
-    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-    </Run>
-    <Run Id="blk_mem_I_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_I" Description="Default settings for Implementation." SynthRun="blk_mem_I_synth_1" IncludeInArchive="false">
+    <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="constrs_1" Description="Default settings for Implementation." State="current" SynthRun="synth_1" IncludeInArchive="true">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
         <Step Id="init_design"/>
@@ -549,9 +538,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="blk_mem_I1_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_I1" Description="Default settings for Implementation." SynthRun="blk_mem_I1_synth_1" IncludeInArchive="false">
+    <Run Id="blk_mem_I_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_I" Description="Default settings for Implementation." SynthRun="blk_mem_I_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -563,9 +554,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="blk_mem_Q_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_Q" Description="Default settings for Implementation." SynthRun="blk_mem_Q_synth_1" IncludeInArchive="false">
+    <Run Id="blk_mem_I1_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_I1" Description="Default settings for Implementation." SynthRun="blk_mem_I1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -577,9 +570,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="blk_mem_Q1_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="blk_mem_Q1" Description="Default settings for Implementation." SynthRun="blk_mem_Q1_synth_1" IncludeInArchive="false">
+    <Run Id="blk_mem_Q_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_Q" Description="Default settings for Implementation." SynthRun="blk_mem_Q_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -591,9 +586,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="ila_0_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_0" Description="Default settings for Implementation." SynthRun="ila_0_synth_1" IncludeInArchive="false">
+    <Run Id="blk_mem_Q1_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="blk_mem_Q1" Description="Default settings for Implementation." SynthRun="blk_mem_Q1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -605,9 +602,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="ila_1_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_1" Description="Default settings for Implementation." SynthRun="ila_1_synth_1" IncludeInArchive="false">
+    <Run Id="clk_wiz_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="clk_wiz_0" Description="Default settings for Implementation." SynthRun="clk_wiz_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -619,9 +618,11 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="ila_2_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_2" Description="Default settings for Implementation." SynthRun="ila_2_synth_1" IncludeInArchive="false">
+    <Run Id="ila_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="ila_0" Description="Default settings for Implementation." SynthRun="ila_0_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -633,9 +634,43 @@
         <Step Id="write_bitstream"/>
       </Strategy>
     </Run>
-    <Run Id="ila_3_impl_1" Type="Ft2:EntireDesign" Part="xcvu095-ffva2104-2-e" ConstrsSet="ila_3" Description="Default settings for Implementation." SynthRun="ila_3_synth_1" IncludeInArchive="false">
+    <Run Id="ila_1_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="ila_1" Description="Default settings for Implementation." SynthRun="ila_1_synth_1" IncludeInArchive="false">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ila_2_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="ila_2" Description="Default settings for Implementation." SynthRun="ila_2_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+    </Run>
+    <Run Id="ila_3_impl_1" Type="Ft2:EntireDesign" Part="xc7a200tfbg676-2" ConstrsSet="ila_3" Description="Default settings for Implementation." SynthRun="ila_3_synth_1" IncludeInArchive="false">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016">
+          <Desc>Default settings for Implementation.</Desc>
+        </StratHandle>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>

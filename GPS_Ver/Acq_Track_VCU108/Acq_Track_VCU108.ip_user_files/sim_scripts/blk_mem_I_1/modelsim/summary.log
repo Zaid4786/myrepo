@@ -11,12 +11,12 @@ Port B Write Width         :     [12]
 
 ----------------------------------------------------------------------------------
 
-Block RAM resource(s) (18K BRAMs)    : [8]
-Block RAM resource(s) (36K BRAMs)    : [10]
+Block RAM resource(s) (18K BRAMs)    : [2]
+Block RAM resource(s) (36K BRAMs)    : [13]
 ----------------------------------------------------------------------------------
 Clock A Frequency          :         [100]
 Port A Enable Rate         :         [100]
 Port A Write Rate          :         [50]
 ----------------------------------------------------------------------------------
-Estimated Power for IP     :     21.072504 mW
+Estimated Power for IP     :     17.759974 mW
 ----------------------------------------------------------------------------------

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:23 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Sun Mar 12 17:59:40 2017
+# Process ID: 12335
+# Current directory: /home/zaid/MTP/myrepo/sysgen/netlist/hwcosim/sum_1.runs/impl_1
+# Command line: vivado -log hwcosim_top_wrapper.vdi -applog -messageDb vivado.pb -mode batch -source hwcosim_top_wrapper.tcl -notrace
+# Log file: /home/zaid/MTP/myrepo/sysgen/netlist/hwcosim/sum_1.runs/impl_1/hwcosim_top_wrapper.vdi
+# Journal file: /home/zaid/MTP/myrepo/sysgen/netlist/hwcosim/sum_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source hwcosim_top_wrapper.tcl -notrace

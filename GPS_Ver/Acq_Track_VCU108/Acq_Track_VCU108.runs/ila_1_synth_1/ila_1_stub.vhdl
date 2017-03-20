@@ -1,13 +1,13 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2016.1 (lin64) Build 1538259 Fri Apr  8 15:45:23 MDT 2016
--- Date        : Thu Feb 23 22:18:54 2017
--- Host        : abhogi running 64-bit Ubuntu 14.04.5 LTS
+-- Date        : Thu Mar 16 17:04:39 2017
+-- Host        : zaid-LIFEBOOK-A555 running 64-bit Ubuntu 16.04.2 LTS
 -- Command     : write_vhdl -force -mode synth_stub
---               /Scratch/vish/Zaid/gps/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_1_synth_1/ila_1_stub.vhdl
+--               /home/zaid/MTP/myrepo/GPS_Ver/Acq_Track_VCU108/Acq_Track_VCU108.runs/ila_1_synth_1/ila_1_stub.vhdl
 -- Design      : ila_1
 -- Purpose     : Stub declaration of top-level module interface
--- Device      : xcvu095-ffva2104-2-e
+-- Device      : xc7a200tfbg676-2
 -- --------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;

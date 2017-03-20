@@ -56,16 +56,16 @@
 //  Output     Output      Phase    Duty Cycle   Pk-to-Pk     Phase
 //   Clock     Freq (MHz)  (degrees)    (%)     Jitter (ps)  Error (ps)
 //----------------------------------------------------------------------------
-// clk_out1____75.000______0.000______50.0______225.433____236.795
+// clk_out1___100.000______0.000______50.0______112.316_____89.971
 //
 //----------------------------------------------------------------------------
 // Input Clock   Freq (MHz)    Input Jitter (UI)
 //----------------------------------------------------------------------------
-// __primary_________125.000____________0.010
+// __primary_________200.000____________0.010
 
 `timescale 1ps/1ps
 
-(* CORE_GENERATION_INFO = "clk_wiz_0,clk_wiz_v5_3_0,{component_name=clk_wiz_0,use_phase_alignment=true,use_min_o_jitter=false,use_max_i_jitter=false,use_dyn_phase_shift=false,use_inclk_switchover=false,use_dyn_reconfig=false,enable_axi=0,feedback_source=FDBK_AUTO,PRIMITIVE=MMCM,num_out_clk=1,clkin1_period=8.0,clkin2_period=10.0,use_power_down=false,use_reset=false,use_locked=false,use_inclk_stopped=false,feedback_type=SINGLE,CLOCK_MGR_TYPE=NA,manual_override=false}" *)
+(* CORE_GENERATION_INFO = "clk_wiz_0,clk_wiz_v5_3_0,{component_name=clk_wiz_0,use_phase_alignment=true,use_min_o_jitter=false,use_max_i_jitter=false,use_dyn_phase_shift=false,use_inclk_switchover=false,use_dyn_reconfig=false,enable_axi=0,feedback_source=FDBK_AUTO,PRIMITIVE=MMCM,num_out_clk=1,clkin1_period=5.0,clkin2_period=10.0,use_power_down=false,use_reset=true,use_locked=true,use_inclk_stopped=false,feedback_type=SINGLE,CLOCK_MGR_TYPE=NA,manual_override=false}" *)
 
 module clk_wiz_0 
  (
@@ -73,7 +73,10 @@ module clk_wiz_0
   input         clk_in1_p,
   input         clk_in1_n,
   // Clock out ports
-  output        clk_out1
+  output        clk_out1,
+  // Status and control signals
+  input         reset,
+  output        locked
  );
 
   clk_wiz_0_clk_wiz inst
@@ -82,7 +85,10 @@ module clk_wiz_0
   .clk_in1_p(clk_in1_p),
   .clk_in1_n(clk_in1_n),
   // Clock out ports  
-  .clk_out1(clk_out1)              
+  .clk_out1(clk_out1),
+  // Status and control signals               
+  .reset(reset), 
+  .locked(locked)            
   );
 
 endmodule

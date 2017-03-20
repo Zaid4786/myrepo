@@ -1,0 +1,13 @@
+{
+	'objects' => [
+		{
+			'name' => '/sum_1/Clock'
+		},
+		{
+			'name' => '/sum_1/Black Box/Out13'
+		},
+		{
+			'name' => '/sum_1/Black Box/Out18'
+		},
+	],
+}
